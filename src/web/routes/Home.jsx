@@ -17,18 +17,48 @@ class Home extends React.Component {
       indicators: true,
       transitionDuration: 500,
     };
+
+    const services = [
+      {
+        id: 1,
+        name: "Quality Support",
+        link: "/quality-support",
+        img: "https://intersica.com/wp-content/uploads/2019/07/inspectors.jpg",
+      },
+      {
+        id: 2,
+        name: "Expediting Services",
+        link: "/quality-support",
+        img:
+          "https://intersica.com/wp-content/uploads/2019/07/inspector-phone-1.jpg",
+      },
+      {
+        id: 3,
+        name: "Vendor Inspection",
+        link: "/quality-support",
+        img: "https://intersica.com/wp-content/uploads/2019/07/inspectors.jpg",
+      },
+      {
+        id: 4,
+        name: "Manpower Services",
+        link: "/quality-support",
+        img:
+          "https://intersica.com/wp-content/uploads/2019/07/inspector-phone-1.jpg",
+      },
+      {
+        id: 5,
+        name: "Pipe Mill Surveillance",
+        link: "/quality-support",
+        img: "https://intersica.com/wp-content/uploads/2019/07/inspectors.jpg",
+      },
+    ];
+
     return (
-      <div>
+      <div className="home">
         Home
-        {/* <img src={allImages.img1} className="imgUpload" alt=""></img> */}
-        {/* <Login></Login> */}
         <Fade {...zoomOutProperties} easing="cubic">
           <div className="each-slide">
-            <div
-            // style={{
-            //   backgroundImage: `url(${allImages.img1})`,
-            // }}
-            >
+            <div>
               <img src={allImages.img1} style={{ width: `100%` }}></img>
               <span>Your Global Quality Service Company</span>
             </div>
@@ -57,7 +87,7 @@ class Home extends React.Component {
           </div>
         </Fade>
         <div className="section_descr">
-          <div className="description">
+          <div className="description max_container">
             <div className="title">Whenever Quality Matters</div>
             <p>
               INTERSICA (formerly Socotec Oil & Gas) belongs to the INTERHOLDING
@@ -88,66 +118,92 @@ class Home extends React.Component {
             </p>
           </div>
         </div>
-        <div className="section_services">
-          <div className="services">
+        <div className="section_services home_section">
+          <div className="services first_section max_container">
             <div className="title">Our Services</div>
+            <div className="divider">
+              <div className="divider_section"></div>
+            </div>
             <div className="all_services">
-              <div className="single_service">
-                <div className="single_service_image">
-                  <a href="https://intersica.com/quality-support/">
-                    <span className="single_service_image_wrap">
-                      <img
-                        src="https://intersica.com/wp-content/uploads/2019/07/inspectors.jpg"
-                        alt=""
-                        className="et-animated"
-                      />
-                    </span>
-                  </a>
-                </div>
-                <div className="single_service_container">
-                  <h4 className="et_pb_module_header">
-                    <a href="https://intersica.com/quality-support/">
-                      Quality Support
-                    </a>
-                  </h4>
-                  <div className="et_pb_blurb_description">
-                    <a
-                      className="et_pb_button"
-                      href="https://intersica.com/quality-support/"
-                    >
-                      Learn More
-                    </a>
+              {services.map((service, id) => {
+                return (
+                  <div className="single_service" key={id}>
+                    <div className="single_service_image">
+                      <a href="https://intersica.com/quality-support/">
+                        <span className="single_service_image_wrap">
+                          <img
+                            src="https://intersica.com/wp-content/uploads/2019/07/inspectors.jpg"
+                            alt=""
+                            className="et-animated"
+                          />
+                        </span>
+                      </a>
+                    </div>
+                    <div className="single_service_container">
+                      <a href={service.link}>{service.name}</a>
+
+                      <a className="learn_more" href={service.link}>
+                        Learn More
+                      </a>
+                    </div>
                   </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+        <div className="section_services offices_section">
+          <div className="services max_container">
+            <div className="title">Our Offices</div>
+            <div className="divider">
+              <div className="divider_section"></div>
+            </div>
+            <div className="all_services">
+              <div className="map_col">
+                <img
+                  src="https://intersica.com/wp-content/uploads/2019/07/iStock-522534470-C-from2015-.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="contact_col">
+                <div className="contactCol__us">
+                  <div className="title">Contact us</div>
+                  <div className="go">More</div>
                 </div>
               </div>
-
-              <div className="single_service">
-                <div className="single_service_image">
-                  <a href="https://intersica.com/quality-support/">
-                    <span className="single_service_image_wrap">
-                      <img
-                        src="https://intersica.com/wp-content/uploads/2019/07/inspectors.jpg"
-                        alt=""
-                        className="et-animated"
-                      />
-                    </span>
-                  </a>
-                </div>
-                <div className="single_service_container">
-                  <h4 className="et_pb_module_header">
-                    <a href="https://intersica.com/quality-support/">
-                      Quality Support
-                    </a>
-                  </h4>
-                  <div className="et_pb_blurb_description">
-                    <a
-                      className="et_pb_button"
-                      href="https://intersica.com/quality-support/"
-                    >
-                      Learn More
-                    </a>
-                  </div>
-                </div>
+            </div>
+          </div>
+        </div>
+        <div className="section_services accreditations_section">
+          <div className="services max_container">
+            <div className="title">Our Accreditations</div>
+            <div className="divider">
+              <div className="divider_section"></div>
+            </div>
+            <div className="accredit_list">
+              <div className="accredit_list__item">
+                <img
+                  src="https://intersica.com/wp-content/uploads/2019/07/iso-transp.png"
+                  alt=""
+                ></img>
+              </div>
+              <div className="accredit_list__item">
+                <img
+                  src="https://intersica.com/wp-content/uploads/2019/07/FPAL.gif"
+                  alt=""
+                ></img>
+              </div>
+              <div className="accredit_list__item">
+                <img
+                  src="https://intersica.com/wp-content/uploads/2019/07/ohsas-18001.png"
+                  alt=""
+                ></img>
+              </div>
+              <div className="accredit_list__item">
+                <img
+                  src="https://intersica.com/wp-content/uploads/2019/07/iso-9001.png"
+                  alt=""
+                ></img>
               </div>
             </div>
           </div>
