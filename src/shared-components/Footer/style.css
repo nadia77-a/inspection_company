@@ -1,0 +1,22 @@
+#main-footer {
+    background-color: #222;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#footer-bottom {
+    padding: 15px 0 5px;
+    background-color: #1f1f1f;
+    background-color: rgba(0,0,0,.32);
+}
+#footer-info {
+    float: left;
+    padding-bottom: 10px;
+    color: #666;
+    text-align: left;
+}
+#footer-info a {
+    color: #666;
+    font-weight: 700;
+}

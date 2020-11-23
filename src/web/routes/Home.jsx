@@ -1,12 +1,16 @@
 import React from "react";
-// import Login from "./Login";
+
+import Header from "shared-components/Header";
+import Footer from "shared-components/Footer";
 
 class Home extends React.Component {
   render() {
     return (
       <div>
+          <Header></Header>
         Home
-        {/* <Login></Login> */}
+       
+        <Footer></Footer>
       </div>
     );
   }
