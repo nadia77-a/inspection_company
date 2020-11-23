@@ -58,7 +58,8 @@ class Home extends React.Component {
 
     return (
       <div className="home">
-        Home
+        
+        <Header></Header>
         <Fade {...zoomOutProperties} easing="cubic">
           <div className="each-slide">
             <div>
@@ -211,6 +212,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
+      <Footer></Footer>
       </div>
     );
   }
