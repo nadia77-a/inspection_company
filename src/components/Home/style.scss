@@ -1,5 +1,3 @@
-@import "config/vars.css";
-
 .fixedH {
   .carousel {
     margin-top: 0;
@@ -57,13 +55,14 @@
   box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.07);
   .services {
     position: relative;
+    .title {
+      font-size: 16px;
+      font-weight: 700;
+      padding: 30px 0px 50px 0px;
+      margin-bottom: 5px;
+    }
   }
-  .title {
-    font-size: 16px;
-    font-weight: 700;
-    padding: 30px 0px;
-    margin-bottom: 5px;
-  }
+
   .divider {
     position: relative;
     padding: 10px 0px;
@@ -161,13 +160,10 @@
   }
 }
 
-// .section_services {
-// }
-
 .offices_section {
   background-color: var(--mainBacground);
   .map_col {
-    width: 60%;
+    width: 65%;
     display: inline-block;
     padding-bottom: 39px;
     img {
@@ -175,7 +171,7 @@
     }
   }
   .contact_col {
-    width: 40%;
+    width: 35%;
     display: inline-block;
     color: var(--mainActiveText);
     text-align: right;
@@ -186,15 +182,18 @@
       color: var(--mainActiveText);
       padding: 40px 100px;
       margin-top: 20px;
-      text-align: right;
+      text-align: center;
       display: inline-block;
       .title {
         font-size: 25px;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
+        padding-top: 0px;
+        font-weight: 600;
+        text-transform: capitalize;
       }
       .go {
         position: relative;
-        padding: 8px 15px;
+        padding: 6px 17px;
         border: 2px solid;
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
@@ -210,6 +209,7 @@
         -moz-transition: all 0.2s;
         transition: all 0.2s;
         text-align: center;
+        display: inline-block;
       }
     }
   }

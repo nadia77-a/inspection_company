@@ -1,5 +1,18 @@
-html {
+/* html {
     --mainText: #212529;
+    --mainBacground: #fff;
+
+    --mainActiveText: #fff;
+    --mainActiveBacground: #ec6421;
+
+    --secondText: #212529;
+    --secondBacground: #f6f6f6;
+} */
+
+
+html:root {
+    /* --mainText: #212529; */
+    --mainText: #666;
     --mainBacground: #fff;
 
     --mainActiveText: #fff;

@@ -1,0 +1,112 @@
+.mainC {
+  .main-content {
+    margin-top: 110px;
+    &__top {
+      background-image: url(https://intersica.com/wp-content/uploads/2019/07/platform-sea-sunset-Copie-1.jpg) !important;
+      background-position: center;
+      -webkit-background-size: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: 100%;
+      -moz-background-size: cover;
+      background-size: 100%;
+      background-size: cover;
+      &__title {
+        padding: 50px 0;
+        font-weight: 700;
+        font-size: 25px;
+        color: var(--mainActiveText);
+      }
+    }
+    .description {
+      padding: 54px 0;
+      &__row {
+        padding: 27px 0;
+        p {
+          font-size: 13px;
+        }
+        &__col {
+          display: inline-block;
+          width: 29.667%;
+          margin-right: 5.5%;
+          img {
+            width: 100%;
+            height: auto;
+          }
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+        &__col2 {
+          width: 29.667%;
+          margin-right: 5.5%;
+          display: inline-block;
+
+          .contact_box {
+            background-color: #ec6421;
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+            &__header {
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 2.1em;
+              color: #fff;
+              padding-bottom: 20px;
+            }
+            &__button {
+              transition: letter-spacing 300ms ease 0ms;
+              background-color: #ec6421;
+              color: #fff;
+              position: relative;
+              padding: 0.3em 1em;
+              border: 2px solid #fff;
+              -webkit-border-radius: 3px;
+              -moz-border-radius: 3px;
+              border-radius: 3px;
+              background-color: transparent;
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+              font-size: 20px;
+              font-weight: 500;
+              line-height: 1.7em;
+              -webkit-transition: all 0.2s;
+              -moz-transition: all 0.2s;
+              transition: all 0.2s;
+              &:before {
+                position: absolute;
+                margin-left: -1em;
+                opacity: 0;
+                text-shadow: none;
+                font-size: 32px;
+                font-weight: 400;
+                font-style: normal;
+                font-variant: none;
+                line-height: 1em;
+                text-transform: none;
+                content: "\35";
+                -webkit-transition: all 0.2s;
+                -moz-transition: all 0.2s;
+                transition: all 0.2s;
+              }
+              &:hover {
+                background-color: rgba(255, 255, 255, 0.2);
+                border: none;
+                text-decoration: none;
+              }
+            }
+          }
+
+          &:last-child {
+            margin-right: 0%;
+          }
+        }
+      }
+    }
+  }
+}
+.fixedH {
+  .main-content {
+    margin-top: 0;
+  }
+}

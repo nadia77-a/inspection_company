@@ -5,7 +5,7 @@ import Footer from "shared-components/Footer";
 
 import "react-slideshow-image/dist/styles.css";
 
-import HomeComponent from "components/Home";
+import AboutComponent from "components/About";
 
 class Home extends React.Component {
   state = {
@@ -25,12 +25,13 @@ class Home extends React.Component {
       }
     });
   }
-
   render() {
     return (
-      <div className={"home " + (this.state.top === true ? "fixedH" : "")}>
+      <div
+        className={"about mainC" + (this.state.top === true ? " fixedH" : "")}
+      >
         <Header></Header>
-        <HomeComponent></HomeComponent>
+        <AboutComponent></AboutComponent>
         <Footer></Footer>
       </div>
     );
