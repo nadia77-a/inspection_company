@@ -12,6 +12,8 @@ import Spinner from "shared-components/Spinner";
 // Lazy loading of all the components.
 const Home = lazy(() => import("web/routes/Home"));
 const About = lazy(() => import("web/routes/About"));
+const Contact = lazy(() => import("web/routes/Contact"));
+const Career = lazy(() => import("web/routes/Career"));
 const Logout = lazy(() => import("web/routes/Logout"));
 const Login = lazy(() => import("web/routes/Login"));
 
@@ -24,6 +26,8 @@ const Routes = () => (
 
         <Route exact path="/home" component={Home} />
         <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/career" component={Career} />
         <Route exact path="/test" component={Login} />
         <AuthRoute path="/login" component={Login} />
 

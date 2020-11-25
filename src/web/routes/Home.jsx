@@ -3,8 +3,6 @@ import React from "react";
 import Header from "shared-components/Header";
 import Footer from "shared-components/Footer";
 
-import "react-slideshow-image/dist/styles.css";
-
 import HomeComponent from "components/Home";
 
 class Home extends React.Component {

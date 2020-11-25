@@ -1,6 +1,5 @@
 import React from "react";
 
-import "react-slideshow-image/dist/styles.css";
 import "./style.css";
 
 class About extends React.Component {

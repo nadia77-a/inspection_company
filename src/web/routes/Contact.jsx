@@ -3,9 +3,9 @@ import React from "react";
 import Header from "shared-components/Header";
 import Footer from "shared-components/Footer";
 
-import AboutComponent from "components/About";
+import ContactComponent from "components/Contact";
 
-class About extends React.Component {
+class Contact extends React.Component {
   state = {
     top: false,
   };
@@ -26,14 +26,14 @@ class About extends React.Component {
   render() {
     return (
       <div
-        className={"about mainC" + (this.state.top === true ? " fixedH" : "")}
+        className={"contact mainC" + (this.state.top === true ? " fixedH" : "")}
       >
         <Header></Header>
-        <AboutComponent></AboutComponent>
+        <ContactComponent></ContactComponent>
         <Footer></Footer>
       </div>
     );
   }
 }
 
-export default About;
+export default Contact;

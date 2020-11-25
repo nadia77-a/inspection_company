@@ -46,7 +46,7 @@ class Header extends Component {
                   id="menu-item-643"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-643"
                 >
-                  <a href="https://intersica.com/contact/">Contact</a>
+                  <a href="/contact">Contact</a>
                 </li>
                 <li
                   id="menu-item-645"
@@ -100,7 +100,7 @@ class Header extends Component {
                   id="menu-item-644"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-644"
                 >
-                  <a href="https://intersica.com/career/">Career</a>
+                  <a href="/career">Career</a>
                 </li>
               </ul>
             </nav>
