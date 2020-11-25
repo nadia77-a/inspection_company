@@ -9,6 +9,24 @@ import "react-slideshow-image/dist/styles.css";
 import "./style.css";
 
 class Home extends React.Component {
+  state = {
+    top: false,
+  };
+
+  componentDidMount() {
+    window.addEventListener("scroll", () => {
+      if (!this.state.top) {
+        if (window.scrollY > 50) {
+          this.setState({ top: true });
+        }
+      } else {
+        if (window.scrollY < 50) {
+          this.setState({ top: false });
+        }
+      }
+    });
+  }
+
   render() {
     const slideImages = [
       `../../assets/images/img2.jpg`,
@@ -57,13 +75,12 @@ class Home extends React.Component {
     ];
 
     return (
-      <div className="home">
-        
+      <div className={"home " + (this.state.top === true ? "fixedH" : "")}>
         <Header></Header>
-        <Fade {...zoomOutProperties} easing="cubic">
+        <Fade {...zoomOutProperties} easing="cubic" className="carousel">
           <div className="each-slide">
             <div>
-              <img src={allImages.img1} style={{ width: `100%` }}></img>
+              <img src={allImages.img1} style={{ width: `100%` }} alt=""></img>
               <span>Your Global Quality Service Company</span>
             </div>
           </div>
@@ -73,7 +90,7 @@ class Home extends React.Component {
             //   backgroundImage: `url(${allImages.img2})`,
             // }}
             >
-              <img src={allImages.img2} style={{ width: `100%` }}></img>
+              <img src={allImages.img2} style={{ width: `100%` }} alt=""></img>
               <span>
                 We provide Technical Assistance and Source Inspection Services
               </span>
@@ -85,7 +102,7 @@ class Home extends React.Component {
             //   backgroundImage: `url(${allImages.img1})`,
             // }}
             >
-              <img src={allImages.img1} style={{ width: `100%` }}></img>
+              <img src={allImages.img1} style={{ width: `100%` }} alt=""></img>
               <span>Your Global Quality Service Company</span>
             </div>
           </div>
@@ -212,7 +229,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-      <Footer></Footer>
+        <Footer></Footer>
       </div>
     );
   }

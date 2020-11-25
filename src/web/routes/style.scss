@@ -1,6 +1,21 @@
+@import "config/vars.css";
+
+.fixedH {
+  .carousel {
+    margin-top: 0;
+  }
+}
+
+.carousel {
+  margin-top: 110px;
+}
 .each-slide {
-  max-height: 600px;
+  max-height: 630px;
   position: relative;
+  img {
+    position: relative;
+    top: -100px;
+  }
   span {
     position: absolute;
     top: 50%;
@@ -8,12 +23,16 @@
     transform: translate(-50%, 0);
     font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif !important;
     font-size: 25px;
-    color: #fff;
+    color: var(--mainActiveText);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    width: 60%;
+    text-align: center;
   }
 }
 
 .section_descr {
-  background-color: #fff;
+  background-color: var(--mainBacground);
   padding-top: 30px;
   padding-right: 0px;
   padding-bottom: 30px;
@@ -32,7 +51,7 @@
 }
 
 .section_services {
-  background-color: #f6f6f6;
+  background-color: var(--secondBacground);
   -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.07);
   -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.07);
   box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.07);
@@ -42,10 +61,13 @@
   .title {
     font-size: 16px;
     font-weight: 700;
-    padding: 27px 0px;
+    padding: 30px 0px;
+    margin-bottom: 5px;
   }
   .divider {
     position: relative;
+    padding: 10px 0px;
+
     &_section {
       display: inline-block;
       width: 100%;
@@ -97,7 +119,7 @@
       margin-bottom: 10px;
       font-weight: 500;
       &.learn_more {
-        color: #ec6421;
+        color: var(--mainActiveBacground);
         position: relative;
         padding: 5px 25px;
         text-align: center;
@@ -139,13 +161,15 @@
   }
 }
 
-.section_services {
-}
+// .section_services {
+// }
 
 .offices_section {
+  background-color: var(--mainBacground);
   .map_col {
     width: 60%;
     display: inline-block;
+    padding-bottom: 39px;
     img {
       width: 100%;
     }
@@ -153,13 +177,14 @@
   .contact_col {
     width: 40%;
     display: inline-block;
-    color: #fff;
-    text-align: center;
+    color: var(--mainActiveText);
+    text-align: right;
     vertical-align: top;
     margin-top: 30px;
     .contactCol__us {
-      background-color: #ec6421;
-      padding: 40px 80px;
+      background-color: var(--mainActiveBacground);
+      color: var(--mainActiveText);
+      padding: 40px 100px;
       margin-top: 20px;
       text-align: right;
       display: inline-block;
@@ -197,9 +222,15 @@
     align-items: center;
     &__item {
       width: 25%;
+      text-align: center;
       img {
         max-width: 200px;
-        max-height: 105px;
+        max-height: 160px;
+      }
+      &:last-child {
+        img {
+          max-height: 120px;
+        }
       }
     }
   }
