@@ -3,7 +3,7 @@ import React from "react";
 import Header from "shared-components/Header";
 import Footer from "shared-components/Footer";
 
-import ContactComponent from "components/Contact";
+import QualityComponent from "components/Quality/index.js";
 
 class QualitySupport extends React.Component {
   state = {
@@ -29,7 +29,7 @@ class QualitySupport extends React.Component {
         className={"contact mainC" + (this.state.top === true ? " fixedH" : "")}
       >
         <Header></Header>
-        <ContactComponent></ContactComponent>
+        <QualityComponent></QualityComponent>
         <Footer></Footer>
       </div>
     );

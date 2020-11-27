@@ -1,0 +1,29 @@
+.mainC {
+  .main-content {
+    margin-top: 110px;
+    &__top {
+      background-image: url(https://intersica.com/wp-content/uploads/2019/07/iStock-545645280-C-zbruch-.jpg);
+      background-position: center;
+      -webkit-background-size: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: 100%;
+      -moz-background-size: cover;
+      background-size: 100%;
+      background-size: cover;
+      &__title {
+        padding: 50px 0;
+        font-weight: 700;
+        font-size: 25px;
+        color: var(--mainActiveText);
+      }
+    }
+    // .description {
+
+    // }
+  }
+}
+.fixedH {
+  .main-content {
+    margin-top: 0;
+  }
+}
