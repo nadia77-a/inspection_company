@@ -24,10 +24,34 @@
       }
     }
     .description {
+      padding: 54px 0;
       &__row {
         padding: 27px 0;
         p {
           font-size: 13px;
+        }
+        .testimonial {
+          background-color: #ec6421;
+          padding: 30px;
+          h3 {
+            color: #fff;
+          }
+          p {
+            color: #fff;
+          }
+        }
+        h3 {
+          color: #ec6421;
+        }
+        &__col2 {
+          width: 29.667%;
+          margin-right: 5.5%;
+          :last-child {
+            margin-right: 0;
+          }
+          img {
+            width: 100%;
+          }
         }
       }
     }
