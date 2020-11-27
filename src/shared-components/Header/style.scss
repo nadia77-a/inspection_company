@@ -38,6 +38,10 @@
           -webkit-transform: translate3d(0, 0, 0);
         }
       }
+      #top-menu > li {
+        padding-bottom: 40px;
+        padding-top: 40px;
+      }
       #top-menu li {
         display: inline-block;
         padding-right: 22px;
@@ -58,7 +62,7 @@
             visibility: hidden;
             z-index: 9999;
             width: 240px;
-            border-top: 3px solid #2ea3f2;
+            border-top: 3px solid #ec6421;
             opacity: 0;
             background: #fff;
             -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -66,6 +70,21 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             position: absolute;
             padding: 20px 0;
+            margin-top: 40px;
+            &.sub-menu {
+              li {
+                margin: 0;
+                padding: 0 20px;
+                a {
+                  width: 200px;
+                  padding: 6px 20px;
+                  &:hover {
+                    opacity: 0.7;
+                    background-color: rgba(0, 0, 0, 0.03);
+                  }
+                }
+              }
+            }
           }
         }
         li.et-touch-hover > ul,

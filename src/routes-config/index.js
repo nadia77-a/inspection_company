@@ -17,6 +17,10 @@ const Career = lazy(() => import("web/routes/Career"));
 const Logout = lazy(() => import("web/routes/Logout"));
 const Login = lazy(() => import("web/routes/Login"));
 
+const QualitySupport = lazy(() => import("web/routes/QualitySupport"));
+const ManpowerServices = lazy(() => import("web/routes/ManpowerServices"));
+const ExpeditingServices = lazy(() => import("web/routes/ExpeditingServices"));
+
 // Root routes
 const Routes = () => (
   <Router history={history}>
@@ -30,6 +34,14 @@ const Routes = () => (
         <Route exact path="/career" component={Career} />
         <Route exact path="/test" component={Login} />
         <AuthRoute path="/login" component={Login} />
+
+        <Route exact path="/quality-support" component={QualitySupport} />
+        <Route exact path="/manpower-services" component={ManpowerServices} />
+        <Route
+          exact
+          path="/expediting-services"
+          component={ExpeditingServices}
+        />
 
         <PrivateRoute path="/logout" component={Logout} />
       </Switch>
