@@ -30,9 +30,11 @@
       padding: 54px 0;
       &__row {
         padding: 27px 0;
-        display: flex;
+
         p {
+          line-height: 1.7em;
           font-size: 13px;
+          display: block;
         }
         .testimonial {
           background-color: #ec6421;
@@ -49,9 +51,15 @@
           font-size: 20px;
           color: #ec6421;
         }
-        &__col2 {
-          width: 29.667%;
+        &__col1 {
+          width: 20.875%;
           margin-right: 5.5%;
+        }
+        &__col2 {
+          &.noH3 {
+            padding-top: 10px;
+          }
+          width: 73.625%;
           :last-child {
             margin-right: 0;
           }
@@ -70,4 +78,7 @@
   .main-content {
     margin-top: 0;
   }
+}
+.flex {
+  display: flex;
 }

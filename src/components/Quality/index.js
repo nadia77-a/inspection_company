@@ -8,17 +8,19 @@ class Quality extends React.Component {
       <div className="main-content quality">
         <div className="main-content__top">
           <div className="addShadow">
-            <div className="main-content__top__title centerContent">
-              Quality Support
-              <div className="description">
-                INTERSICA (formerly Socotec Oil&Gas) has 30 years experience in
-                developing Quality Management Systems. Already have a Quality
-                Management System in place? INTERSICA (formerly Socotec Oil&Gas)
-                can provide in-depth Analysis to your current QMS or your
-                vendor's QMS and get you on track with the ever-growing and
-                ever-changing standards. Our global network of personnel can
-                ensure compliance with all requests and provide the highest
-                standards of service.
+            <div className="header-content">
+              <div className="main-content__top__title centerContent">
+                Quality Support
+                <div className="description">
+                  INTERSICA (formerly Socotec Oil&Gas) has 30 years experience
+                  in developing Quality Management Systems. Already have a
+                  Quality Management System in place? INTERSICA (formerly
+                  Socotec Oil&Gas) can provide in-depth Analysis to your current
+                  QMS or your vendor's QMS and get you on track with the
+                  ever-growing and ever-changing standards. Our global network
+                  of personnel can ensure compliance with all requests and
+                  provide the highest standards of service.
+                </div>
               </div>
             </div>
           </div>
@@ -96,7 +98,7 @@ class Quality extends React.Component {
             </div>
           </div>
           <div className="description__row">
-            <p>
+            <p className="text-center">
               <i>
                 » Having issues with your vendor? Need to audit a supplier prior
                 to adding them to your approved vendor list? INTERSICA has
@@ -105,16 +107,6 @@ class Quality extends React.Component {
                 requirements. «
               </i>
             </p>
-          </div>
-          <div className="description__row">
-            <div className="description__row__col3">
-              <h4>test</h4>
-              <p>test descr</p>
-            </div>
-            <div className="description__row__col3">
-              <h4>test</h4>
-              <p>test descr</p>
-            </div>
           </div>
         </div>
       </div>

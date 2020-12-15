@@ -3,7 +3,7 @@ import React from "react";
 import Header from "shared-components/Header";
 import Footer from "shared-components/Footer";
 
-import ContactComponent from "components/Contact";
+import ManpowerComponent from "components/ManPower";
 
 class ManpowerServices extends React.Component {
   state = {
@@ -29,7 +29,7 @@ class ManpowerServices extends React.Component {
         className={"contact mainC" + (this.state.top === true ? " fixedH" : "")}
       >
         <Header></Header>
-        <ContactComponent></ContactComponent>
+        <ManpowerComponent></ManpowerComponent>
         <Footer></Footer>
       </div>
     );
