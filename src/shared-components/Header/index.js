@@ -4,17 +4,10 @@ import "./style.css";
 class Header extends Component {
   render() {
     return (
-      <header
-        id="main-header"
-        data-height-onload="110"
-        data-height-loaded="true"
-        data-fixed-height-onload="110"
-        className=""
-      >
+      <header id="main-header" className="">
         <div className="container et_menu_container">
           <div className="logo_container">
-            <span className="logo_helper"></span>
-            <a href="https://intersica.com/">
+            <a href="/#">
               <img
                 src="https://intersica.com/wp-content/uploads/2019/07/intersica-logo.png"
                 alt="Intersica"
@@ -26,7 +19,7 @@ class Header extends Component {
             <nav id="top-menu-nav">
               <ul id="top-menu" className="nav">
                 <li className="menu-item">
-                  <a href="https://intersica.com/">Home</a>
+                  <a href="/#">Home</a>
                 </li>
                 <li className="menu-item">
                   <a href="/about">About</a>

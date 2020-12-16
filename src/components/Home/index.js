@@ -113,8 +113,8 @@ class Home extends React.Component {
                 return (
                   <div className="single_service" key={id}>
                     <div className="single_service_image">
-                      <a href="https://intersica.com/quality-support/">
-                        <span className="single_service_image_wrap">
+                      <a href="/quality-support">
+                        <span className="single_service_image_wrap et-animated et_had_animation">
                           <img
                             src="https://intersica.com/wp-content/uploads/2019/07/inspectors.jpg"
                             alt=""

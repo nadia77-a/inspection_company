@@ -21,3 +21,11 @@ body {
 .center {
   text-align: center;
 }
+
+@font-face {
+  font-family: ETmodules;
+  src: url(./assets/fonts/et/modules.eot);
+  src: url(./assets/fonts/et/modules.ttf) format("truetype"), url(./assets/fonts/et/modules.woff) format("woff");
+  font-weight: 400;
+  font-style: normal
+}

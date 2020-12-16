@@ -9,8 +9,7 @@ class Footer extends Component {
           <div className="container clearfix">
             <div id="footer-info">
               © Intersica 2019 - All right reserved -{" "}
-              <a href="https://intersica.com/legal-notice/">Legal notice</a> |
-              une réalisation{" "}
+              <a href="/legal-notice/">Legal notice</a> | une réalisation{" "}
               <a href="https://acs-informatique.com">ACS Informatique</a>
             </div>{" "}
           </div>

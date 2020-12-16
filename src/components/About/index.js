@@ -77,10 +77,7 @@ class About extends React.Component {
             <div className="description__row__col2">
               <div className="contact_box">
                 <h2 className="contact_box__header">Conatct Us</h2>
-                <a
-                  className="contact_box__button"
-                  href="https://intersica.com/contact/"
-                >
+                <a className="contact_box__button" href="/contact">
                   Learn More
                 </a>
               </div>
@@ -91,10 +88,7 @@ class About extends React.Component {
             <div className="description__row__col2">
               <div className="contact_box">
                 <h2 className="contact_box__header">Join Us</h2>
-                <a
-                  className="contact_box__button"
-                  href="https://intersica.com/contact/"
-                >
+                <a className="contact_box__button" href="/contact">
                   Learn More
                 </a>
               </div>
