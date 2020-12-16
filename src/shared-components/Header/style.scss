@@ -4,7 +4,7 @@
     z-index: 99999;
     top: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--mainBacground);
     -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
@@ -62,9 +62,9 @@
             visibility: hidden;
             z-index: 9999;
             width: 240px;
-            border-top: 3px solid #ec6421;
+            border-top: 3px solidvar(--mainActiveBacground);
             opacity: 0;
-            background: #fff;
+            background: var(--mainBacground);
             -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);

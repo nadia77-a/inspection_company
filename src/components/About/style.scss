@@ -42,24 +42,24 @@
           display: inline-block;
 
           .contact_box {
-            background-color: #ec6421;
-            color: #fff;
+            background-color: var(--mainActiveBacground);
+            color: var(--mainActiveText);
             padding: 40px;
             text-align: center;
             &__header {
               font-weight: 700;
               font-size: 20px;
               line-height: 2.1em;
-              color: #fff;
+              color: var(--mainActiveText);
               padding-bottom: 20px;
             }
             &__button {
               transition: letter-spacing 300ms ease 0ms;
-              background-color: #ec6421;
-              color: #fff;
+              background-color: var(--mainActiveBacground);
+              color: var(--mainActiveText);
               position: relative;
               padding: 0.3em 1em;
-              border: 2px solid #fff;
+              border: 2px solid var(--mainActiveText);
               -webkit-border-radius: 3px;
               -moz-border-radius: 3px;
               border-radius: 3px;

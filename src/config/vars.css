@@ -16,7 +16,8 @@ html:root {
     --mainBacground: #fff;
 
     --mainActiveText: #fff;
-    --mainActiveBacground: #ec6421;
+    /* --mainActiveBacground: #ec6421; */
+    --mainActiveBacground: red;
 
     --secondText: #212529;
     --secondBacground: #f6f6f6;

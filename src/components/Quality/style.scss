@@ -35,19 +35,19 @@
           font-size: 13px;
         }
         .testimonial {
-          background-color: #ec6421;
+          background-color: var(--mainActiveBacground);
           padding: 30px;
           h3 {
-            color: #fff;
+            color: var(--mainActiveText);
             font-size: 22px;
           }
           p {
-            color: #fff;
+            color: var(--mainActiveText);
           }
         }
         h3 {
           font-size: 20px;
-          color: #ec6421;
+          color: var(--mainActiveBacground);
         }
         &__col2 {
           width: 29.667%;
