@@ -20,6 +20,24 @@
     // .description {
 
     // }
+    .contact {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      .details {
+        width: 40%;
+        .location-box {
+          margin-bottom: 30px;
+          text-align: left;
+          padding: 20px 20px 10px 20px;
+          background-color: var(--secondBacground);
+        }
+
+      }
+      .map{
+        width: 60%;
+      }
+    }
   }
 }
 .fixedH {

@@ -8,7 +8,7 @@ class Footer extends Component {
         <div id="footer-bottom">
           <div className="container clearfix">
             <div id="footer-info">
-              © Intersica 2019 - All right reserved -{" "}
+              © COMPASS 2020 - All right reserved -{" "}
               <a href="/legal-notice/">Legal notice</a> | une réalisation{" "}
               <a href="https://acs-informatique.com">ACS Informatique</a>
             </div>{" "}

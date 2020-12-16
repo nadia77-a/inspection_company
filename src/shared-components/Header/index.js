@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
+import allimages from "config/images";
 
 class Header extends Component {
   render() {
@@ -9,8 +10,8 @@ class Header extends Component {
           <div className="logo_container">
             <a href="/#">
               <img
-                src="https://intersica.com/wp-content/uploads/2019/07/intersica-logo.png"
-                alt="Intersica"
+                src={allimages.logo}
+                alt="Compass"
                 id="logo"
               />
             </a>

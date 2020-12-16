@@ -12,12 +12,12 @@ class ManPower extends React.Component {
               <div className="main-content__top__title centerContent">
                 Manpower Services
                 <div className="description">
-                  INTERSICA (formerly Socotec Oil&Gas) is the global leader in
+                  COMPASS(formerly Socotec Oil&Gas) is the global leader in
                   contingent and permanent Technical personnel, providing
                   companies of all sizes with a continuum of sourcing solutions
                   to enhance business agility and competitiveness in their
                   projects. The deep understanding of business needs, and of the
-                  talent required to meet those needs provides INTERSICA
+                  talent required to meet those needs provides COMPASS
                   (formerly Socotec Oil&Gas) with a better approach to matching
                   the right individual to the job.
                 </div>
@@ -31,9 +31,9 @@ class ManPower extends React.Component {
               Technical personnel staffing for projects can be a strenuous and a
               time consuming task. Many projects have very little time to
               adequately staff personnel needed while carrying out core business
-              functions within the project scope. That’s why INTERSICA (formerly
+              functions within the project scope. That’s why COMPASS(formerly
               Socotec Oil&Gas) is dedicated to providing value-added personnel
-              no mater your requirements and expectations. INTERSICA (formerly
+              no mater your requirements and expectations. COMPASS(formerly
               Socotec Oil&Gas) provides properly vetted, experienced and highly
               qualified technical experts from an extensive global pool of
               talent and guarantees exceptional performance.
@@ -65,12 +65,12 @@ class ManPower extends React.Component {
           <div className="description__row">
             <div className="testimonial center">
               <p>
-                INTERSICA (formerly Socotec Oil&Gas has an extensive database of
+                COMPASS(formerly Socotec Oil&Gas has an extensive database of
                 experienced and authorized industry personnel available for
                 placement on short-term to long-term projects. On top of
-                classical technical assistance services, INTERSICA also provides
+                classical technical assistance services, COMPASSalso provides
                 recruitment services, based on it’s Human Resource experience
-                and knowledge of the industry. INTERSICA’ extensive industry
+                and knowledge of the industry. COMPASS extensive industry
                 experience consists of Oil & Gas, onshore and offshore, subsea,
                 pipeline, power generation and renewable energy.
               </p>
@@ -79,10 +79,10 @@ class ManPower extends React.Component {
           <div className="flex description__row">
             <div className="description__row__col1">
               <h3>
-                <strong>INTERSICA Manpower</strong>
+                <strong>COMPASSManpower</strong>
               </h3>
               <p>
-                Short-term or Long-term, INTERSICA can quickly provide reliable
+                Short-term or Long-term, COMPASScan quickly provide reliable
                 resources to meet the needs within your project.
               </p>
             </div>
@@ -91,11 +91,11 @@ class ManPower extends React.Component {
               <p>
                 Personnel selection for your projects are based on your needs
                 and we match the highest quality of personnel to meet your
-                needs. During the INTERSICA (formery Socotec Oil&Gas) employment
-                process all INTERSICA (formerly Oil&Gas) personnel are vetted
+                needs. During the COMPASS(formery Socotec Oil&Gas) employment
+                process all COMPASS(formerly Oil&Gas) personnel are vetted
                 verifying competencies and qualifications along with any
                 additional training needed for continual improvement. Personnel
-                are held to INTERSICA (formerly Socotec Oil&Gas) highest
+                are held to COMPASS(formerly Socotec Oil&Gas) highest
                 standards while conducting your business, including reporting
                 and HSE guidelines.
               </p>
@@ -105,7 +105,7 @@ class ManPower extends React.Component {
             <p className="text-center">
               <i>
                 » Having issues with your vendor? Need to audit a supplier prior
-                to adding them to your approved vendor list? INTERSICA has
+                to adding them to your approved vendor list? COMPASShas
                 certified auditors with the knowledge and experience to perform
                 audits on your suppliers to ensure that they meet or exceed your
                 requirements. «

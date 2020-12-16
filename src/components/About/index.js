@@ -9,14 +9,14 @@ class About extends React.Component {
         <div className="main-content__top">
           <div className="addShadow">
             <div className="main-content__top__title centerContent">
-              About INTERSICA
+              About COMPASS
             </div>
           </div>
         </div>
         <div className="centerContent description">
           <div className="description__row">
             <p>
-              INTERSICA ( formerly Socotec Oil & Gas) belongs to the
+              COMPASS( formerly Socotec Oil & Gas) belongs to the
               INTERHOLDING Group, providing services to improve the performance
               of Businesses and Local Authorities through Risk Management. It
               provides assistance to customers worldwide, throughout the
@@ -41,7 +41,7 @@ class About extends React.Component {
           <div className="description__row">
             <div className="description__row__col">
               <p>
-                INTERSICA ( formerly Socotec Oil & Gas) has developed a strong
+                COMPASS( formerly Socotec Oil & Gas) has developed a strong
                 expertise and recognized competences in a wide range of Oil &
                 Gas equipment (OCTG, Line Pipe, Riser, Umbilical, Wellheads,
                 Subsea Equipment Down hole Equipment, Pressure Vessels, Valves,
@@ -57,7 +57,7 @@ class About extends React.Component {
             </div>
             <div className="description__row__col">
               <p>
-                INTERSICA (formerly Socotec Oil & Gas) provides you with a solid
+                COMPASS(formerly Socotec Oil & Gas) provides you with a solid
                 Technical Assistance and Third Party Inspection history and
                 offers a Worldwide Coverage with many local Inspectors. Its
                 employees have Strong Project Experience from Management to
@@ -68,7 +68,7 @@ class About extends React.Component {
           </div>
           <div className="description__row">
             <p className="center">
-              INTERSICA (formerly Socotec Oil & Gas) is ISO 9001 and OHSAS
+              COMPASS(formerly Socotec Oil & Gas) is ISO 9001 and OHSAS
               18001. Our goal is to become your preferred Global Quality Service
               Partner.
             </p>

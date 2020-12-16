@@ -1,2 +1,116 @@
-.mainC .main-content{margin-top:110px}.mainC .main-content__top{background-image:url(https://intersica.com/wp-content/uploads/2019/07/platform-sea-sunset-Copie-1.jpg) !important;background-position:center;background-size:100%;background-size:cover}.mainC .main-content__top__title{padding:50px 0;font-weight:700;font-size:25px;color:var(--mainActiveText)}.mainC .main-content .description{padding:54px 0}.mainC .main-content .description__row{padding:27px 0}.mainC .main-content .description__row p{font-size:13px}.mainC .main-content .description__row__col{display:inline-block;width:29.667%;margin-right:5.5%}.mainC .main-content .description__row__col img{width:100%;height:auto}.mainC .main-content .description__row__col:last-child{margin-right:0}.mainC .main-content .description__row__col2{width:29.667%;margin-right:5.5%;display:inline-block}.mainC .main-content .description__row__col2 .contact_box{background-color:var(--mainActiveBacground);color:var(--mainActiveText);padding:40px;text-align:center}.mainC .main-content .description__row__col2 .contact_box__header{font-weight:700;font-size:20px;line-height:2.1em;color:var(--mainActiveText);padding-bottom:20px}.mainC .main-content .description__row__col2 .contact_box__button{transition:letter-spacing 300ms ease 0ms;background-color:var(--mainActiveBacground);color:var(--mainActiveText);position:relative;padding:0.3em 1em;border:2px solid var(--mainActiveText);border-radius:3px;background-color:transparent;background-repeat:no-repeat;background-position:center;background-size:cover;font-size:20px;font-weight:500;line-height:1.7em;transition:all 0.2s}.mainC .main-content .description__row__col2 .contact_box__button:before{position:absolute;margin-left:-1em;opacity:0;text-shadow:none;font-size:32px;font-weight:400;font-style:normal;font-variant:none;line-height:1em;text-transform:none;content:"\35";transition:all 0.2s}.mainC .main-content .description__row__col2 .contact_box__button:hover{background-color:rgba(255,255,255,0.2);border:none;text-decoration:none}.mainC .main-content .description__row__col2:last-child{margin-right:0%}.fixedH .main-content{margin-top:0}
+.mainC .main-content {
+  margin-top: 110px;
+}
+
+.mainC .main-content__top {
+  background-image: url(https://intersica.com/wp-content/uploads/2019/07/platform-sea-sunset-Copie-1.jpg) !important;
+  background-position: center;
+  background-size: 100%;
+  background-size: cover;
+}
+
+.mainC .main-content__top__title {
+  padding: 50px 0;
+  font-weight: 700;
+  font-size: 25px;
+  color: var(--mainActiveText);
+}
+
+.mainC .main-content .description {
+  padding: 54px 0;
+}
+
+.mainC .main-content .description__row {
+  padding: 27px 0;
+}
+
+.mainC .main-content .description__row p {
+  font-size: 13px;
+}
+
+.mainC .main-content .description__row__col {
+  display: inline-block;
+  width: 29.667%;
+  margin-right: 5.5%;
+}
+
+.mainC .main-content .description__row__col img {
+  width: 100%;
+  height: auto;
+}
+
+.mainC .main-content .description__row__col:last-child {
+  margin-right: 0;
+}
+
+.mainC .main-content .description__row__col2 {
+  width: 29.667%;
+  margin-right: 5.5%;
+  display: inline-block;
+}
+
+.mainC .main-content .description__row__col2 .contact_box {
+  background-color: var(--mainActiveBacground);
+  color: var(--mainActiveText);
+  padding: 40px;
+  text-align: center;
+}
+
+.mainC .main-content .description__row__col2 .contact_box__header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 2.1em;
+  color: var(--mainActiveText);
+  padding-bottom: 20px;
+}
+
+.mainC .main-content .description__row__col2 .contact_box__button {
+  -webkit-transition: letter-spacing 300ms ease 0ms;
+  transition: letter-spacing 300ms ease 0ms;
+  background-color: var(--mainActiveBacground);
+  color: var(--mainActiveText);
+  position: relative;
+  padding: 0.3em 1em;
+  border: 2px solid var(--mainActiveText);
+  border-radius: 3px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.7em;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.mainC .main-content .description__row__col2 .contact_box__button:before {
+  position: absolute;
+  margin-left: -1em;
+  opacity: 0;
+  text-shadow: none;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: none;
+  line-height: 1em;
+  text-transform: none;
+  content: "\35";
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.mainC .main-content .description__row__col2 .contact_box__button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  text-decoration: none;
+}
+
+.mainC .main-content .description__row__col2:last-child {
+  margin-right: 0%;
+}
+
+.fixedH .main-content {
+  margin-top: 0;
+}
 /*# sourceMappingURL=style.css.map */

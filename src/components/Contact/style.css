@@ -1,2 +1,47 @@
-.mainC .main-content{margin-top:110px}.mainC .main-content__top{background-image:url(https://intersica.com/wp-content/uploads/2019/07/iStock-545645280-C-zbruch-.jpg);background-position:center;background-size:100%;background-size:cover}.mainC .main-content__top__title{padding:50px 0;font-weight:700;font-size:25px;color:var(--mainActiveText)}.fixedH .main-content{margin-top:0}
+.mainC .main-content {
+  margin-top: 110px;
+}
+
+.mainC .main-content__top {
+  background-image: url(https://intersica.com/wp-content/uploads/2019/07/iStock-545645280-C-zbruch-.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-size: cover;
+}
+
+.mainC .main-content__top__title {
+  padding: 50px 0;
+  font-weight: 700;
+  font-size: 25px;
+  color: var(--mainActiveText);
+}
+
+.mainC .main-content .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+.mainC .main-content .contact .details {
+  width: 40%;
+}
+
+.mainC .main-content .contact .details .location-box {
+  margin-bottom: 30px;
+  text-align: left;
+  padding: 20px 20px 10px 20px;
+  background-color: var(--secondBacground);
+}
+
+.mainC .main-content .contact .map {
+  width: 60%;
+}
+
+.fixedH .main-content {
+  margin-top: 0;
+}
 /*# sourceMappingURL=style.css.map */

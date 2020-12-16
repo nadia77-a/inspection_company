@@ -74,7 +74,7 @@ class Home extends React.Component {
           <div className="description max_container">
             <div className="title">Whenever Quality Matters</div>
             <p>
-              INTERSICA (formerly Socotec Oil & Gas) belongs to the INTERHOLDING
+              COMPASS(formerly Socotec Oil & Gas) belongs to the INTERHOLDING
               Group, providing services to improve the performance of Businesses
               and Local Authorities through Risk Management. It provides
               assistance to customers worldwide, throughout the lifecycles of
@@ -96,7 +96,7 @@ class Home extends React.Component {
               Solutions and Custom Reporting.
             </p>
             <p>
-              INTERSICA (formerly Socotec Oil & Gas) is ISO 9001 and OHSAS
+              COMPASS(formerly Socotec Oil & Gas) is ISO 9001 and OHSAS
               18001. Our goal is to become your preferred Global Quality Service
               Partner.
             </p>
@@ -136,7 +136,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        <div className="section_services offices_section">
+        {/* <div className="section_services offices_section">
           <div className="services max_container">
             <div className="title">Our Offices</div>
             <div className="divider">
@@ -157,7 +157,7 @@ class Home extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="section_services accreditations_section">
           <div className="services max_container">
             <div className="title">Our Accreditations</div>
@@ -167,25 +167,31 @@ class Home extends React.Component {
             <div className="accredit_list">
               <div className="accredit_list__item">
                 <img
-                  src="https://intersica.com/wp-content/uploads/2019/07/iso-transp.png"
+                  src={allImages.certif1}
                   alt=""
                 ></img>
               </div>
               <div className="accredit_list__item">
                 <img
-                  src="https://intersica.com/wp-content/uploads/2019/07/FPAL.gif"
+                   src={allImages.certif2}
                   alt=""
                 ></img>
               </div>
               <div className="accredit_list__item">
                 <img
-                  src="https://intersica.com/wp-content/uploads/2019/07/ohsas-18001.png"
+                   src={allImages.certif3}
                   alt=""
                 ></img>
               </div>
               <div className="accredit_list__item">
                 <img
-                  src="https://intersica.com/wp-content/uploads/2019/07/iso-9001.png"
+                 src={allImages.certif4}
+                  alt=""
+                ></img>
+              </div>
+              <div className="accredit_list__item">
+                <img
+                 src={allImages.certif5}
                   alt=""
                 ></img>
               </div>

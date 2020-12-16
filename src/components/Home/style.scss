@@ -5,7 +5,7 @@
 }
 
 .carousel {
-  margin-top: 110px;
+  margin-top: 95px;
 }
 .each-slide {
   max-height: 630px;
@@ -30,6 +30,7 @@
 }
 
 .section_descr {
+  
   background-color: var(--mainBacground);
   padding-top: 30px;
   padding-right: 0px;
@@ -58,7 +59,7 @@
     .title {
       font-size: 16px;
       font-weight: 700;
-      padding: 30px 0px 50px 0px;
+      padding: 30px 0px 30px 0px;
       margin-bottom: 5px;
     }
   }
@@ -216,6 +217,7 @@
 }
 .accreditations_section {
   padding-bottom: 40px;
+  background-color: var(--mainBacground);
   .accredit_list {
     display: flex;
     justify-content: center;
