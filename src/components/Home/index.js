@@ -96,8 +96,8 @@ class Home extends React.Component {
               Solutions and Custom Reporting.
             </p>
             <p>
-              COMPASS(formerly Socotec Oil & Gas) is ISO 9001 and OHSAS
-              18001. Our goal is to become your preferred Global Quality Service
+              COMPASS(formerly Socotec Oil & Gas) is ISO 9001 and OHSAS 18001.
+              Our goal is to become your preferred Global Quality Service
               Partner.
             </p>
           </div>
@@ -166,34 +166,19 @@ class Home extends React.Component {
             </div>
             <div className="accredit_list">
               <div className="accredit_list__item">
-                <img
-                  src={allImages.certif1}
-                  alt=""
-                ></img>
+                <img src={allImages.certif1} alt=""></img>
               </div>
               <div className="accredit_list__item">
-                <img
-                   src={allImages.certif2}
-                  alt=""
-                ></img>
+                <img src={allImages.certif2} alt=""></img>
               </div>
               <div className="accredit_list__item">
-                <img
-                   src={allImages.certif3}
-                  alt=""
-                ></img>
+                <img src={allImages.certif3} alt=""></img>
               </div>
               <div className="accredit_list__item">
-                <img
-                 src={allImages.certif4}
-                  alt=""
-                ></img>
+                <img src={allImages.certif4} alt=""></img>
               </div>
               <div className="accredit_list__item">
-                <img
-                 src={allImages.certif5}
-                  alt=""
-                ></img>
+                <img src={allImages.certif5} alt=""></img>
               </div>
             </div>
           </div>
