@@ -2,6 +2,7 @@
   "name": "baseapp",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://nadia77-a.github.io/inspection_company/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -9,6 +10,7 @@
     "axios": "^0.21.1",
     "classname": "0.0.0",
     "formik": "^2.2.0",
+    "gh-pages": "^3.1.0",
     "konva": "^7.1.3",
     "lodash": "^4.17.20",
     "react": "^16.14.0",
@@ -22,10 +24,13 @@
     "redux": "^4.0.5",
     "redux-saga": "^1.1.3",
     "reduxsauce": "^1.2.0",
+    "save-dev": "0.0.1-security",
     "yup": "^0.29.3"
   },
   "scripts": {
     "start": "cross-env NODE_PATH=src react-scripts start",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build",
     "build": "cross-env NODE_PATH=src react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
