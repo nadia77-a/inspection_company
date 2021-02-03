@@ -2,7 +2,7 @@ import { Switch } from "react-router-dom";
 import React, { Suspense, lazy } from "react";
 import { Router } from "react-router";
 import history from "config/history";
-import PrivateRoute from "helpers/privateRoutes"; // Private Routes, Will only accessible after Login
+//import PrivateRoute from "helpers/privateRoutes"; // Private Routes, Will only accessible after Login
 
 import { Route } from "react-router-dom"; //  Route, Will accessible before and after login (always accessible).
 
@@ -22,7 +22,7 @@ const ExpeditingServices = lazy(() => import("web/routes/ExpeditingServices"));
 
 // Root routes
 const Routes = () => (
-  <Router history={history}>
+  <Router history={history} basename="/">
     <Suspense fallback={<Spinner></Spinner>}>
       <Switch>
         <Route exact path="/" component={Home} />
