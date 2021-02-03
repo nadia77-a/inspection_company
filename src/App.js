@@ -4,9 +4,9 @@ import React from "react";
 import Root from "./routes-config";
 
 function App() {
-  return <Root />;
+  return "test";
   // <Provider>
-
+  //<Root />
   // </Provider>
 }
 
