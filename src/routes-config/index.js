@@ -13,7 +13,7 @@ const Home = lazy(() => import("web/routes/Home"));
 const About = lazy(() => import("web/routes/About"));
 const Contact = lazy(() => import("web/routes/Contact"));
 const Career = lazy(() => import("web/routes/Career"));
-const Logout = lazy(() => import("web/routes/Logout"));
+// const Logout = lazy(() => import("web/routes/Logout"));
 // const Login = lazy(() => import("web/routes/Login"));
 
 const QualitySupport = lazy(() => import("web/routes/QualitySupport"));
