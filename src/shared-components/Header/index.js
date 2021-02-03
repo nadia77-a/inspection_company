@@ -9,49 +9,45 @@ class Header extends Component {
         <div className="container et_menu_container">
           <div className="logo_container">
             <a href="/#">
-              <img
-                src={allimages.logo}
-                alt="Compass"
-                id="logo"
-              />
+              <img src={allimages.logo} alt="Compass" id="logo" />
             </a>
           </div>
           <div>
             <nav id="top-menu-nav">
               <ul id="top-menu" className="nav">
                 <li className="menu-item">
-                  <a href="/#">Home</a>
+                  <a href="./#">Home</a>
                 </li>
                 <li className="menu-item">
-                  <a href="/about">About</a>
+                  <a href="./#about">About</a>
                 </li>
                 <li className="menu-item">
-                  <a href="/contact">Contact</a>
+                  <a href="./#contact">Contact</a>
                 </li>
                 <li className="menu-item">
-                  <a href="/#">Services</a>
+                  <a href="./#">Services</a>
                   <ul className="sub-menu">
                     <li className="menu-item">
-                      <a href="/quality-support/">Quality Support</a>
+                      <a href="./#quality-support/">Quality Support</a>
                     </li>
                     <li className="menu-item">
-                      <a href="/manpower-services/">Manpower Services</a>
+                      <a href="./#manpower-services/">Manpower Services</a>
                     </li>
                     <li className="menu-item">
-                      <a href="/expediting-services/">Expediting Services</a>
+                      <a href="./#expediting-services/">Expediting Services</a>
                     </li>
                     <li className="menu-item">
-                      <a href="/vendor-inspection/">Vendor Inspection</a>
+                      <a href="./#vendor-inspection/">Vendor Inspection</a>
                     </li>
                     <li className="menu-item">
-                      <a href="/pipe-mill-surveillance/">
+                      <a href="./#pipe-mill-surveillance/">
                         Pipe Mill Surveillance
                       </a>
                     </li>
                   </ul>
                 </li>
                 <li className="menu-item">
-                  <a href="/career">Career</a>
+                  <a href="./#career">Career</a>
                 </li>
               </ul>
             </nav>
