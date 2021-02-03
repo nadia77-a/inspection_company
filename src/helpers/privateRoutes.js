@@ -34,7 +34,7 @@ const PrivateRoute = ({
   return <Routes />;
 };
 
-PrivateRoute.defaultProps = { redirect: "/login" };
+PrivateRoute.defaultProps = { redirect: "/home" };
 
 PrivateRoute.propTypes = {
   component: PropTypes.object.isRequired,

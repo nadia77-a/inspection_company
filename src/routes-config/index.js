@@ -3,7 +3,6 @@ import React, { Suspense, lazy } from "react";
 import { Router } from "react-router";
 import history from "config/history";
 import PrivateRoute from "helpers/privateRoutes"; // Private Routes, Will only accessible after Login
-import AuthRoute from "helpers/authRoutes"; // Auth Routes, Will only accessible before login.
 
 import { Route } from "react-router-dom"; //  Route, Will accessible before and after login (always accessible).
 
@@ -15,7 +14,7 @@ const About = lazy(() => import("web/routes/About"));
 const Contact = lazy(() => import("web/routes/Contact"));
 const Career = lazy(() => import("web/routes/Career"));
 const Logout = lazy(() => import("web/routes/Logout"));
-const Login = lazy(() => import("web/routes/Login"));
+// const Login = lazy(() => import("web/routes/Login"));
 
 const QualitySupport = lazy(() => import("web/routes/QualitySupport"));
 const ManpowerServices = lazy(() => import("web/routes/ManpowerServices"));
@@ -32,8 +31,8 @@ const Routes = () => (
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/career" component={Career} />
-        <Route exact path="/test" component={Login} />
-        <AuthRoute path="/login" component={Login} />
+        {/* <Route exact path="/test" component={Login} /> */}
+        {/* <AuthRoute path="/login" component={Login} /> */}
 
         <Route exact path="/quality-support" component={QualitySupport} />
         <Route exact path="/manpower-services" component={ManpowerServices} />
@@ -43,7 +42,7 @@ const Routes = () => (
           component={ExpeditingServices}
         />
 
-        <PrivateRoute path="/logout" component={Logout} />
+        {/* <PrivateRoute path="/logout" component={Logout} /> */}
       </Switch>
     </Suspense>
   </Router>
