@@ -28,7 +28,7 @@ class Header extends Component {
                   <a href="./#">Services</a>
                   <ul className="sub-menu">
                     <li className="menu-item">
-                      <a href="./#quality-support/">Quality Support</a>
+                      <a href="./#quality-support/">Quality Supportrr</a>
                     </li>
                     <li className="menu-item">
                       <a href="./#manpower-services/">Manpower Services</a>
