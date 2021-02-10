@@ -3,9 +3,9 @@ import React from "react";
 import Header from "shared-components/Header";
 import Footer from "shared-components/Footer";
 
-import QualityComponent from "components/Inspection/index.js";
+import QualityComponent from "components/OilGas/index.js";
 
-class ExpeditingServices extends React.Component {
+class OilGas extends React.Component {
   state = {
     top: false,
   };
@@ -36,4 +36,4 @@ class ExpeditingServices extends React.Component {
   }
 }
 
-export default ExpeditingServices;
+export default OilGas;

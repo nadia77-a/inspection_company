@@ -1,7 +1,7 @@
 export default {
   img1: require(`../assets/images/img1.jpg`),
   img2: require(`../assets/images/img2.jpg`),
-  logo: require(`../assets/images/logo.jpg`),
+  logo: require(`../assets/images/logo.png`),
 
   certif1: require(`../assets/images/certif1.jpg`),
   certif2: require(`../assets/images/certif2.jpg`),

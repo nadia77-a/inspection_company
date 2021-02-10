@@ -98,6 +98,15 @@
 
 .all_services {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .single_service {
@@ -114,12 +123,30 @@
 .single_service .single_service_image {
   display: inline-block;
   max-width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   line-height: 0;
 }
 
 .single_service .single_service_container {
   text-align: center;
+}
+
+.single_service .single_service_container > a {
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.single_service .single_service_container ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  font-size: 12px;
+  float: left;
+  text-align: left;
+}
+
+.single_service .single_service_container ul li {
+  list-style: none;
 }
 
 .single_service .single_service_container a {

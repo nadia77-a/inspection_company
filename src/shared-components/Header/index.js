@@ -28,20 +28,20 @@ class Header extends Component {
                   <a href="./#">Services</a>
                   <ul className="sub-menu">
                     <li className="menu-item">
-                      <a href="./#quality-support/">Quality Supportrr</a>
+                      <a href="./#design/">Design</a>
                     </li>
                     <li className="menu-item">
-                      <a href="./#manpower-services/">Manpower Services</a>
+                      <a href="./#inspection-expediting/">Inspection and Expediting</a>
                     </li>
                     <li className="menu-item">
-                      <a href="./#expediting-services/">Expediting Services</a>
+                      <a href="./#welding/">Welding</a>
                     </li>
                     <li className="menu-item">
-                      <a href="./#vendor-inspection/">Vendor Inspection</a>
+                      <a href="./#quality-support/">Quality Support</a>
                     </li>
                     <li className="menu-item">
-                      <a href="./#pipe-mill-surveillance/">
-                        Pipe Mill Surveillance
+                      <a href="./#oil-gas/">
+                        Oil and Gas
                       </a>
                     </li>
                   </ul>

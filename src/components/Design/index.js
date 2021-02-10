@@ -10,7 +10,7 @@ class Quality extends React.Component {
           <div className="addShadow">
             <div className="header-content">
               <div className="main-content__top__title centerContent">
-                Quality Supportttt
+              designnnnnn
                 <div className="description">
                   COMPASS(formerly Socotec Oil&Gas) has 30 years experience
                   in developing Quality Management Systems. Already have a

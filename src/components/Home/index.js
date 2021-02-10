@@ -14,33 +14,38 @@ class Home extends React.Component {
     const services = [
       {
         id: 1,
-        name: "Quality Support",
+        name: "Design",
+        subC:['a.	Design of Steel Structures',"b.	Design of Pipe Network for Gas City Distribution","c.	Design of Pipeline for Transmission of Oil and Gas","d.	Design of Oil Storage Tanks","e.	Design of Tank Farms"],
         link: "/quality-support",
         img: "https://intersica.com/wp-content/uploads/2019/07/inspectors.jpg",
       },
       {
         id: 2,
         name: "Expediting Services",
+        subC:['a.	Project Full-Time Monitoring',"b.	Vendor Specific Expediting","c.	Quality Audits","d.	Progress reporting","e.	Desk expediting","f.	Supplier Capability Surveys","g.	Verifications of deadlines and delays"],
         link: "/quality-support",
         img:
           "https://intersica.com/wp-content/uploads/2019/07/inspector-phone-1.jpg",
       },
       {
         id: 3,
-        name: "Vendor Inspection",
+        name: "Welding",
+        subC:['ta.	Welding Procedure (pWPS / WPS)',"b.	Welding Qualification (WPQR)","c.	Welder Qualification","d.	Welding Inspection","e.	Welding Supervision","f.	NDT (PT/RT/UT/VT/MT)"],
         link: "/quality-support",
         img: "https://intersica.com/wp-content/uploads/2019/07/inspectors.jpg",
       },
       {
         id: 4,
-        name: "Manpower Services",
+        name: "Quality Support (QA&QC)",
+        subC:['a.	Site Supervision',"b.	Visual, dimensional and quantity control of goods/commodities","c.	Inspection of all stages of manufacturing activities (initial visits, in progress and final inspections)","d.	Supervision of mechanical test, hydrostatic test, pneumatic test, leakage test","e.	Incoming Goods Inspection","f.	Coating Application","g.	Ensure compliance with related standards and requirements"],
         link: "/quality-support",
         img:
           "https://intersica.com/wp-content/uploads/2019/07/inspector-phone-1.jpg",
       },
       {
         id: 5,
-        name: "Pipe Mill Surveillance",
+        name: "Oil and Gas",
+        subC:['a.	Design according to API 650 standard',"b.	API 653 Inspection","c.	API 510 Inspection","d.	API 570 Inspection","e.	Supervision, testing and commissioning of Oil and Gas installations"],
         link: "/quality-support",
         img: "https://intersica.com/wp-content/uploads/2019/07/inspectors.jpg",
       },
@@ -72,34 +77,16 @@ class Home extends React.Component {
         </Fade>
         <div className="section_descr">
           <div className="description max_container">
-            <div className="title">Whenever Quality Matters</div>
+            <div className="title">The Core of Compass Engineering</div>
             <p>
-              COMPASS(formerly Socotec Oil & Gas) belongs to the INTERHOLDING
-              Group, providing services to improve the performance of Businesses
-              and Local Authorities through Risk Management. It provides
-              assistance to customers worldwide, throughout the lifecycles of
-              their projects, in the area of Quality, Health, Safety and
-              Environment.
+            Compass Engineering is an independent technical service company that has expert knowledge and experience in the area of engineering consulting, tank farm design, NDT, WPS - WPQR - Welder Qualification, integrity evaluation, procurement, 3rd party manufacturing inspections, supplier quality surveillance (SQS), by serving oil & gas companies, installation contractors, manufacturers and suppliers. 
             </p>
             <p>
-              We have developed a strong expertise and recognized competences in
-              a wide range of Oil & Gas equipment (OCTG, Line Pipe, Riser,
-              Umbilical, Wellheads, Subsea Equipment Down hole Equipment,
-              Pressure Vessels, Valves, Piping & Fittings, Rotating & Electrical
-              Equipment and Structures).
+            Capability of delivering highly qualified expertise with the intention of exceeding our clients’ expectations for safety, quality, functionality and deliver services that stand the test of time.
             </p>
             <p>
-              We provide a solid Technical Assistance and Source Inspection
-              history and offer a Worldwide Coverage with many local Inspectors.
-              Our employees have Strong Project Experience from Management to
-              Inspection. Dedicated to our Customers, we offer Tailored
-              Solutions and Custom Reporting.
-            </p>
-            <p>
-              COMPASS(formerly Socotec Oil & Gas) is ISO 9001 and OHSAS 18001.
-              Our goal is to become your preferred Global Quality Service
-              Partner.
-            </p>
+                          </p>
+            
           </div>
         </div>
         <div className="section_services home_section">
@@ -125,11 +112,13 @@ class Home extends React.Component {
                     </div>
                     <div className="single_service_container">
                       <a href={service.link}>{service.name}</a>
+                      <ul>{
+                        service.subC?.map((sub,i)=>{
+                          return <li key={i}>{sub}</li>
+                        })
+                        }</ul>
 
-                      <a className="learn_more" href={service.link}>
-                        Learn More
-                      </a>
-                    </div>
+                                          </div>
                   </div>
                 );
               })}
@@ -158,31 +147,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div> */}
-        <div className="section_services accreditations_section">
-          <div className="services max_container">
-            <div className="title">Our Accreditations</div>
-            <div className="divider">
-              <div className="divider_section"></div>
-            </div>
-            <div className="accredit_list">
-              <div className="accredit_list__item">
-                <img src={allImages.certif1} alt=""></img>
-              </div>
-              <div className="accredit_list__item">
-                <img src={allImages.certif2} alt=""></img>
-              </div>
-              <div className="accredit_list__item">
-                <img src={allImages.certif3} alt=""></img>
-              </div>
-              <div className="accredit_list__item">
-                <img src={allImages.certif4} alt=""></img>
-              </div>
-              <div className="accredit_list__item">
-                <img src={allImages.certif5} alt=""></img>
-              </div>
-            </div>
-          </div>
-        </div>
+        
       </React.Fragment>
     );
   }

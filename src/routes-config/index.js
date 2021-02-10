@@ -18,6 +18,9 @@ const Career = lazy(() => import("../web/routes/Career"));
 
 const QualitySupport = lazy(() => import("../web/routes/QualitySupport"));
 const ManpowerServices = lazy(() => import("../web/routes/ManpowerServices"));
+const Design = lazy(() => import("../web/routes/Design"));
+const Welding = lazy(() => import("../web/routes/Welding"));
+const OilGas = lazy(() => import("../web/routes/OilGas"));
 const ExpeditingServices = lazy(() =>
   import("../web/routes/ExpeditingServices")
 );
@@ -36,8 +39,12 @@ const Routes = () => (
         {/* <Route exact path="/test" component={Login} /> */}
         {/* <AuthRoute path="/login" component={Login} /> */}
 
+        <Route exact path="/design" component={Design} />
+        <Route exact path="/inspection-expediting" component={ManpowerServices} />
+
+        <Route exact path="/welding" component={Welding} />
         <Route exact path="/quality-support" component={QualitySupport} />
-        <Route exact path="/manpower-services" component={ManpowerServices} />
+        <Route exact path="/oil-gas" component={OilGas} />
         <Route
           exact
           path="/expediting-services"

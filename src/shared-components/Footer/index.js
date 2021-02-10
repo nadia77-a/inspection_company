@@ -8,9 +8,9 @@ class Footer extends Component {
         <div id="footer-bottom">
           <div className="container clearfix">
             <div id="footer-info">
-              © COMPASS 2020 - All right reserved -{" "}
-              <a href="/legal-notice/">Legal notice</a> | une réalisation{" "}
-              <a href="https://acs-informatique.com">ACS Informatique</a>
+              © COMPASS ENGINEERING 2021 - All right reserved {" "}
+              {" "}
+              
             </div>{" "}
           </div>
         </div>

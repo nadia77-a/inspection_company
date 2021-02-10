@@ -10,16 +10,9 @@ class ManPower extends React.Component {
           <div className="addShadow">
             <div className="header-content">
               <div className="main-content__top__title centerContent">
-                Manpower Services
+                INSPECTION AND EXPEDITING SERVICES
                 <div className="description">
-                  COMPASS(formerly Socotec Oil&Gas) is the global leader in
-                  contingent and permanent Technical personnel, providing
-                  companies of all sizes with a continuum of sourcing solutions
-                  to enhance business agility and competitiveness in their
-                  projects. The deep understanding of business needs, and of the
-                  talent required to meet those needs provides COMPASS
-                  (formerly Socotec Oil&Gas) with a better approach to matching
-                  the right individual to the job.
+                  COMPASS ENGINEERING ensure the project on time schedule, the expediting services are even more strategic, by inspecting/checking suppliers progress and reporting on real time situations and decisions taken to meet the schedule.
                 </div>
               </div>
             </div>
@@ -28,47 +21,23 @@ class ManPower extends React.Component {
         <div className="centerContent description">
           <div className="description__row">
             <p>
-              Technical personnel staffing for projects can be a strenuous and a
-              time consuming task. Many projects have very little time to
-              adequately staff personnel needed while carrying out core business
-              functions within the project scope. That’s why COMPASS(formerly
-              Socotec Oil&Gas) is dedicated to providing value-added personnel
-              no mater your requirements and expectations. COMPASS(formerly
-              Socotec Oil&Gas) provides properly vetted, experienced and highly
-              qualified technical experts from an extensive global pool of
-              talent and guarantees exceptional performance.
+            Compass Engineering offers professional expediting services which would facilitate the successful completion of the project with the strict deadlines and schedules. Our Expeditors are highly skilled and are able to work with the manufacturer to identify delays and figure out the potential problems with a view to initiating remedial action to get production activities back on schedule.
             </p>
-            <p>Why do you need Manpower Services?</p>
+            <p>Why do you need Inspection and Expediting Services?</p>
             <p>
-              Cost flexibility, as it is easier to increase or decrease the
-              cost, according to the needs. When personnel type of contract is
-              being used, then the cost level matches the real effort. With this
-              type of contract the customer usually pays for the seller’s hours
-              spent on delivering services, and not for any particular
-              deliverables. Less hours means lower cost, and more hours means
-              higher cost. Very unlike the situation with the employed project
-              manager, when costs are being generated even if there’s not enough
-              work for a full-time project manager. This is particularly
-              important in volatile times, when demand can go up or down very
-              quickly, and consequently organizations are generally more
-              cautious in employing new people.
+            Our team is capable of analyzing the scenarios and updating on the current status of the project and can assist in identifying any bottlenecks well in advance to take corrective actions. We conduct physical verification of the vendor’s progress against the base line schedule at pre-determined intervals / identified milestones and supports in achieving settled deadlines.
             </p>
             <p>
-              Experiences are brought from outside and they benefit the
-              organization. External experts usually work simultaneously on
-              other projects not related to this organization and they bring
-              these experiences with them. This is not about intellectual
-              capital being stolen, of course. It is about learning from other
-              areas and applying these lessons within your organization.
+            Late delivery of long lead items can affect the entire supply chain, increasing risks, costs and delays. Ensuring the project on time schedule, the expediting services are even more strategic, by inspecting/checking suppliers progress and reporting on real time situations and decisions taken to meet the schedule
             </p>
           </div>
           <div className="description__row">
             <div className="testimonial center">
               <p>
-                COMPASS(formerly Socotec Oil&Gas has an extensive database of
+                COMPASS ENGINEERING has an extensive database of
                 experienced and authorized industry personnel available for
                 placement on short-term to long-term projects. On top of
-                classical technical assistance services, COMPASSalso provides
+                classical technical assistance services, COMPASS also provides
                 recruitment services, based on it’s Human Resource experience
                 and knowledge of the industry. COMPASS extensive industry
                 experience consists of Oil & Gas, onshore and offshore, subsea,
@@ -79,33 +48,73 @@ class ManPower extends React.Component {
           <div className="flex description__row">
             <div className="description__row__col1">
               <h3>
-                <strong>COMPASSManpower</strong>
+                <strong>Project Full-Time Monitoring</strong>
               </h3>
               <p>
-                Short-term or Long-term, COMPASScan quickly provide reliable
+                Short-term or Long-term, COMPASS can quickly provide reliable
                 resources to meet the needs within your project.
               </p>
             </div>
-
-            <div className="description__row__col2 noH3">
+            <div className="description__row__col1">
+            <h3>
+                <strong>Quality Audits</strong>
+              </h3>
               <p>
-                Personnel selection for your projects are based on your needs
-                and we match the highest quality of personnel to meet your
-                needs. During the COMPASS(formery Socotec Oil&Gas) employment
-                process all COMPASS(formerly Oil&Gas) personnel are vetted
-                verifying competencies and qualifications along with any
-                additional training needed for continual improvement. Personnel
-                are held to COMPASS(formerly Socotec Oil&Gas) highest
-                standards while conducting your business, including reporting
-                and HSE guidelines.
+                Short-term or Long-term, COMPASS can quickly provide reliable
+                resources to meet the needs within your project.
               </p>
             </div>
-          </div>
+            <div className="description__row__col1">
+            <h3>
+                <strong>Vendor Specific Expediting</strong>
+              </h3>
+              <p>
+                Short-term or Long-term, COMPASS can quickly provide reliable
+                resources to meet the needs within your project.
+              </p>
+            </div>
+            <div className="description__row__col1">
+              <h3>
+                <strong>Supplier Capability Surveys</strong>
+              </h3>
+              <p>
+                Short-term or Long-term, COMPASS can quickly provide reliable
+                resources to meet the needs within your project.
+              </p>
+            </div>
+            <div className="description__row__col1">
+            <h3>
+                <strong>Verifications of deadlines and delays</strong>
+              </h3>
+              <p>
+                Short-term or Long-term, COMPASS can quickly provide reliable
+                resources to meet the needs within your project.
+              </p>
+            </div>
+            <div className="description__row__col1">
+            <h3>
+                <strong>Progress reporting</strong>
+              </h3>
+              <p>test</p>
+            </div>
+
+            <div className="description__row__col1">
+            <h3>
+                <strong>Desk expediting</strong>
+              </h3>
+              <p>test</p>
+            </div>
+              
+              
+              
+              
+            
+                        </div>
           <div className="description__row">
             <p className="text-center">
               <i>
                 » Having issues with your vendor? Need to audit a supplier prior
-                to adding them to your approved vendor list? COMPASShas
+                to adding them to your approved vendor list? COMPASS has
                 certified auditors with the knowledge and experience to perform
                 audits on your suppliers to ensure that they meet or exceed your
                 requirements. «
