@@ -29,7 +29,7 @@ class Home extends React.Component {
       <div className={"home " + (this.state.top === true ? "fixedH" : "")}>
         <Header></Header>
         <HomeComponent></HomeComponent>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </div>
     );
   }
