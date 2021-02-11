@@ -26,9 +26,7 @@ class ManPower extends React.Component {
             <p>Why do you need Inspection and Expediting Services?</p>
             <p>
             Our team is capable of analyzing the scenarios and updating on the current status of the project and can assist in identifying any bottlenecks well in advance to take corrective actions. We conduct physical verification of the vendor’s progress against the base line schedule at pre-determined intervals / identified milestones and supports in achieving settled deadlines.
-            </p>
-            <p>
-            Late delivery of long lead items can affect the entire supply chain, increasing risks, costs and delays. Ensuring the project on time schedule, the expediting services are even more strategic, by inspecting/checking suppliers progress and reporting on real time situations and decisions taken to meet the schedule
+                            Late delivery of long lead items can affect the entire supply chain, increasing risks, costs and delays. Ensuring the project on time schedule, the expediting services are even more strategic, by inspecting/checking suppliers progress and reporting on real time situations and decisions taken to meet the schedule
             </p>
           </div>
           <div className="description__row">
@@ -84,7 +82,7 @@ class ManPower extends React.Component {
             </div>
             <div className="description__row__col1">
             <h3>
-                <strong>Verifications of deadlines and delays</strong>
+                <strong>Verifications of Deadlines and Delays</strong>
               </h3>
               <p>
                 Short-term or Long-term, COMPASS can quickly provide reliable
@@ -93,16 +91,18 @@ class ManPower extends React.Component {
             </div>
             <div className="description__row__col1">
             <h3>
-                <strong>Progress reporting</strong>
+                <strong>Progress Reporting</strong>
               </h3>
-              <p>test</p>
+              <p>Short-term or Long-term, COMPASS can quickly provide reliable
+                resources to meet the needs within your project.</p>
             </div>
 
             <div className="description__row__col1">
             <h3>
                 <strong>Desk expediting</strong>
               </h3>
-              <p>test</p>
+              <p>Short-term or Long-term, COMPASS can quickly provide reliable
+                resources to meet the needs within your project.</p>
             </div>
               
               
