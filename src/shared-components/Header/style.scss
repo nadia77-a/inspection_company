@@ -42,11 +42,38 @@
       #top-menu > li {
         padding-bottom: 40px;
         padding-top: 40px;
+        a:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+          right: 0;
+          height: 3px;
+          background-color: var(--mainActiveBacground);
+          pointer-events: none;
+          -webkit-transition: 0.5s;
+          -o-transition: 0.5s;
+          transition: 0.5s;
+          width: 0;
+          bottom: -3px;
+      }
+        &:hover{
+          >a {
+            &::after{
+              background-color: var(--mainActiveBacground);
+              width: 100%;
+            }
+          }
+         
+        }
       }
       #top-menu li {
         display: inline-block;
         padding-right: 22px;
-        font-size: 14px;
+        font-size: 16px;
         a {
           display: block;
           position: relative;
