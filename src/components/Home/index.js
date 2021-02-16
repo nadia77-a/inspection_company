@@ -25,7 +25,7 @@ class Home extends React.Component {
           "e.	Design of Tank Farms",
         ],
         link: "/quality-support",
-        img: "https://intersica.com/wp-content/uploads/2019/07/inspectors.jpg",
+        img: "https://www.mechanical3dmodelling.com/wp-content/themes/m3dm/images/header.jpg",
       },
       {
         id: 2,
@@ -71,7 +71,7 @@ class Home extends React.Component {
         ],
         link: "/quality-support",
         img:
-          "https://intersica.com/wp-content/uploads/2019/07/inspector-phone-1.jpg",
+          "https://www.mechanical3dmodelling.com/wp-content/themes/m3dm/images/header.jpg",
       },
       {
         id: 5,

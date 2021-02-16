@@ -12,7 +12,7 @@ class Quality extends React.Component {
               <div className="main-content__top__title centerContent">
               DESIGN
                 <div className="description">
-                  COMPASS provides engineering design, and on-site services to the Oil refining, Natural Gas processing, and petrochemical sectors.  Our team of professionals have direct industry experience that adds significant value at each project stage.  We are uniquely suited to provide responsive support through our wide network of offices that are strategically located near many of our customers.
+                  COMPASS ENGINEERING provides engineering design, on-site services to the Oil & Gas processing and petrochemical sectors.  Our team of professionals have direct industry experience that adds significant value at each project stage.  We are uniquely suited to provide responsive support.
                 </div>
               </div>
             </div>
@@ -21,15 +21,12 @@ class Quality extends React.Component {
         <div className="centerContent description">
           <div className="description__row">
             <p>
-              A quality management system (QMS) is a set of policies, processes
-              and procedures required for planning and execution (production/
-              development/ service) in the core business area of an
-              organization. COMPASS is dedicated to
-              providing value-added resources no mater your requirements and
-              expectations, provides
-              properly vetted, experienced and highly qualified technical
-              auditors from an extensive global pool of talent and guarantees
-              exceptional performance.
+With more than 10 years of work experience, we deliver product and process engineering design solutions to upstream and downstream oil and gas industries. We are providing CAD design support for creating As-Built drawings, in cases where there is a delta between the engineering documentation on hand and the actual facility. 
+<p>
+  </p>We are also specializing in mechanical engineering design support services such as 2D to 3D conversions, CAD Drafting, CAD migrations, Design of Steel Structures, Design of Pipe Network for Gas City Distribution, Design of Pipeline for Transmission of Oil and Gas, Design of Oil Storage Tanks, Design of Tank Farms, 3D CAD models design and generation of fabrication drawings.
+
+<p>
+  </p>We provide robust detail mechanical engineering design solutions for the production, storage, transportation, and refinement segments. We help customers in a variety of areas including process engineering, piping layout, pipe stress analysis, mechanical design and civil and structural design engineering services.
             </p>
                       </div>
           <div className="description__row">
@@ -38,10 +35,7 @@ class Quality extends React.Component {
                 <strong>Services</strong>
               </h3>
               <p>
-                • Strategic Planning • Management Review • Controlled Document
-                System Verification • Data Collection Control • Corrective and
-                Preventative Action Monitoring • Risk Assessment Analysis •
-                Continual Improvement Process
+              We help clients by providing engineering design services & solutions across the oil and gas industry to innovate and adapt to challenging environments.
               </p>
             </div>
           </div>
