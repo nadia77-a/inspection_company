@@ -1,6 +1,6 @@
 .mainC {
   .main-content {
-    margin-top: 110px;
+    margin-top: 97px;
     &__top {
       .header-content {
         padding: 5px 0px;
@@ -27,18 +27,21 @@
       }
     }
     .description {
-      padding: 54px 0;
+      padding: 15px 0;
       &__row {
-        padding: 27px 0;
+        padding: 15px 0;
         display: flex;
+        flex-wrap: wrap;
 
         p {
           font-size: 13px;
+          padding: 0px 10px;
         }
         .testimonial {
           background-color: var(--mainActiveBacground);
           padding: 30px;
           position: relative;
+          width: 100%;
           &:after {
             position: absolute;
             z-index: 2;
@@ -72,17 +75,35 @@
           }
         }
         h3 {
-          font-size: 20px;
+          font-size: 16px;
+          margin-bottom: 0;
+          text-align: center;
+          padding: 15px 10px;
           color: var(--mainActiveBacground);
         }
         &__col2 {
-          width: 29.667%;
+         
           margin-right: 5.5%;
+          min-width: 29.6%;
+          width: min-content;
+          display: flex;
+          flex-direction: column;
+      
+          border-radius: 8px;
+        
+          margin-bottom: 5.5%;
+        
+          background-color: #f6f6f6;
+    &:nth-child(3){
+      margin-right: 0;
+    }
           :last-child {
             margin-right: 0;
           }
           img {
             width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
           }
         }
         .text-center {
