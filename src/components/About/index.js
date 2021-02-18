@@ -12,14 +12,7 @@ class Quality extends React.Component {
               <div className="main-content__top__title centerContent">
                 OUR OFFICE LOCATION
                 <div className="description">
-                  COMPASS(formerly Socotec Oil&Gas) has 30 years experience
-                  in developing Quality Management Systems. Already have a
-                  Quality Management System in place? COMPASS(formerly
-                  Socotec Oil&Gas) can provide in-depth Analysis to your current
-                  QMS or your vendor's QMS and get you on track with the
-                  ever-growing and ever-changing standards. Our global network
-                  of personnel can ensure compliance with all requests and
-                  provide the highest standards of service.
+                COMPASS ENGINEERING is an independent technical service company that has expert knowledge and experience of Engineering Services - Expediting - Testing & Inspection - NDT - Welding and Welder Qualification - Painting and Coating - Design - Construction Supervision. Not limited to integrity evaluation, 3rd party manufacturing inspections, supplier quality surveillance, by serving oil & gas companies. Capability of delivering highly qualified expertise with the intention of exceeding our client’s expectations for safety, quality, functionality and deliver services that stand the test of time.
                 </div>
               </div>
             </div>
