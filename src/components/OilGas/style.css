@@ -3,7 +3,7 @@
 }
 
 .mainC .main-content__top {
-  background-image: url(https://intersica.com/wp-content/uploads/2019/07/inspector-phone-1.jpg);
+  background-image: url(https://www.evaluationz.com/wp-content/uploads/2013/01/services-banner.jpg);
   background-position: center;
   background-size: 100%;
   background-size: cover;
@@ -28,24 +28,32 @@
 }
 
 .mainC .main-content .description {
-  padding: 54px 0;
+  padding: 15px 0;
 }
 
 .mainC .main-content .description__row {
-  padding: 27px 0;
+  padding: 15px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mainC .main-content .description__row:nth-child(3) {
+  padding-top: 25px;
 }
 
 .mainC .main-content .description__row p {
   font-size: 13px;
+  padding: 0px 10px;
 }
 
 .mainC .main-content .description__row .testimonial {
   background-color: var(--mainActiveBacground);
   padding: 30px;
   position: relative;
+  width: 100%;
 }
 
 .mainC .main-content .description__row .testimonial:after {
@@ -81,13 +89,35 @@
 }
 
 .mainC .main-content .description__row h3 {
-  font-size: 20px;
+  font-size: 16px;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 15px 10px;
   color: var(--mainActiveBacground);
 }
 
 .mainC .main-content .description__row__col2 {
-  width: 29.667%;
   margin-right: 5.5%;
+  min-width: 29.6%;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 20px 70px 0px #262a4c26;
+          box-shadow: 0px 20px 70px 0px #262a4c26;
+  border-radius: 8px;
+  margin-bottom: 5.5%;
+  background-color: #f6f6f6;
+}
+
+.mainC .main-content .description__row__col2:nth-child(3), .mainC .main-content .description__row__col2:nth-child(6) {
+  margin-right: 0;
 }
 
 .mainC .main-content .description__row__col2 :last-child {
@@ -96,6 +126,8 @@
 
 .mainC .main-content .description__row__col2 img {
   width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .mainC .main-content .description__row .text-center {
@@ -104,5 +136,27 @@
 
 .fixedH .main-content {
   margin-top: 0;
+}
+
+.main-content.quality.design {
+  position: relative;
+}
+
+.main-content.quality.design .addShadow {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.main-content.quality.design:after {
+  content: "";
+  background-image: url(https://image.freepik.com/free-vector/abstract-gear-wheel-mechanism-background_41981-300.jpg);
+  background-position: center bottom;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.15;
 }
 /*# sourceMappingURL=style.css.map */

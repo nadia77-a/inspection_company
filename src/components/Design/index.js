@@ -1,11 +1,12 @@
 import React from "react";
+import images from "config/images"
 
 import "./style.css";
 
 class Quality extends React.Component {
   render() {
     return (
-      <div className="main-content quality">
+      <div className="main-content quality design">
         <div className="main-content__top">
           <div className="addShadow">
             <div className="header-content">
@@ -25,13 +26,22 @@ class Quality extends React.Component {
         <div className="centerContent description">
           <div className="description__row">
             <p>
-            
-Every design and engineering decision is considered against a number of variables: market & user insights, cost, aesthetics, safety, quality, reliability, serviceability, manufacturing and assembly.
-The knowledge of production (ISO functional dimensioning and dimensional tolerancing) are perfectly integrated into definition drawings so as to answer to customer requirements in a variety of areas including process engineering, piping layout, pipe stress analysis, mechanical design and civil and structural design engineering services.
-
-              <p></p>Design office manages mechanical projects from the design phase up to the preparation of layouts, including feasibility study, functional specifications, functional analysis, specifications, nomenclatures, calculation notes, chain dimensioning & technical manuals. 
-              We provide robust detail mechanical engineering design solutions for the production, storage, transportation, and refinement segments. 
-
+              Every design and engineering decision is considered against a
+              number of variables: market & user insights, cost, aesthetics,
+              safety, quality, reliability, serviceability, manufacturing and
+              assembly. The knowledge of production (ISO functional dimensioning
+              and dimensional tolerancing) are perfectly integrated into
+              definition drawings so as to answer to customer requirements in a
+              variety of areas including process engineering, piping layout,
+              pipe stress analysis, mechanical design and civil and structural
+              design engineering services.
+              <p></p>Design office manages mechanical projects from the design
+              phase up to the preparation of layouts, including feasibility
+              study, functional specifications, functional analysis,
+              specifications, nomenclatures, calculation notes, chain
+              dimensioning & technical manuals. We provide robust detail
+              mechanical engineering design solutions for the production,
+              storage, transportation, and refinement segments.
             </p>
           </div>
           <div className="description__row">
@@ -42,69 +52,80 @@ The knowledge of production (ISO functional dimensioning and dimensional toleran
               <p>
                 We help clients by providing engineering design services &
                 solutions across the oil and gas industry to innovate and adapt
-                to challenging environments. We’ve developed our own proven, highly choreographed 360 degree approach to design & engineering that goes well beyond considering how a product should look and work.
+                to challenging environments. We’ve developed our own proven,
+                highly choreographed 360 degree approach to design & engineering
+                that goes well beyond considering how a product should look and
+                work.
               </p>
             </div>
           </div>
           <div className="description__row">
             <div className="description__row__col2">
-              <img src="https://image.freepik.com/free-vector/circuit-technology-background-with-hi-tech-digital-data-connection-system-computer-electronic-desing_29971-729.jpg"></img>
+              <img src={images.d1}></img>
               <h3>
                 <strong>Design of Steel Structures</strong>
               </h3>
               <p>
-              Brings to client absolute trust about the quality of the design, suitability for the harsh conditions of the weather and environment.             
+                Brings to client absolute trust about the quality of the design,
+                suitability for the harsh conditions of the weather and
+                environment.
               </p>
             </div>
             <div className="description__row__col2">
-              <img src="https://image.freepik.com/free-vector/abstract-background-futuristic-digital-dark-blue-electronic-circuit-line_35887-727.jpg"></img>
+              <img src={images.d2}></img>
               <h3>
                 <strong>
                   Design of Pipe Network for Gas City Distribution
                 </strong>
               </h3>
               <p>
-              The first step in any network process design is identifying the process goal and the technical options available to achieve it.
+                The first step in any network process design is identifying the
+                process goal and the technical options available to achieve it.
               </p>
             </div>
             <div className="description__row__col2">
-              <img src="https://image.freepik.com/free-vector/vector-technology-lines-with-glowing-particles-blue_110633-519.jpg"></img>
+              <img src={images.d3}></img>
               <h3>
                 <strong>
                   Design of Pipeline for Transmission of Oil and Gas
                 </strong>
               </h3>
               <p>
-              The use front-end loading systems are designed to significantly improve process operations. Our outstanding point is experience and creativity.
+                The use front-end loading systems are designed to significantly
+                improve process operations. Our outstanding point is experience
+                and creativity.
               </p>
             </div>
             <div className="description__row__col2">
-            <img src="https://image.freepik.com/free-vector/circuit-board-technology-vector-concept_44288-76.jpg"></img>
+              <img src={images.d4}></img>
               <h3>
                 <strong>Design of Oil Storage Tanks</strong>
               </h3>
               <p>
-              Complex needs and challenges don’t stand in the way of our engineers and designers. We are getting ready to deal with these challenges. 
+                Complex needs and challenges don’t stand in the way of our
+                engineers and designers. We are getting ready to deal with these
+                challenges.
               </p>
             </div>
             <div className="description__row__col2">
-            <img src="https://image.freepik.com/free-vector/abstract-background-with-technology-circuit-board-texture-electronic-motherboard-illustration-communication-engineering-concept-vector-illustration_41981-1670.jpg"></img>
+              <img src={images.d5}></img>
               <h3>
                 <strong>Design of Tank Farms</strong>
               </h3>
               <p>
-              Tank designs are based on various industry standards, including but not limited to: 
-
-API-650
-API-653
-API-620
+                Tank designs are based on various industry standards, including
+                but not limited to: API-650 API-653 API-620
               </p>
             </div>
           </div>
           <div className="description__row">
             <p className="text-center">
               <i>
-                » From the conceptual design to executing, COMPASS ENGINEERING provides unique solutions for various of steel structures, pipelines and storage tans installation. Keeping customers’ requirements in mind, we follow latest industry standards, regulations and cost effective solutions. «
+                » From the conceptual design to executing, COMPASS ENGINEERING
+                provides unique solutions for various of steel structures,
+                pipelines and storage tans installation. Keeping customers’
+                requirements in mind, we follow latest industry standards,
+                regulations and cost effective solutions. «
               </i>
             </p>
           </div>

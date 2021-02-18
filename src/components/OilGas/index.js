@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./style.css";
+import images from "config/images";
 
 class Quality extends React.Component {
   render() {
@@ -10,12 +11,12 @@ class Quality extends React.Component {
           <div className="addShadow">
             <div className="header-content">
               <div className="main-content__top__title centerContent">
-              OIL AND GAS
+                OIL AND GAS
                 <div className="description">
-                  COMPASS has 30 years experience
-                  in developing Quality Management Systems. Already have a
-                  Quality Management System in place? COMPASS can provide in-depth Analysis to your current
-                  QMS or your vendor's QMS and get you on track with the
+                  COMPASS has 30 years experience in developing Quality
+                  Management Systems. Already have a Quality Management System
+                  in place? COMPASS can provide in-depth Analysis to your
+                  current QMS or your vendor's QMS and get you on track with the
                   ever-growing and ever-changing standards. Our global network
                   of personnel can ensure compliance with all requests and
                   provide the highest standards of service.
@@ -30,14 +31,13 @@ class Quality extends React.Component {
               A quality management system (QMS) is a set of policies, processes
               and procedures required for planning and execution (production/
               development/ service) in the core business area of an
-              organization. COMPASS is dedicated to
-              providing value-added resources no mater your requirements and
-              expectations. COMPASS provides
-              properly vetted, experienced and highly qualified technical
-              auditors from an extensive global pool of talent and guarantees
-              exceptional performance.
+              organization. COMPASS is dedicated to providing value-added
+              resources no mater your requirements and expectations. COMPASS
+              provides properly vetted, experienced and highly qualified
+              technical auditors from an extensive global pool of talent and
+              guarantees exceptional performance.
             </p>
-                      </div>
+          </div>
           <div className="description__row">
             <div className="testimonial center">
               <h3>
@@ -53,54 +53,57 @@ class Quality extends React.Component {
           </div>
           <div className="description__row">
             <div className="description__row__col2">
+              <img src={images.o1}></img>
               <h3>
                 <strong>Design according to API 650 standard</strong>
               </h3>
               <p>
-                During the COMPASS employment
-                process all COMPASSauditors are vetted verifying competencies
-                and qualifications.
+                During the COMPASS employment process all COMPASSauditors are
+                vetted verifying competencies and qualifications.
               </p>
             </div>
             <div className="description__row__col2">
-            <h3>
+              <img src={images.o2}></img>
+              <h3>
                 <strong>API 653 Inspection</strong>
               </h3>
               <p>
-                During the COMPASS employment
-                process all COMPASSauditors are vetted verifying competencies
-                and qualifications. 
+                During the COMPASS employment process all COMPASSauditors are
+                vetted verifying competencies and qualifications.
               </p>
             </div>
             <div className="description__row__col2">
-                                        <h3>
+              <img src={images.o3}></img>
+              <h3>
                 <strong>API 510 Inspection</strong>
               </h3>
               <p>
-                COMPASS personnel are dedicated to
-                providing the best possible service. A crucial element of this
-                is the reporting process.
+                COMPASS personnel are dedicated to providing the best possible
+                service. A crucial element of this is the reporting process.
               </p>
-              </div>
+            </div>
             <div className="description__row__col2">
-                                        <h3>
+              <img src={images.o4}></img>
+              <h3>
                 <strong>API 570 Inspection</strong>
               </h3>
               <p>
-                COMPASS personnel are dedicated to
-                providing the best possible service. A crucial element of this
-                is the reporting process. 
+                COMPASS personnel are dedicated to providing the best possible
+                service. A crucial element of this is the reporting process.
               </p>
-              </div>
+            </div>
             <div className="description__row__col2">
-                                        <h3>
-                <strong>Supervision, Testing and Commissioning of Oil and Gas installations</strong>
+              <img src={images.o5}></img>
+              <h3>
+                <strong>
+                  Supervision, Testing and Commissioning of Oil and Gas
+                  installations
+                </strong>
               </h3>
               <p>
-                COMPASS personnel are dedicated to
-                providing the best possible service. A crucial element of this
-                is the reporting process.. 
-              </p>           
+                COMPASS personnel are dedicated to providing the best possible
+                service. A crucial element of this is the reporting process..
+              </p>
             </div>
           </div>
           <div className="description__row">
