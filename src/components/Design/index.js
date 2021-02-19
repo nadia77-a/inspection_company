@@ -123,7 +123,7 @@ class Quality extends React.Component {
               <i>
                 » From the conceptual design to executing, COMPASS ENGINEERING
                 provides unique solutions for various of steel structures,
-                pipelines and storage tans installation. Keeping customers’
+                pipelines and storage tanks installation. Keeping customers’
                 requirements in mind, we follow latest industry standards,
                 regulations and cost effective solutions. «
               </i>

@@ -24,7 +24,7 @@ export default {
   i6: require(`../assets/images/i6.jpg`),
   i7: require(`../assets/images/i7.jpg`),
 
-  w1: require(`../assets/images/w1.jpg`),
+  w1: require(`../assets/images/w1.png`),
   w2: require(`../assets/images/w2.jpg`),
   w3: require(`../assets/images/w3.jpg`),
   w4: require(`../assets/images/w4.jpg`),

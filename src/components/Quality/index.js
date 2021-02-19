@@ -13,13 +13,10 @@ class Quality extends React.Component {
               <div className="main-content__top__title centerContent">
                 QUALITY SUPPORT (QA & QC)
                 <div className="description">
-                  COMPASS has 30 years experience in developing Quality
-                  Management Systems. Already have a Quality Management System
-                  in place? COMPASS can provide in-depth Analysis to your
-                  current QMS or your vendor's QMS and get you on track with the
-                  ever-growing and ever-changing standards. Our global network
-                  of personnel can ensure compliance with all requests and
-                  provide the highest standards of service.
+                Regardless of the size and type of your organization, a quality support system is an important way to 
+                demonstrate the coherence of your company’s processes. Increase the confidence of your customers by operating an 
+                 excellent and  active quality. Our inspection and supervision 
+                services will help you improve your company’s performance with the aid of a quality support.
                 </div>
               </div>
             </div>
@@ -28,26 +25,16 @@ class Quality extends React.Component {
         <div className="centerContent description">
           <div className="description__row">
             <p>
-              A quality management system (QMS) is a set of policies, processes
-              and procedures required for planning and execution (production/
-              development/ service) in the core business area of an
-              organization. COMPASS is dedicated to providing value-added
-              resources no mater your requirements and expectations. COMPASS
-              provides properly vetted, experienced and highly qualified
-              technical auditors from an extensive global pool of talent and
-              guarantees exceptional performance.
+            Benefit from our long-standing experience in quality suport and service quality. We are a recognized service provider and our experts are always up-to-date on the latest regulatory updates and requirements relevant to your quality systems.
             </p>
           </div>
           <div className="description__row">
             <div className="testimonial center">
               <h3>
-                <strong>Services</strong>
+                <strong>Scope of Services</strong>
               </h3>
               <p>
-                • Strategic Planning • Management Review • Controlled Document
-                System Verification • Data Collection Control • Corrective and
-                Preventative Action Monitoring • Risk Assessment Analysis •
-                Continual Improvement Process
+              When it comes to your industrial facilities, the quality of all equipment, materials, structures and components is subject to strict regulations and standards. Our quality assurance and quality control services help you ensure compliance with all contractual specifications, mandatory regulations and quality standards.
               </p>
             </div>
           </div>
@@ -58,9 +45,7 @@ class Quality extends React.Component {
                 <strong>Site Supervision</strong>
               </h3>
               <p>
-                During the COMPASS(formerly Socotec Oil&Gas) employment process
-                all COMPASSauditors are vetted verifying competencies and
-                qualifications.
+              Ensure an effective and timely assurance and control of the quality of the executed project phases.
               </p>
             </div>
             <div className="description__row__col2">
@@ -71,9 +56,8 @@ class Quality extends React.Component {
                 </strong>
               </h3>
               <p>
-                During the COMPASS(formerly Socotec Oil&Gas) employment process
-                all COMPASSauditors are vetted verifying competencies and
-                qualifications.
+              Our visual inspection service provides quality checking and control of your delivered goods to 
+              help you avoid delays and stick to project schedule.
               </p>
             </div>
             <div className="description__row__col2">

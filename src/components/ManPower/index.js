@@ -14,7 +14,9 @@ class ManPower extends React.Component {
               <div className="main-content__top__title centerContent">
                 INSPECTION AND EXPEDITING SERVICES
                 <div className="description">
-                  COMPASS ENGINEERING ensure the project on time schedule, the
+                Realizing a successful project, you can easily reach our experts by your side, achieve expediting goals and meet deadlines.
+                  <p>
+                  </p>COMPASS ENGINEERING ensures the project on time schedule, the
                   expediting services are even more strategic, by
                   inspecting/checking suppliers progress and reporting on real
                   time situations and decisions taken to meet the schedule.
@@ -26,25 +28,14 @@ class ManPower extends React.Component {
         <div className="centerContent description">
           <div className="description__row">
             <p>
-              Compass Engineering offers professional expediting services which
-              would facilitate the successful completion of the project with the
-              strict deadlines and schedules. Our Expeditors are highly skilled
-              and are able to work with the manufacturer to identify delays and
-              figure out the potential problems with a view to initiating
-              remedial action to get production activities back on schedule.
+            <p>Your delivery schedules are secured with our expediting services</p>
+            As manufacturing and supply chain processes become more complex and competitive, procurement, management and coordination of international projects prove to be increasingly challenging. Our expediting service adds value to your projects through the inspection of manufacturers and assessment of manufacturing production plans and capacity.
+
+<p></p>Our comprehensive expediting services help you to avoid delays and ensure compliance with contractual conditions and specifications as well as applicable international codes and standards.
+              <p></p> 
               <p></p>
-              <p>Why do you need Inspection and Expediting Services?</p>
-              Our team is capable of analyzing the scenarios and updating on the
-              current status of the project and can assist in identifying any
-              bottlenecks well in advance to take corrective actions. We conduct
-              physical verification of the vendor’s progress against the base
-              line schedule at pre-determined intervals / identified milestones
-              and supports in achieving settled deadlines. Late delivery of long
-              lead items can affect the entire supply chain, increasing risks,
-              costs and delays. Ensuring the project on time schedule, the
-              expediting services are even more strategic, by
-              inspecting/checking suppliers progress and reporting on real time
-              situations and decisions taken to meet the schedule.
+              <p>What do you need to reach project milestones and asserting reliability?</p>
+              Our experts actively keep an eye on the deadlines and manufacturing schedule to help you reach defined project milestones and ensure that equipment, materials and components arrive at the right place, at the right time. We also help you prevent long capital stock and safeguard company reliability and integrity.
             </p>
           </div>
           <div className="description__row">
@@ -55,11 +46,10 @@ class ManPower extends React.Component {
 
               <p>
                 {" "}
-                Inspection and expediting services are provided by highly
-                qualified and extremely competent technical inspectors fully
-                conversant with international codes and standards. Ensure
+                Our full range of expediting services help 
+                you ensure that final delivery is made on time not limeted to
                 responsible development, through safe and remote site monitoring
-                for legal, economic, security and environmental (HSE) purposes.
+                for legal, economic, safety and environmental (HSE) purposes.
               </p>
             </div>
           </div>
@@ -69,48 +59,41 @@ class ManPower extends React.Component {
               <h3>
                 <strong>Project Full-Time Monitoring</strong>
               </h3>
-              <p>Secure cost-effective operations, regular monitoring</p>
+              <p>Comprehensive support along the entire supply chain, including follow up on major project milestones and deadlines.</p>
             </div>
             <div className="description__row__col1">
-              <img src={images.i1}></img>
+              <img src={images.i2}></img>
               <h3>
                 <strong>Quality Audits</strong>
               </h3>
               <p>
-                Inspection and examination of a process or system in order to
-                ensure compliance to requirements.
+              Evaluation of supplier production potential and quality before an order is placed.
               </p>
             </div>
             <div className="description__row__col1">
-            <img src={images.i1}></img>
+            <img src={images.i3}></img>
               <h3>
                 <strong>Vendor Specific Expediting</strong>
               </h3>
               <p>
-                Our experienced professionals offer you the experience,
-                expertise, knowledge and diplomacy necessary to ensure that your
-                project remains on schedule. We obtain and reaffirm delivery
-                promises from your suppliers. Plus, we fully investigate all
-                aspects of their scheduling to ensure they meet their
-                contractual obligations and deliver on time.
+              Fully investigate all specific aspects of vendor scheduling to ensure they 
+              meet their contractual obligations and deliver on time.
               </p>
             </div>
             <div className="description__row__col1">
-              <img src={images.i1}></img>
+              <img src={images.i4}></img>
               <h3>
                 <strong>Supplier Capability Surveys</strong>
               </h3>
               <p>
-                mobilise experienced quality assurance engineers to a
-                manufacturer’s site to conduct a thorough assessment of the
-                manufacturers capabilities and workload. The vender assessment
-                service provides the purchaser with the confidence that the
-                manufacturer has the necessary capability, systems, approvals,
-                processes and resources to supply the ordered goods.
+                Mobilize experienced quality assurance engineers to a
+                manufacturer’s site for conducting a thorough assessment 
+                production progress, manufacturing schedule, 
+                supplier workload, and identifying areas of concern.
               </p>
             </div>
             <div className="description__row__col1">
-              <img src={images.i1}></img>
+              <img src={images.i5}></img>
               <h3>
                 <strong>Verifications of Deadlines and Delays</strong>
               </h3>
@@ -120,7 +103,7 @@ class ManPower extends React.Component {
               </p>
             </div>
             <div className="description__row__col1">
-              <img src={images.i1}></img>
+              <img src={images.i6}></img>
               <h3>
                 <strong>Progress Reporting</strong>
               </h3>
@@ -131,7 +114,7 @@ class ManPower extends React.Component {
             </div>
 
             <div className="description__row__col1">
-              <img src={images.i1}></img>
+              <img src={images.i7}></img>
               <h3>
                 <strong>Desk expediting</strong>
               </h3>
