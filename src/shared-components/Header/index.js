@@ -46,9 +46,9 @@ class Header extends Component {
                     </li>
                   </ul>
                 </li>
-                <li className="menu-item">
+                {/* <li className="menu-item">
                   <a href="./#career">Career</a>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>
