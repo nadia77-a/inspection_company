@@ -116,8 +116,12 @@
   background-color: #f6f6f6;
 }
 
-.mainC .main-content .description__row__col1:nth-child(3) {
+.mainC .main-content .description__row__col1:nth-child(3), .mainC .main-content .description__row__col1:nth-child(7) {
   margin-right: 0;
+}
+
+.mainC .main-content .description__row__col1:nth-child(4), .mainC .main-content .description__row__col1:nth-child(5), .mainC .main-content .description__row__col1:nth-child(6), .mainC .main-content .description__row__col1:nth-child(7) {
+  min-width: 20.6%;
 }
 
 .mainC .main-content .description__row__col1 :last-child {
@@ -138,15 +142,15 @@
   margin-top: 0;
 }
 
-.main-content.quality.design {
+.main-content.manPower {
   position: relative;
 }
 
-.main-content.quality.design .addShadow {
+.main-content.manPower .addShadow {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.main-content.quality.design:after {
+.main-content.manPower:after {
   content: "";
   background-image: url(https://image.freepik.com/free-vector/abstract-gear-wheel-mechanism-background_41981-300.jpg);
   background-position: center bottom;

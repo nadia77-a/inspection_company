@@ -24,8 +24,9 @@ class Home extends React.Component {
           "d.	Design of Oil Storage Tanks",
           "e.	Design of Tank Farms",
         ],
-        link: "/quality-support",
-        img: "https://www.mechanical3dmodelling.com/wp-content/themes/m3dm/images/header.jpg",
+        link: "./#design/",
+        img:
+          "https://www.mechanical3dmodelling.com/wp-content/themes/m3dm/images/header.jpg",
       },
       {
         id: 2,
@@ -39,7 +40,7 @@ class Home extends React.Component {
           "f.	Supplier Capability Surveys",
           "g.	Verifications of deadlines and delays",
         ],
-        link: "/quality-support",
+        link: "./#inspection-expediting",
         img:
           "https://intersica.com/wp-content/uploads/2019/07/inspector-phone-1.jpg",
       },
@@ -54,12 +55,12 @@ class Home extends React.Component {
           "e.	Welding Supervision",
           "f.	NDT (PT/RT/UT/VT/MT)",
         ],
-        link: "/quality-support",
+        link: "./#welding/",
         img: "https://intersica.com/wp-content/uploads/2019/07/inspectors.jpg",
       },
       {
         id: 4,
-        name: "Quality Support (QA&QC)",
+        name: "QA&QC",
         subC: [
           "a.	Site Supervision",
           "b.	Visual, dimensional and quantity control of goods/commodities",
@@ -69,7 +70,7 @@ class Home extends React.Component {
           "f.	Coating Application",
           "g.	Ensure compliance with related standards and requirements",
         ],
-        link: "/quality-support",
+        link: "./#quality-support/",
         img:
           "https://www.mechanical3dmodelling.com/wp-content/themes/m3dm/images/header.jpg",
       },
@@ -83,7 +84,7 @@ class Home extends React.Component {
           "d.	API 570 Inspection",
           "e.	Supervision, testing and commissioning of Oil and Gas installations",
         ],
-        link: "/quality-support",
+        link: "./#oil-gas/",
         img: "https://intersica.com/wp-content/uploads/2019/07/inspectors.jpg",
       },
     ];
@@ -97,6 +98,24 @@ class Home extends React.Component {
           <div>QA&QC</div>
           <div>OIL AND GAS</div>
         </div> */}
+
+        <div className="allElem">
+          <div className="centered">
+            <img className="logo" src="img/logo.png" alt="Compass" />
+          </div>
+          <div className="services">
+            {services.map((item, index) => {
+              return (
+                <a href={item.link} key={index}>
+                  <div className="service" key={index}>
+                    <div className="title">{item.name}</div>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+
         <Particles
           params={{
             particles: {
