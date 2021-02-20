@@ -37,7 +37,7 @@ export default {
   q3: require(`../assets/images/q3.jpg`),
   q4: require(`../assets/images/q4.jpg`),
   q5: require(`../assets/images/q5.jpg`),
-  q6: require(`../assets/images/q6.jpg`),
+  q6: require(`../assets/images/q6.jpeg`),
   q7: require(`../assets/images/q7.jpg`),
 
   o1: require(`../assets/images/o1.jpg`),

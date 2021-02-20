@@ -69,8 +69,8 @@ class Quality extends React.Component {
                 </strong>
               </h3>
               <p>
-                COMPASS personnel are dedicated to providing the best possible
-                service. A crucial element of this is the reporting process.
+              Ensure consistency best quality by our qualified personnel, progress and right equipment in place for every stage of 
+              your manufacturing process.
               </p>
             </div>
             <div className="description__row__col2">
@@ -82,9 +82,9 @@ class Quality extends React.Component {
                 </strong>
               </h3>
               <p>
-                COMPASS(formerly Socotec Oil&Gas) personnel are dedicated to
-                providing the best possible service. A crucial element of this
-                is the reporting process.
+              Review the test specifications and procedures and ensure that all equipment are adequate and duties 
+are organized and understood. Use of safety barriers for protection from variety of tests is the key to minimize
+potential hazards. 
               </p>
             </div>
             <div className="description__row__col2">
@@ -93,8 +93,7 @@ class Quality extends React.Component {
                 <strong>Incoming Goods Inspection</strong>
               </h3>
               <p>
-                COMPASS) personnel are dedicated to providing the best possible
-                service. A crucial element of this is the reporting process..
+              Only an inspection based on sophisticated inspection plans provides certainty about the quality of the goods and minimizes the risk of a defective delivery or complaint. 
               </p>
             </div>
             <div className="description__row__col2">
@@ -103,8 +102,7 @@ class Quality extends React.Component {
                 <strong>Coating Application</strong>
               </h3>
               <p>
-                COMPASS personnel are dedicated to providing the best possible
-                service. A crucial element of this is the reporting process.
+              Our surface coating testing can help you avoid failures by making the right choice and to ensure your coating applications provide the performance you need.
               </p>
             </div>
             <div className="description__row__col2">
@@ -115,8 +113,10 @@ class Quality extends React.Component {
                 </strong>
               </h3>
               <p>
-                COMPASS personnel are dedicated to providing the best possible
-                service. A crucial element of this is the reporting process.
+              Understanding your
+business's responsibilities, then putting the right policies and procedures
+in place, is an essential first step towards keeping your business compliant.
+
               </p>
             </div>
           </div>
