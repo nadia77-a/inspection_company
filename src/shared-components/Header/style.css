@@ -169,8 +169,8 @@
             box-shadow: 0 2px 5px #0000001a;
   }
   .mobile_nav #top-menu > li {
-    padding-bottom: 5px !important;
-    padding-top: 5px !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
   }
   .mobile_nav #top-menu > li > ul {
     padding: 0px 0px !important;
