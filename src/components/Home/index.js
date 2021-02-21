@@ -5,6 +5,7 @@ import "react-slideshow-image/dist/styles.css";
 import "./style.css";
 
 import Particles from "react-particles-js";
+import images from "../../config/images";
 
 class Home extends React.Component {
   render() {
@@ -101,7 +102,7 @@ class Home extends React.Component {
 
         <div className="allElem">
           <div className="centered">
-            <img className="logo" src="img/logo.png" alt="Compass" />
+            <img className="logo" src={images.logo1} alt="Compass" />
           </div>
           <div className="services">
             {services.map((item, index) => {
