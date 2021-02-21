@@ -6,7 +6,7 @@ import images from "config/images";
 class Quality extends React.Component {
   render() {
     return (
-      <div className="main-content quality">
+      <div className="main-content oilGas">
         <div className="main-content__top">
           <div className="addShadow">
             <div className="header-content">

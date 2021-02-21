@@ -1,12 +1,12 @@
-.mainC .main-content {
-  margin-top: 97px;
-}
-
-.mainC .main-content__top {
+.quality .main-content__top {
   background-image: url(http://st2.depositphotos.com/1579454/9602/i/600/depositphotos_96020930-stock-photo-customer-service-concept.jpg);
   background-position: center;
   background-size: 100%;
   background-size: cover;
+}
+
+.mainC .main-content {
+  margin-top: 97px;
 }
 
 .mainC .main-content__top .header-content {
