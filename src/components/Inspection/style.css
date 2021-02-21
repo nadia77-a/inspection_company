@@ -1,12 +1,12 @@
-.mainC .main-content {
-  margin-top: 97px;
-}
-
-.mainC .main-content__top {
+.mainC .inspection .main-content__top {
   background-image: url(https://intersica.com/wp-content/uploads/2019/07/inspector-phone-1.jpg);
   background-position: center;
   background-size: 100%;
   background-size: cover;
+}
+
+.mainC .main-content {
+  margin-top: 97px;
 }
 
 .mainC .main-content__top .header-content {

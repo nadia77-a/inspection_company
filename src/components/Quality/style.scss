@@ -1,102 +1,13 @@
-// .mainC {
-//   .main-content {
-//     margin-top: 97px;
-//     &__top {
-//       .header-content {
-//         padding: 5px 0px;
-//       }
-//       background-image: url(https://intersica.com/wp-content/uploads/2019/07/inspector-phone-1.jpg);
-//       background-position: center;
-//       -webkit-background-size: 100%;
-//       -webkit-background-size: cover;
-//       -moz-background-size: 100%;
-//       -moz-background-size: cover;
-//       background-size: 100%;
-//       background-size: cover;
-//       &__title {
-//         padding: 50px 0;
-//         font-weight: 700;
-//         font-size: 25px;
-//         color: var(--mainActiveText);
-//         .description {
-//           font-size: 14px;
-//           padding-bottom: 10px !important;
-//           padding-top: 5px !important;
-//           font-weight: 500;
-//         }
-//       }
-//     }
-//     .description {
-//       padding: 54px 0;
-//       &__row {
-//         padding: 27px 0;
-//         display: flex;
-
-//         p {
-//           font-size: 13px;
-//         }
-//         .testimonial {
-//           background-color: var(--mainActiveBacground);
-//           padding: 30px;
-//           position: relative;
-//           &:after {
-//             position: absolute;
-//             z-index: 2;
-//             top: -16px;
-//             left: 50%;
-//             margin-left: -16px;
-//             -webkit-border-radius: 31px;
-//             -moz-border-radius: 31px;
-//             border-radius: 31px;
-//             background: #f5f5f5;
-//             font-size: 32px;
-//             content: "\7c";
-//             text-shadow: 0 0;
-//             font-family: ETmodules !important;
-//             font-weight: 400;
-//             font-style: normal;
-//             font-variant: normal;
-//             -webkit-font-smoothing: antialiased;
-//             -moz-osx-font-smoothing: grayscale;
-//             line-height: 1;
-//             text-transform: none;
-//             speak: none;
-//             color: var(--mainActiveBacground);
-//           }
-//           h3 {
-//             color: var(--mainActiveText);
-//             font-size: 22px;
-//           }
-//           p {
-//             color: var(--mainActiveText);
-//           }
-//         }
-//         h3 {
-//           font-size: 20px;
-//           color: var(--mainActiveBacground);
-//         }
-//         &__col2 {
-//           width: 29.667%;
-//           margin-right: 5.5%;
-//           :last-child {
-//             margin-right: 0;
-//           }
-//           img {
-//             width: 100%;
-//           }
-//         }
-//         .text-center {
-//           line-height: 1.7em;
-//         }
-//       }
-//     }
-//   }
-// }
-// .fixedH {
-//   .main-content {
-//     margin-top: 0;
-//   }
-// }
+.quality .main-content__top {
+  background-image: url(http://st2.depositphotos.com/1579454/9602/i/600/depositphotos_96020930-stock-photo-customer-service-concept.jpg);
+  background-position: center;
+  -webkit-background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: 100%;
+  -moz-background-size: cover;
+  background-size: 100%;
+  background-size: cover;
+}
 
 
 .mainC {
@@ -106,14 +17,7 @@
       .header-content {
         padding: 5px 0px;
       }
-      background-image: url(http://st2.depositphotos.com/1579454/9602/i/600/depositphotos_96020930-stock-photo-customer-service-concept.jpg);
-      background-position: center;
-      -webkit-background-size: 100%;
-      -webkit-background-size: cover;
-      -moz-background-size: 100%;
-      -moz-background-size: cover;
-      background-size: 100%;
-      background-size: cover;
+
       &__title {
         padding: 50px 0;
         font-weight: 700;

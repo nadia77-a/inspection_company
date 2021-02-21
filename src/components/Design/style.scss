@@ -1,3 +1,16 @@
+
+
+.mainC .design .main-content__top {
+  background-image: url(https://image.freepik.com/free-photo/technical-drawings-hand-with-pencil_19485-52474.jpg);
+  background-position: center;
+  -webkit-background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: 100%;
+  -moz-background-size: cover;
+  background-size: 100%;
+  background-size: cover;
+}
+
 .mainC {
   .main-content {
     margin-top: 97px;
@@ -5,24 +18,24 @@
       .header-content {
         padding: 5px 0px;
       }
-      background-image: url(https://image.freepik.com/free-photo/technical-drawings-hand-with-pencil_19485-52474.jpg);
-      background-position: center;
-      -webkit-background-size: 100%;
-      -webkit-background-size: cover;
-      -moz-background-size: 100%;
-      -moz-background-size: cover;
-      background-size: 100%;
-      background-size: cover;
       &__title {
         padding: 50px 0;
         font-weight: 700;
         font-size: 25px;
         color: var(--mainActiveText);
+        animation-name: fadeInLeftBig;
+        -webkit-animation-duration: 900ms;
+        animation-duration: 900ms;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
         .description {
           font-size: 14px;
           padding-bottom: 10px !important;
           padding-top: 5px !important;
           font-weight: 500;
+          animation-name: fadeInLeft;
+          -webkit-animation-duration: 1s;
+          animation-duration: 1s;
         }
       }
     }
@@ -32,6 +45,11 @@
         padding: 15px 0;
         display: flex;
         flex-wrap: wrap;
+        animation-name: fadeInUp;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
         &:nth-child(3){
           padding-top: 25px;
         }
@@ -39,6 +57,8 @@
         p {
           font-size: 13px;
           padding: 0px 10px;
+          transition: all 250ms ease-in-out 0s;
+          -webkit-transition: all 250ms ease-in-out 0s;
         }
         .testimonial {
           background-color: var(--mainActiveBacground);
@@ -139,3 +159,9 @@
   background-size: cover;
   opacity: 0.15;
 }
+
+
+
+@-webkit-keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}100%{opacity:1;-webkit-transform:none;transform:none}}.fadeInLeft{-webkit-animation-name:fadeInLeft;animation-name:fadeInLeft}
+@-webkit-keyframes fadeInLeftBig{0%{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInLeftBig{0%{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}100%{opacity:1;-webkit-transform:none;transform:none}}.fadeInLeftBig{-webkit-animation-name:fadeInLeftBig;animation-name:fadeInLeftBig}@-webkit-keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}100%{opacity:1;-webkit-transform:none;transform:none}}
+@-webkit-keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}.fadeInUp{-webkit-animation-name:fadeInUp;animation-name:fadeInUp}@-webkit-keyframes fadeInUpBig{0%{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInUpBig{0%{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}100%{opacity:1;-webkit-transform:none;transform:none}}
