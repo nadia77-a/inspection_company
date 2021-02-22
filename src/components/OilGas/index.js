@@ -13,13 +13,11 @@ class Quality extends React.Component {
               <div className="main-content__top__title centerContent">
                 OIL AND GAS
                 <div className="description">
-                  COMPASS has 30 years experience in developing Quality
-                  Management Systems. Already have a Quality Management System
-                  in place? COMPASS can provide in-depth Analysis to your
-                  current QMS or your vendor's QMS and get you on track with the
-                  ever-growing and ever-changing standards. Our global network
-                  of personnel can ensure compliance with all requests and
-                  provide the highest standards of service.
+                                Whether you are involved in exploring, extracting, refining, transporting or marketing oil and gas. 
+                COMPASS ENGINEERING offers a comprehensive range of services to support and optimize your business. With the recent volatility and 
+                record-breaking 
+                prices for these resources, it is vital that you get the most from 
+                every part of the production and value adding chain – and optimize the efficiency of your own processes.
                 </div>
               </div>
             </div>
@@ -28,20 +26,28 @@ class Quality extends React.Component {
         <div className="centerContent description">
           <div className="description__row">
             <p>
-              A quality management system (QMS) is a set of policies, processes
-              and procedures required for planning and execution (production/
-              development/ service) in the core business area of an
-              organization. COMPASS is dedicated to providing value-added
-              resources no mater your requirements and expectations. COMPASS
-              provides properly vetted, experienced and highly qualified
-              technical auditors from an extensive global pool of talent and
-              guarantees exceptional performance.
+            Partner with COMPASS for
+support with distribution and retail,
+including calibration services,
+facility audits, leak detection, and maintenance. As the field of oil and
+gas logistics can be so complex, we have a large global team of
+experts to help you get your
+products to wherever you need
+them, safely, securely and in
+compliance with national and
+international standards. We assist
+in the design and execution of
+blending, additive use and other
+optimisation processes,
+            In support of upstream exploration, we offer a variety of services that can be used either independently or as packages to augment your
+             existing processes.
+             
             </p>
           </div>
           <div className="description__row">
             <div className="testimonial center">
               <h3>
-                <strong>Services</strong>
+                <strong>Scope of Services</strong>
               </h3>
               <p>
                 • Strategic Planning • Management Review • Controlled Document
@@ -58,8 +64,8 @@ class Quality extends React.Component {
                 <strong>Design according to API 650 standard</strong>
               </h3>
               <p>
-                During the COMPASS employment process all COMPASSauditors are
-                vetted verifying competencies and qualifications.
+              This standard establishes minimum requirements for the design, fabrication, erection, and inspection of welded storage tanks.
+              All design aspects are involved to ensure the safety, sustainability, and environmental performance.
               </p>
             </div>
             <div className="description__row__col2">
@@ -68,8 +74,9 @@ class Quality extends React.Component {
                 <strong>API 653 Inspection</strong>
               </h3>
               <p>
-                During the COMPASS employment process all COMPASSauditors are
-                vetted verifying competencies and qualifications.
+              Reduce the very serious risks of the leakage of hazardous chemicals during storage and of damaging corrosion weakening tanks, 
+              shell distortions,corrosion, verification of the foundation condition, paint coating, insulation system and appurtenances. 
+              Each element which can cause catastrophic environmental disaster and exorbitant financial losses.
               </p>
             </div>
             <div className="description__row__col2">
@@ -78,8 +85,10 @@ class Quality extends React.Component {
                 <strong>API 510 Inspection</strong>
               </h3>
               <p>
-                COMPASS personnel are dedicated to providing the best possible
-                service. A crucial element of this is the reporting process.
+              This inspection code covers the in-service inspection,
+repair, alteration, and rerating activities for pressure
+vessels and the pressure-relieving devices protecting
+these vessels. 
               </p>
             </div>
             <div className="description__row__col2">
@@ -88,8 +97,9 @@ class Quality extends React.Component {
                 <strong>API 570 Inspection</strong>
               </h3>
               <p>
-                COMPASS personnel are dedicated to providing the best possible
-                service. A crucial element of this is the reporting process.
+              API 570 covers inspection, rating, repair, and alteration procedures for metallic and
+               fiberglass-reinforced plastic (FRP) piping systems and their associated pressure relieving devices that have been placed in service.
+              This inspection Code applies to all hydrocarbon and chemical process.
               </p>
             </div>
             <div className="description__row__col2">
@@ -101,19 +111,16 @@ class Quality extends React.Component {
                 </strong>
               </h3>
               <p>
-                COMPASS personnel are dedicated to providing the best possible
-                service. A crucial element of this is the reporting process..
+              We assure that all systems and components are designed, installed, tested, 
+              operated and maintained according to your requirements.
               </p>
             </div>
           </div>
           <div className="description__row">
             <p className="text-center">
               <i>
-                » Having issues with your vendor? Need to audit a supplier prior
-                to adding them to your approved vendor list? COMPASS has
-                certified auditors with the knowledge and experience to perform
-                audits on your suppliers to ensure that they meet or exceed your
-                requirements. «
+                » We work with your project to find the best solutions for your needs including identifying of details, impementation of high quality solution,
+                 and analytical requirements «
               </i>
             </p>
           </div>
