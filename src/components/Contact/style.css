@@ -24,6 +24,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .mainC .main-content .contact .details {
@@ -39,9 +40,55 @@
 
 .mainC .main-content .contact .map {
   width: 60%;
+  padding-left: 30px;
+}
+
+.mainC .main-content .who {
+  display: block;
+  margin-top: 30px;
+  background-repeat: no-repeat;
+  background-image: url(https://st3.depositphotos.com/1038855/16314/v/450/depositphotos_163145218-stock-illustration-wire-frame-oil-tank.jpg);
+}
+
+.mainC .main-content .who p {
+  margin-bottom: 5;
+}
+
+.mainC .main-content .c1 {
+  width: 60%;
+  display: inline-block;
+  position: relative;
+  float: left;
+}
+
+.mainC .main-content .c1 img {
+  width: 80%;
+  height: auto;
+}
+
+.mainC .main-content .c2 {
+  width: 40%;
+  display: inline-block;
 }
 
 .fixedH .main-content {
   margin-top: 0;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 390px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 342px;
+}
+
+.gmap_canvas iframe {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
