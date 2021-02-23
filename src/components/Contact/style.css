@@ -3,7 +3,7 @@
 }
 
 .mainC .main-content__top {
-  background-image: url(https://st.depositphotos.com/1907633/2185/i/450/depositphotos_21855539-stock-photo-3d-stainless-human-social-network.jpg);
+  background-image: url(https://intersica.com/wp-content/uploads/2019/07/iStock-545645280-C-zbruch-.jpg);
   background-position: center;
   background-size: 100%;
   background-size: cover;
@@ -43,15 +43,9 @@
   padding-left: 30px;
 }
 
-.mainC .main-content .who {
-  display: block;
-  margin-top: 30px;
-  background-repeat: no-repeat;
-  background-image: url(https://st3.depositphotos.com/1038855/16314/v/450/depositphotos_163145218-stock-illustration-wire-frame-oil-tank.jpg);
-}
-
 .mainC .main-content .who p {
-  margin-bottom: 5;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .mainC .main-content .c1 {
@@ -69,6 +63,18 @@
 .mainC .main-content .c2 {
   width: 40%;
   display: inline-block;
+}
+
+.mainC .main-content .aboutDetils {
+  width: 100%;
+  margin-top: 40px;
+  float: left;
+}
+
+.mainC .main-content .aboutDetils h1 {
+  font-size: 16px;
+  color: var(--mainActiveBacground);
+  font-weight: 600;
 }
 
 .fixedH .main-content {

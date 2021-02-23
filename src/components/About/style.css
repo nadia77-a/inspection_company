@@ -1,116 +1,89 @@
-.mainC .main-content {
-  margin-top: 97px;
-}
-
-.mainC .main-content__top {
-  background-image: url(https://intersica.com/wp-content/uploads/2019/07/platform-sea-sunset-Copie-1.jpg) !important;
+.mainC .projects .main-content__top {
+  background-image: url(https://image.freepik.com/free-photo/technical-drawings-hand-with-pencil_19485-52474.jpg);
   background-position: center;
   background-size: 100%;
   background-size: cover;
 }
 
-.mainC .main-content__top__title {
+.projects {
+  margin-top: 97px;
+}
+
+.projects .main-content__top .header-content {
+  padding: 5px 0px;
+}
+
+.projects .main-content__top__title {
   padding: 50px 0;
   font-weight: 700;
   font-size: 25px;
   color: var(--mainActiveText);
+  -webkit-animation-name: fadeInLeftBig;
+          animation-name: fadeInLeftBig;
+  -webkit-animation-duration: 900ms;
+  animation-duration: 900ms;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
-.mainC .main-content .description {
-  padding: 54px 0;
-}
-
-.mainC .main-content .description__row {
-  padding: 27px 0;
-}
-
-.mainC .main-content .description__row p {
-  font-size: 13px;
-}
-
-.mainC .main-content .description__row__col {
-  display: inline-block;
-  width: 29.667%;
-  margin-right: 5.5%;
-}
-
-.mainC .main-content .description__row__col img {
-  width: 100%;
-  height: auto;
-}
-
-.mainC .main-content .description__row__col:last-child {
-  margin-right: 0;
-}
-
-.mainC .main-content .description__row__col2 {
-  width: 29.667%;
-  margin-right: 5.5%;
-  display: inline-block;
-}
-
-.mainC .main-content .description__row__col2 .contact_box {
-  background-color: var(--mainActiveBacground);
-  color: var(--mainActiveText);
-  padding: 40px;
-  text-align: center;
-}
-
-.mainC .main-content .description__row__col2 .contact_box__header {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 2.1em;
-  color: var(--mainActiveText);
-  padding-bottom: 20px;
-}
-
-.mainC .main-content .description__row__col2 .contact_box__button {
-  -webkit-transition: letter-spacing 300ms ease 0ms;
-  transition: letter-spacing 300ms ease 0ms;
-  background-color: var(--mainActiveBacground);
-  color: var(--mainActiveText);
-  position: relative;
-  padding: 0.3em 1em;
-  border: 2px solid var(--mainActiveText);
-  border-radius: 3px;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  font-size: 20px;
+.projects .main-content__top__title .description {
+  font-size: 14px;
+  padding-bottom: 10px !important;
+  padding-top: 5px !important;
   font-weight: 500;
-  line-height: 1.7em;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+  -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
 }
 
-.mainC .main-content .description__row__col2 .contact_box__button:before {
-  position: absolute;
-  margin-left: -1em;
-  opacity: 0;
-  text-shadow: none;
-  font-size: 32px;
-  font-weight: 400;
-  font-style: normal;
-  font-variant: none;
-  line-height: 1em;
-  text-transform: none;
-  content: "\35";
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+.projects [data-tab-content] {
+  display: none;
 }
 
-.mainC .main-content .description__row__col2 .contact_box__button:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: none;
-  text-decoration: none;
+.projects .active[data-tab-content] {
+  display: block;
 }
 
-.mainC .main-content .description__row__col2:last-child {
-  margin-right: 0%;
+.projects body {
+  padding: 0;
+  margin: 0;
 }
 
-.fixedH .main-content {
-  margin-top: 0;
+.projects .tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid black;
+}
+
+.projects .tab {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.projects .tab.active {
+  background-color: #CCC;
+}
+
+.projects .tab:hover {
+  background-color: #AAA;
+}
+
+.projects .tab-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.projects img {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */
