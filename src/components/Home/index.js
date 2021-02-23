@@ -37,7 +37,7 @@ class Home extends React.Component {
           "b.	Vendor Specific Expediting",
           "c.	Quality Audits",
           "d.	Progress reporting",
-          "e.	Desk expediting",
+          "e.	Desk Expediting",
           "f.	Supplier Capability Surveys",
           "g.	Verifications of deadlines and delays",
         ],
