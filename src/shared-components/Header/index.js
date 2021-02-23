@@ -34,7 +34,7 @@ state={
                   <a href="./#">Home</a>
                 </li>
                 <li className="menu-item">
-                  <a href="./#about">About</a>
+                  <a href="./#about">Projects</a>
                 </li>
                 <li className="menu-item">
                   <a href="./#contact">Contact</a>
@@ -74,12 +74,7 @@ state={
                 <li className="menu-item">
                   <a href="./#">Home</a>
                 </li>
-                <li className="menu-item">
-                  <a href="./#about">About</a>
-                </li>
-                <li className="menu-item">
-                  <a href="./#contact">Contact</a>
-                </li>
+               
                 <li className="menu-item">
                   <a href="./#">Services</a>
                   <ul className="sub-menu">
@@ -105,6 +100,12 @@ state={
                 {/* <li className="menu-item">
                   <a href="./#career">Career</a>
                 </li> */}
+                 <li className="menu-item">
+                  <a href="./#about">Projects</a>
+                </li>
+                <li className="menu-item">
+                  <a href="./#contact">Contact</a>
+                </li>
               </ul>
             </nav>
           </div>

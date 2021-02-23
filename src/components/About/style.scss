@@ -1,112 +1,96 @@
-.mainC {
-  .main-content {
+
+
+
+.mainC .projects .main-content__top {
+  background-image: url(https://image.freepik.com/free-photo/technical-drawings-hand-with-pencil_19485-52474.jpg);
+  background-position: center;
+  -webkit-background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: 100%;
+  -moz-background-size: cover;
+  background-size: 100%;
+  background-size: cover;
+}
+
+
+  .projects {
     margin-top: 97px;
-    &__top {
-      background-image: url(https://intersica.com/wp-content/uploads/2019/07/platform-sea-sunset-Copie-1.jpg) !important;
-      background-position: center;
-      -webkit-background-size: 100%;
-      -webkit-background-size: cover;
-      -moz-background-size: 100%;
-      -moz-background-size: cover;
-      background-size: 100%;
-      background-size: cover;
+    .main-content__top {
+      .header-content {
+        padding: 5px 0px;
+      }
       &__title {
         padding: 50px 0;
         font-weight: 700;
         font-size: 25px;
         color: var(--mainActiveText);
-      }
-    }
-    .description {
-      padding: 54px 0;
-      &__row {
-        padding: 27px 0;
-        p {
-          font-size: 13px;
-        }
-        &__col {
-          display: inline-block;
-          width: 29.667%;
-          margin-right: 5.5%;
-          img {
-            width: 100%;
-            height: auto;
-          }
-          &:last-child {
-            margin-right: 0;
-          }
-        }
-        &__col2 {
-          width: 29.667%;
-          margin-right: 5.5%;
-          display: inline-block;
-
-          .contact_box {
-            background-color: var(--mainActiveBacground);
-            color: var(--mainActiveText);
-            padding: 40px;
-            text-align: center;
-            &__header {
-              font-weight: 700;
-              font-size: 20px;
-              line-height: 2.1em;
-              color: var(--mainActiveText);
-              padding-bottom: 20px;
-            }
-            &__button {
-              transition: letter-spacing 300ms ease 0ms;
-              background-color: var(--mainActiveBacground);
-              color: var(--mainActiveText);
-              position: relative;
-              padding: 0.3em 1em;
-              border: 2px solid var(--mainActiveText);
-              -webkit-border-radius: 3px;
-              -moz-border-radius: 3px;
-              border-radius: 3px;
-              background-color: transparent;
-              background-repeat: no-repeat;
-              background-position: center;
-              background-size: cover;
-              font-size: 20px;
-              font-weight: 500;
-              line-height: 1.7em;
-              -webkit-transition: all 0.2s;
-              -moz-transition: all 0.2s;
-              transition: all 0.2s;
-              &:before {
-                position: absolute;
-                margin-left: -1em;
-                opacity: 0;
-                text-shadow: none;
-                font-size: 32px;
-                font-weight: 400;
-                font-style: normal;
-                font-variant: none;
-                line-height: 1em;
-                text-transform: none;
-                content: "\35";
-                -webkit-transition: all 0.2s;
-                -moz-transition: all 0.2s;
-                transition: all 0.2s;
-              }
-              &:hover {
-                background-color: rgba(255, 255, 255, 0.2);
-                border: none;
-                text-decoration: none;
-              }
-            }
-          }
-
-          &:last-child {
-            margin-right: 0%;
-          }
+        animation-name: fadeInLeftBig;
+        -webkit-animation-duration: 900ms;
+        animation-duration: 900ms;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        .description {
+          font-size: 14px;
+          padding-bottom: 10px !important;
+          padding-top: 5px !important;
+          font-weight: 500;
+          animation-name: fadeInLeft;
+          -webkit-animation-duration: 1s;
+          animation-duration: 1s;
         }
       }
     }
+    [data-tab-content] {
+      display: none;
+    }
+    
+    .active[data-tab-content] {
+      display: block;
+    }
+    
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    
+    .tabs {
+      display: flex;
+      justify-content: space-around;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      border-bottom: 1px solid black;
+    }
+    
+    .tab {
+      cursor: pointer;
+      padding: 10px;
+    }
+    
+    .tab.active {
+      background-color: #CCC;
+    }
+    
+    .tab:hover {
+      background-color: #AAA;
+    }
+    
+    .tab-content {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    
+    
+    img {
+      width: 20%;
+      height: auto;
+      display: inline-block;
+      padding:10px;
+    }
+    
+    
+    
+    
+    
   }
-}
-.fixedH {
-  .main-content {
-    margin-top: 0;
-  }
-}

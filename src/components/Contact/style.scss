@@ -38,12 +38,13 @@
       }
     }
     .who {
-      display: block;
-      margin-top: 30px;
-      background-repeat: no-repeat;
-      background-image: url(https://st3.depositphotos.com/1038855/16314/v/450/depositphotos_163145218-stock-illustration-wire-frame-oil-tank.jpg);
+      // display: block;
+      // margin-top: 30px;
+      // background-repeat: no-repeat;
+      // background-image: url(https://st3.depositphotos.com/1038855/16314/v/450/depositphotos_163145218-stock-illustration-wire-frame-oil-tank.jpg);
    p {
-    margin-bottom: 5
+    margin-bottom: 20px;
+    margin-top: 30px;
    }
     }
     .c1 {
@@ -70,6 +71,16 @@
     .c2 {
       width: 40%;
       display: inline-block;
+    }
+    .aboutDetils {
+      width: 100%;
+      margin-top: 40px;
+      float: left;
+      h1 {
+        font-size: 16px;
+        color: var(--mainActiveBacground);
+        font-weight: 600;
+      }
     }
   }
 }

@@ -13,3 +13,22 @@
         }
       }
   }
+
+
+  #root #main-header {
+    background-color: #00000099!important;
+    border-bottom: 1px solid #858585;
+  }
+  #root #main-header .container #top-menu > li.menu-item > a {
+    color:#fff!important;
+  }
+  #root #main-header .container #top-menu .sub-menu li.menu-item  a {
+    color:#000;
+  }
+
+ body .mainC .main-content__top {
+    padding-top: 95px;
+}
+body .mainC .main-content {
+  margin-top: 0;
+}
