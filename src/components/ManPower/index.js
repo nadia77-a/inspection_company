@@ -141,7 +141,7 @@ class ManPower extends React.Component {
             <div className="description__row__col1">
               <img src={images.i7}></img>
               <h3>
-                <strong>Desk expediting</strong>
+                <strong>Desk Expediting</strong>
               </h3>
               <p>
                 Offsite monitoring of order progress at specific milestone
