@@ -36,11 +36,9 @@ products to wherever you need
 them, safely, securely and in
 compliance with national and
 international standards. We assist
-in the design and execution of
-blending, additive use and other
-optimisation processes,
-            In support of upstream exploration, we offer a variety of services that can be used either independently or as packages to augment your
-             existing processes.
+in the design and execution to support the oil, gas and petrochemical industry in ensuring safety, reliability and 
+regulatory compliance of your components and assets throughout their life-cycle
+with independent inspection, testing and certification services.
              
             </p>
           </div>
@@ -50,10 +48,9 @@ optimisation processes,
                 <strong>Scope of Services</strong>
               </h3>
               <p>
-                • Strategic Planning • Management Review • Controlled Document
-                System Verification • Data Collection Control • Corrective and
-                Preventative Action Monitoring • Risk Assessment Analysis •
-                Continual Improvement Process
+              We help you understand the
+condition of your components and assets, avoid incidents and ensure that you meet the latest
+regulatory and individual requirements from the design, construction and operation phases.
               </p>
             </div>
           </div>
@@ -119,8 +116,13 @@ these vessels.
           <div className="description__row">
             <p className="text-center">
               <i>
-                » We work with your project to find the best solutions for your needs including identifying of details, impementation of high quality solution,
-                 and analytical requirements «
+                » Due
+to the potential danger and risk associated with pressure
+equipment, both manufacturers and operators have to
+comply with national and international regulations.
+Our local experts and their expertise help you ensure
+the regulatory compliance of your pressure equipment,
+wherever you are.«
               </i>
             </p>
           </div>

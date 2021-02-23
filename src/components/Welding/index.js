@@ -138,9 +138,11 @@ class Quality extends React.Component {
           <div className="description__row">
             <p className="text-center">
               <i>
-                » We are able to assign experienced and highly qualified
-                technical personnel from an in depth pool of personnel
-                obtainable throughout high degree of professionalism. «
+                » The condition of an asset or component is crucial for a
+manufacturer and an operator to ensure safety and integrity.
+Therefore, our technicians provide you with state-of-theart solutions and deep engineering knowhow to gather and
+evaluate the required data needed to assess the integrity of
+your component and asset.  «
               </i>
             </p>
           </div>
