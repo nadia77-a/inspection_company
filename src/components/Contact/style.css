@@ -48,6 +48,30 @@
   margin-top: 30px;
 }
 
+.mainC .main-content .who > p {
+  margin-bottom: 40px;
+}
+
+.mainC .main-content .who .tit {
+  color: var(--mainActiveBacground);
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.mainC .main-content .who .tit:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  margin-left: -35px;
+  width: 70px;
+  height: 4px;
+  background-color: var(--mainActiveBacground);
+}
+
 .mainC .main-content .c1 {
   width: 60%;
   display: inline-block;
@@ -82,6 +106,11 @@
 .mainC .main-content .c2 {
   width: 40%;
   display: inline-block;
+}
+
+.mainC .main-content .c2 .fa {
+  color: var(--mainActiveBacground);
+  margin-right: 10px;
 }
 
 .mainC .main-content .c2 h1 {

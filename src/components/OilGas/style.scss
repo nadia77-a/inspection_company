@@ -101,9 +101,9 @@
           border-radius: 8px;
           margin-bottom: 5.5%;
           background-color: #f6f6f6;
-          &:nth-child(3),  &:nth-child(6)  {
-            margin-right: 0;
-          }
+          // &:nth-child(3),  &:nth-child(6)  {
+          //   margin-right: 0;
+          // }
           :last-child {
             margin-right: 0;
           }
@@ -120,6 +120,19 @@
     }
   }
 }
+
+.oilGas {
+  .description {
+    &__row {
+      &__col2 {
+        &:nth-child(3),  &:nth-child(6)  {
+          margin-right: 0!important;
+        }
+      }
+    }
+  }
+}
+
 .fixedH {
   .main-content {
     margin-top: 0;

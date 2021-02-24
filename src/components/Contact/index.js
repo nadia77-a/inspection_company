@@ -15,6 +15,7 @@ class Contact extends React.Component {
           </div>
         </div>
         <div className="who centerContent">
+          <div className="tit">Who we are</div>
           <p>
             Compass Engineering was created in 2019 as an Independent Technical Service 
             Company that has expert knowledge and experience of Engineering Services - Expediting - Testing & Inspection - NDT - Welding 
@@ -32,21 +33,21 @@ class Contact extends React.Component {
           <div className="c2">
             <h1>Company Quality Policy</h1>
             <p>
-              To adopt maintain and improve its quality system in compliance
+            <i className="fa fa-check-circle"></i> To adopt maintain and improve its quality system in compliance
               with national and International standard.
             </p>{" "}
             <p>
-              To comply with the requirements agreed upon and contractually
+            <i className="fa fa-check-circle"></i> To comply with the requirements agreed upon and contractually
               committed with the Customer, in all its service activities. These
               activities must always be conducted in compliance with all
               applicable laws and regulations.
             </p>{" "}
             <p>
-              To pursue the continuous improving to the quality of its
+            <i className="fa fa-check-circle"></i> To pursue the continuous improving to the quality of its
               services with a view to satisfying its Customers.
             </p>
             <p>
-              Initiate our personnel to enhance knowledge, leadership and
+            <i className="fa fa-check-circle"></i> Initiate our personnel to enhance knowledge, leadership and
               professional competence and maintain consistent credibility. Our
               people are our best assets.
             </p>

@@ -99,16 +99,7 @@
           border-radius: 8px;
           margin-bottom: 5.5%;
           background-color: #f6f6f6;
-          &:nth-child(3), &:nth-child(7) {
-            margin-right: 0;
-          }
-          &:nth-child(4), &:nth-child(5),&:nth-child(6),&:nth-child(7) {
-            min-width: 20.6%;
-          }
-          :last-child {
-            margin-right: 0;
-          }
-     
+    
           img {
             width: 100%;
             border-top-left-radius: 8px;
@@ -117,6 +108,22 @@
         }
         .text-center {
           line-height: 1.7em;
+        }
+      }
+    }
+  }
+}
+
+
+.quality {
+  .description {
+    &__row {
+      &__col2 {
+        &:nth-child(3), &:nth-child(7) {
+          margin-right: 0;
+        }
+        &:nth-child(4), &:nth-child(5),&:nth-child(6),&:nth-child(7) {
+          min-width: 20.6%!important;
         }
       }
     }
