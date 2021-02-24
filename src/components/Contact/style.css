@@ -10,7 +10,7 @@
 }
 
 .mainC .main-content__top__title {
-  padding: 50px 0;
+  padding: 60px 0;
   font-weight: 700;
   font-size: 25px;
   color: var(--mainActiveText);
@@ -63,6 +63,17 @@
 .mainC .main-content .c2 {
   width: 40%;
   display: inline-block;
+}
+
+.mainC .main-content .c2 h1 {
+  font-size: 16px;
+  color: var(--mainActiveBacground);
+  font-weight: 600;
+}
+
+.mainC .main-content .c2 p {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .mainC .main-content .aboutDetils {

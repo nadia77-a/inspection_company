@@ -40,7 +40,7 @@ class Quality extends React.Component {
           </div>
           <div className="description__row">
             <div className="description__row__col2">
-              <img src={images.q1}></img>
+              <img  alt = "" src={images.q1}></img>
               <h3>
                 <strong>Site Supervision</strong>
               </h3>
@@ -49,7 +49,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img src={images.q2}></img>
+              <img  alt = "" src={images.q2}></img>
               <h3>
                 <strong>
                   Visual, Dimensional and Quantity Control of Goods/Commodities
@@ -61,7 +61,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img src={images.q3}></img>
+              <img  alt = "" src={images.q3}></img>
               <h3>
                 <strong>
                   Inspection of all stages of manufacturing activities (initial
@@ -74,7 +74,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img src={images.q4}></img>
+              <img  alt = "" src={images.q4}></img>
               <h3>
                 <strong>
                   Supervision of Mechanical Test, Hydrostatic Test, Pneumatic
@@ -88,7 +88,7 @@ potential hazards.
               </p>
             </div>
             <div className="description__row__col2">
-              <img src={images.q5}></img>
+              <img  alt = "" src={images.q5}></img>
               <h3>
                 <strong>Incoming Goods Inspection</strong>
               </h3>
@@ -97,7 +97,7 @@ potential hazards.
               </p>
             </div>
             <div className="description__row__col2">
-              <img src={images.q6}></img>
+              <img  alt = "" src={images.q6}></img>
               <h3>
                 <strong>Coating Application</strong>
               </h3>
@@ -106,7 +106,7 @@ potential hazards.
               </p>
             </div>
             <div className="description__row__col2">
-            <img src={images.q7}></img>
+            <img  alt = "" src={images.q7}></img>
               <h3>
                 <strong>
                   Ensure Compliance With Related Standards and Requirements

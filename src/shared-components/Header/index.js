@@ -5,19 +5,33 @@ import allimages from "config/images";
 class Header extends Component {
 
 state={
-  isOpen:false
+  isOpen:false,
+  top: false,
 }
 
+componentDidMount() {
+  window.addEventListener("scroll", () => {
+    if (!this.state.top) {
+      if (window.scrollY > 50) {
+        this.setState({ top: true });
+      }
+    } else {
+      if (window.scrollY < 50) {
+        this.setState({ top: false });
+      }
+    }
+  });
+}
   render() {
 
-    const{isOpen}=this.state;
+    const{isOpen,top}=this.state;
 
     return (
       <header id="main-header" className="">
         <div className="container et_menu_container">
           <div className="logo_container">
             <a href="/#">
-              <img src={allimages.logo} alt="Compass" id="logo" />
+              <img src={top ? allimages.logo:allimages.logo1} alt="Compass" id="logo" />
             </a>
           </div>
           <div>

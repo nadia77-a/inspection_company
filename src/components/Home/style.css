@@ -227,4 +227,11 @@
   z-index: 1;
   position: absolute;
 }
+
+@media (max-width: 1170px) {
+  .home a {
+    margin: 3px;
+    padding: 0px 2px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,34 +1,49 @@
-
-
-
 @media screen and (max-width: 1023px) {
-   body .mainC {
-        .main-content {
-          .description__row {
-            &__col2 {
-              margin-right: 0;
-              min-width: 100%;
-            }
-          }
+  body .mainC {
+    .main-content {
+      .description__row {
+        &__col2 {
+          margin-right: 0;
+          min-width: 100%;
         }
       }
+    }
   }
-
-
-  #root #main-header {
-    background-color: #00000099!important;
-    border-bottom: 1px solid #858585;
-  }
-  #root #main-header .container #top-menu > li.menu-item > a {
-    color:#fff!important;
-  }
-  #root #main-header .container #top-menu .sub-menu li.menu-item  a {
-    color:#000;
-  }
-
- body .mainC .main-content__top {
-    padding-top: 95px;
 }
+
+#main-header {
+  background-color: #00000099;
+  border-bottom: 1px solid #858585;
+  .container #top-menu > li.menu-item > a {
+    color: #fff !important;
+  }
+  .container #top-menu .sub-menu li.menu-item a {
+    color: #000;
+  }
+}
+
 body .mainC .main-content {
   margin-top: 0;
+  &__top {
+    padding-top: 95px;
+  }
+}
+
+body .mainC.fixedH {
+  #main-header{
+    background-color: var(--mainBacground);
+    .container #top-menu > li.menu-item > a {
+      color: #000 !important;
+    }
+  }
+ 
+}
+
+@media (max-width: 1024px){ 
+  body .mainC .main-content__top {
+    padding-top: 0;
+}
+#main-header .container #top-menu > li.menu-item > a{
+  color: #000!important;
+}
 }

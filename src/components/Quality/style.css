@@ -14,7 +14,7 @@
 }
 
 .mainC .main-content__top__title {
-  padding: 50px 0;
+  padding: 60px 0;
   font-weight: 700;
   font-size: 25px;
   color: var(--mainActiveText);
@@ -162,5 +162,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.15;
+}
+
+@media screen and (max-width: 1023px) {
+  .mainC .main-content .description__row__col2 {
+    margin-right: 0;
+    min-width: 100%;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

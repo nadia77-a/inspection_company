@@ -61,7 +61,7 @@ class Quality extends React.Component {
           </div>
           <div className="description__row">
             <div className="description__row__col2">
-              <img src={images.d1}></img>
+              <img  alt = "" src={images.d1}></img>
               <h3>
                 <strong>Design of Steel Structures</strong>
               </h3>
@@ -72,7 +72,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img src={images.d2}></img>
+              <img  alt = "" src={images.d2}></img>
               <h3>
                 <strong>
                   Design of Pipe Network for Gas City Distribution
@@ -84,7 +84,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img src={images.d3}></img>
+              <img  alt = "" src={images.d3}></img>
               <h3>
                 <strong>
                   Design of Pipeline for Transmission of Oil and Gas
@@ -97,7 +97,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img src={images.d4}></img>
+              <img  alt = "" src={images.d4}></img>
               <h3>
                 <strong>Design of Oil Storage Tanks</strong>
               </h3>
@@ -108,7 +108,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img src={images.d5}></img>
+              <img  alt = "" src={images.d5}></img>
               <h3>
                 <strong>Design of Tank Farms</strong>
               </h3>

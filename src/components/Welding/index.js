@@ -66,7 +66,7 @@ class Quality extends React.Component {
           </div>
           <div className="description__row">
             <div className="description__row__col2">
-              <img src={images.w1}></img>
+              <img  alt = "" src={images.w1}></img>
               <h3>
                 <strong>Welding Procedure (pWPS / WPS)</strong>
               </h3>
@@ -77,7 +77,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img src={images.w2}></img>
+              <img  alt = "" src={images.w2}></img>
               <h3>
                 <strong>Welding Qualification (WPQR)</strong>
               </h3>
@@ -88,7 +88,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img src={images.w3}></img>
+              <img  alt = "" src={images.w3}></img>
               <h3>
                 <strong>Welder Qualification</strong>
               </h3>
@@ -99,7 +99,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img src={images.w4}></img>
+              <img  alt = "" src={images.w4}></img>
               <h3>
                 <strong>Welding Inspection</strong>
               </h3>
@@ -111,7 +111,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img src={images.w5}></img>
+              <img  alt = "" src={images.w5}></img>
               <h3>
                 <strong>Welding Supervision</strong>
               </h3>
@@ -123,7 +123,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img src={images.w6}></img>
+              <img  alt = "" src={images.w6}></img>
               <h3>
                 <strong>NDT (PT/RT/UT/VT/MT)</strong>
               </h3>

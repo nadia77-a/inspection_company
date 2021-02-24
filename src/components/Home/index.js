@@ -102,7 +102,7 @@ class Home extends React.Component {
 
         <div className="allElem">
           <div className="centered">
-            <img className="logo" src={images.logo1} alt="Compass" />
+            <img  alt = "" className="logo" src={images.logo1} alt="Compass" />
           </div>
           <div className="services">
             {services.map((item, index) => {
@@ -243,13 +243,13 @@ class Home extends React.Component {
         {/* <Fade {...zoomOutProperties} easing="cubic" className="carousel">
           <div className="each-slide">
             <div>
-              <img src={allImages.img1} style={{ width: `100%` }} alt=""></img>
+              <img  alt = "" src={allImages.img1} style={{ width: `100%` }} alt=""></img>
               <span>Your Global Quality Service Company</span>
             </div>
           </div>
           <div className="each-slide">
             <div>
-              <img src={allImages.img2} style={{ width: `100%` }} alt=""></img>
+              <img  alt = "" src={allImages.img2} style={{ width: `100%` }} alt=""></img>
               <span>
                 We provide Technical Assistance and Source Inspection Services
               </span>
@@ -257,7 +257,7 @@ class Home extends React.Component {
           </div>
           <div className="each-slide">
             <div>
-              <img src={allImages.img1} style={{ width: `100%` }} alt=""></img>
+              <img  alt = "" src={allImages.img1} style={{ width: `100%` }} alt=""></img>
               <span>Your Global Quality Service Company</span>
             </div>
           </div>

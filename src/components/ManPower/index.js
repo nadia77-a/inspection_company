@@ -73,7 +73,7 @@ class ManPower extends React.Component {
           </div>
           <div className="flex description__row">
             <div className="description__row__col1">
-              <img src={images.i1}></img>
+              <img  alt = "" src={images.i1}></img>
               <h3>
                 <strong>Project Full-Time Monitoring</strong>
               </h3>
@@ -83,7 +83,7 @@ class ManPower extends React.Component {
               </p>
             </div>
             <div className="description__row__col1">
-              <img src={images.i4}></img>
+              <img  alt = "" src={images.i4}></img>
               <h3>
                 <strong>Supplier Capability Surveys</strong>
               </h3>
@@ -95,7 +95,7 @@ class ManPower extends React.Component {
               </p>
             </div>
             <div className="description__row__col1">
-              <img src={images.i5}></img>
+              <img  alt = "" src={images.i5}></img>
               <h3>
                 <strong>Verifications of Deadlines and Delays</strong>
               </h3>
@@ -105,7 +105,7 @@ class ManPower extends React.Component {
               </p>
             </div>
             <div className="description__row__col1">
-              <img src={images.i2}></img>
+              <img  alt = "" src={images.i2}></img>
               <h3>
                 <strong>Quality Audits</strong>
               </h3>
@@ -115,7 +115,7 @@ class ManPower extends React.Component {
               </p>
             </div>
             <div className="description__row__col1">
-              <img src={images.i3}></img>
+              <img  alt = "" src={images.i3}></img>
               <h3>
                 <strong>Vendor Specific Expediting</strong>
               </h3>
@@ -128,7 +128,7 @@ class ManPower extends React.Component {
             
       
             <div className="description__row__col1">
-              <img src={images.i6}></img>
+              <img  alt = "" src={images.i6}></img>
               <h3>
                 <strong>Progress Reporting</strong>
               </h3>
@@ -139,7 +139,7 @@ class ManPower extends React.Component {
             </div>
 
             <div className="description__row__col1">
-              <img src={images.i7}></img>
+              <img  alt = "" src={images.i7}></img>
               <h3>
                 <strong>Desk Expediting</strong>
               </h3>

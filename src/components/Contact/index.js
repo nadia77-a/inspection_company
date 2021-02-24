@@ -34,23 +34,31 @@ class Contact extends React.Component {
             the industry now and in the future.
           </p>
           <div className="c1">
-            <img src="https://i.imgur.com/rQu0EdY.jpeg"></img>
+            <img alt="" src="https://i.imgur.com/rQu0EdY.jpeg"></img>
           </div>
           <div className="c2">
-          <h1>Company Quality Policy</h1>
-             • To adopt maintain and improve its quality
-            system in compliance with national and International standard. <p>
-              </p>• To
-            comply with the requirements agreed upon and contractually committed
-            with the Customer, in all its service activities. These activities
-            must always be conducted in compliance with all applicable laws and
-            regulations. <p></p>• To pursue the continuous improving to the quality of
-            its services with a view to satisfying its Customers. <p></p>• Initiate our
-            personnel to enhance knowledge, leadership and professional
-            competence and maintain consistent credibility. Our people are our
-            best assets.
-            </div>
-            <div className="aboutDetils">
+            <h1>Company Quality Policy</h1>
+            <p>
+              • To adopt maintain and improve its quality system in compliance
+              with national and International standard.
+            </p>{" "}
+            <p>
+              • To comply with the requirements agreed upon and contractually
+              committed with the Customer, in all its service activities. These
+              activities must always be conducted in compliance with all
+              applicable laws and regulations.
+            </p>{" "}
+            <p>
+              • To pursue the continuous improving to the quality of its
+              services with a view to satisfying its Customers.
+            </p>
+            <p>
+              • Initiate our personnel to enhance knowledge, leadership and
+              professional competence and maintain consistent credibility. Our
+              people are our best assets.
+            </p>
+          </div>
+          <div className="aboutDetils">
             <p>
               <h1>VISION</h1>
               VISION To be the best service, being best means providing
@@ -58,67 +66,66 @@ class Contact extends React.Component {
               Services to our valuable customer.
             </p>
             <p>
-            <div className="c1">
-            <img src="https://us.123rf.com/450wm/wrightstudio/wrightstudio1811/wrightstudio181100345/112022515-automation-business-and-industrial-process-workflow-optimisation-software-development-concept-on-vir.jpg?ver=6"></img>
-          </div>
-              <h1>Benefits at a Glance</h1> • The assurance that all of your planning,
-              construction, or operational processes are optimized – so that you
-              can fulfill all requirements and run cost-effective operations. <p></p>•
-              A worldwide network of experts and inspectors. <p></p>• An independent
-              partner providing support and ensuring regulatory compliance
-              across all stages of the component life-cycle as well as access to
-              international markets. <p></p>• An experienced partner ensuring asset
-              safety and reliability throughout the entire life-cycle. <p></p>•
-              Continuously improved technologies through dedicated innovation
-              programs and the perpetual education and training of our
-              personnel.
+              <div className="c1">
+                <img
+                  alt=""
+                  src="https://us.123rf.com/450wm/wrightstudio/wrightstudio1811/wrightstudio181100345/112022515-automation-business-and-industrial-process-workflow-optimisation-software-development-concept-on-vir.jpg?ver=6"
+                ></img>
+              </div>
+              <h1>Benefits at a Glance</h1> • The assurance that all of your
+              planning, construction, or operational processes are optimized –
+              so that you can fulfill all requirements and run cost-effective
+              operations. <p></p>• A worldwide network of experts and
+              inspectors. <p></p>• An independent partner providing support and
+              ensuring regulatory compliance across all stages of the component
+              life-cycle as well as access to international markets. <p></p>• An
+              experienced partner ensuring asset safety and reliability
+              throughout the entire life-cycle. <p></p>• Continuously improved
+              technologies through dedicated innovation programs and the
+              perpetual education and training of our personnel.
             </p>
             <p>
               <h1>Trust</h1>
-               We are aware that we cannot create a reliable and
-              professional company without trusting each other. Therefore, the
-              question “Can I trust you?” is essential for each newcomer to the
-              team. Trust is underlying all other values and goals. Trust
-              between partners and customers means that, in any event, together
-              we will find the best solution. Self-confidence is none the less
-              important since only a self-assured person can be a creator.
-              Self-confidence comes with knowledge, professional expertise,
-              straight talks, encouragement – all of which we try to provide to
-              our employees.
+              We are aware that we cannot create a reliable and professional
+              company without trusting each other. Therefore, the question “Can
+              I trust you?” is essential for each newcomer to the team. Trust is
+              underlying all other values and goals. Trust between partners and
+              customers means that, in any event, together we will find the best
+              solution. Self-confidence is none the less important since only a
+              self-assured person can be a creator. Self-confidence comes with
+              knowledge, professional expertise, straight talks, encouragement –
+              all of which we try to provide to our employees.
             </p>
             <p>
-              <h1>Goal Pursuit / Objectives.</h1> The goal pursuit culture and perception
-              of what each of us must do to achieve the goals both, short-term
-              and long-term, personal and collective, have dominated our
-              company. We realize that the best possible result can be achieved
-              only by becoming professionals and helping each other in pursuit
-              of the company objectives. Professional Expertise. Becoming a
-              professional is the only way for each of us to create a
+              <h1>Goal Pursuit / Objectives.</h1> The goal pursuit culture and
+              perception of what each of us must do to achieve the goals both,
+              short-term and long-term, personal and collective, have dominated
+              our company. We realize that the best possible result can be
+              achieved only by becoming professionals and helping each other in
+              pursuit of the company objectives. Professional Expertise.
+              Becoming a professional is the only way for each of us to create a
               professional company accordingly we continually improve our
               professional skills.
             </p>
             <p>
               <h1>Professional expertise</h1>
-              Professional expertise is a powerful tool in creating more value for
-            customers, offering the best solutions to improve business
-            processes, and saving time and money. Professional expertise
-            represents our approach to values, people, processes, and everything
-            we do.
+              Professional expertise is a powerful tool in creating more value
+              for customers, offering the best solutions to improve business
+              processes, and saving time and money. Professional expertise
+              represents our approach to values, people, processes, and
+              everything we do.
             </p>
-            
+
             <p>
               <h1>Respect</h1>
-               We have respect for the country where we live, including
-              its legislative framework and tax regime; we have respect for the
+              We have respect for the country where we live, including its
+              legislative framework and tax regime; we have respect for the
               rules of business and freedom to express individual opinions; we
               have respect for our employees, customers and partners. We enter
               every new country showing respect for its culture, mentality and
               tax policy.
             </p>
-         
-            </div>
-          
-        
+          </div>
         </div>
         <div className="centerContent description contact">
           <div className="details">

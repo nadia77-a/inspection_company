@@ -3,9 +3,6 @@
   z-index: 99999;
   top: 0;
   width: 100%;
-  background-color: var(--mainBacground);
-  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   font-weight: 500;
   line-height: 23px;
 }
@@ -204,6 +201,9 @@
 @media screen and (min-width: 1024px) {
   #et_mobile_nav_menu {
     display: none;
+  }
+  #main-header .container #top-menu > li.menu-item > a {
+    color: #000 !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
