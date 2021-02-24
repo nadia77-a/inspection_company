@@ -9,7 +9,8 @@ class Contact extends React.Component {
         <div className="main-content__top">
           <div className="addShadow">
             <div className="main-content__top__title centerContent">
-              Our Offices
+              We enable you to meet the challenges of
+            the industry now and in the future.
             </div>
           </div>
         </div>
@@ -21,8 +22,7 @@ class Contact extends React.Component {
             3rd party manufacturing inspections, supplier quality surveillance, by serving oil & gas companies. Capability of delivering 
             highly qualified expertise with the intention of exceeding our client’s expectations for safety, quality, functionality and deliver 
             services that stand the test of time.
-              We enable you to meet the challenges of
-            the industry now and in the future.
+              
           </p>
           <div className="c1">
             <img alt="" src="https://i.imgur.com/rQu0EdY.jpeg"></img>
