@@ -16,11 +16,12 @@ class Contact extends React.Component {
         </div>
         <div className="who centerContent">
           <p>
-            Compass Engineering was created in 2019 as an independent technical service 
-            company that has expert knowledge and experience of Engineering Services - Expediting - Testing & Inspection - NDT - Welding 
+            Compass Engineering was created in 2019 as an Independent Technical Service 
+            Company that has expert knowledge and experience of Engineering Services - Expediting - Testing & Inspection - NDT - Welding 
             and Welder Qualification - Painting and Coating - Design - Construction Supervision. Not limited to integrity evaluation, 
             3rd party manufacturing inspections, supplier quality surveillance, by serving oil & gas companies. Capability of delivering 
-            highly qualified expertise with the intention of exceeding our client’s expectations for safety, quality, functionality and deliver 
+            highly qualified expertise with the intention of exceeding our client’s expectations for safety, quality, functionality
+             and deliver 
             services that stand the test of time.
               
           </p>
@@ -30,21 +31,21 @@ class Contact extends React.Component {
           <div className="c2">
             <h1>Company Quality Policy</h1>
             <p>
-              • To adopt maintain and improve its quality system in compliance
+              To adopt maintain and improve its quality system in compliance
               with national and International standard.
             </p>{" "}
             <p>
-              • To comply with the requirements agreed upon and contractually
+              To comply with the requirements agreed upon and contractually
               committed with the Customer, in all its service activities. These
               activities must always be conducted in compliance with all
               applicable laws and regulations.
             </p>{" "}
             <p>
-              • To pursue the continuous improving to the quality of its
+              To pursue the continuous improving to the quality of its
               services with a view to satisfying its Customers.
             </p>
             <p>
-              • Initiate our personnel to enhance knowledge, leadership and
+              Initiate our personnel to enhance knowledge, leadership and
               professional competence and maintain consistent credibility. Our
               people are our best assets.
             </p>
@@ -83,10 +84,7 @@ class Contact extends React.Component {
               I trust you?” is essential for each newcomer to the team. Trust is
               underlying all other values and goals. Trust between partners and
               customers means that, in any event, together we will find the best
-              solution. Self-confidence is none the less important since only a
-              self-assured person can be a creator. Self-confidence comes with
-              knowledge, professional expertise, straight talks, encouragement –
-              all of which we try to provide to our employees.
+              solution. 
             </p>
             <p>
               <h1>Goal Pursuit / Objectives.</h1> The goal pursuit culture and
@@ -94,14 +92,11 @@ class Contact extends React.Component {
               short-term and long-term, personal and collective, have dominated
               our company. We realize that the best possible result can be
               achieved only by becoming professionals and helping each other in
-              pursuit of the company objectives. Professional Expertise.
-              Becoming a professional is the only way for each of us to create a
-              professional company accordingly we continually improve our
-              professional skills.
+              pursuit of the company objectives.
             </p>
             <p>
               <h1>Professional expertise</h1>
-              Professional expertise is a powerful tool in creating more value
+              A powerful tool in creating more value
               for customers, offering the best solutions to improve business
               processes, and saving time and money. Professional expertise
               represents our approach to values, people, processes, and
@@ -113,9 +108,7 @@ class Contact extends React.Component {
               We have respect for the country where we live, including its
               legislative framework and tax regime; we have respect for the
               rules of business and freedom to express individual opinions; we
-              have respect for our employees, customers and partners. We enter
-              every new country showing respect for its culture, mentality and
-              tax policy.
+              have respect for our employees, customers and partners.
             </p>
           </div>
         </div>
