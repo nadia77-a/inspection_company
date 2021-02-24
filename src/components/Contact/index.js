@@ -34,16 +34,18 @@ class Contact extends React.Component {
             the industry now and in the future.
           </p>
           <div className="c1">
-            <img src="https://i.imgur.com/5PgxMUm.jpeg"></img>
+            <img src="https://i.imgur.com/rQu0EdY.jpeg"></img>
           </div>
           <div className="c2">
-            Company Quality Policy • To adopt maintain and improve its quality
-            system in compliance with national and International standard. • To
+          <h1>Company Quality Policy</h1>
+             • To adopt maintain and improve its quality
+            system in compliance with national and International standard. <p>
+              </p>• To
             comply with the requirements agreed upon and contractually committed
             with the Customer, in all its service activities. These activities
             must always be conducted in compliance with all applicable laws and
-            regulations. • To pursue the continuous improving to the quality of
-            its services with a view to satisfying its Customers. • Initiate our
+            regulations. <p></p>• To pursue the continuous improving to the quality of
+            its services with a view to satisfying its Customers. <p></p>• Initiate our
             personnel to enhance knowledge, leadership and professional
             competence and maintain consistent credibility. Our people are our
             best assets.
@@ -56,14 +58,17 @@ class Contact extends React.Component {
               Services to our valuable customer.
             </p>
             <p>
+            <div className="c1">
+            <img src="https://us.123rf.com/450wm/wrightstudio/wrightstudio1811/wrightstudio181100345/112022515-automation-business-and-industrial-process-workflow-optimisation-software-development-concept-on-vir.jpg?ver=6"></img>
+          </div>
               <h1>Benefits at a Glance</h1> • The assurance that all of your planning,
               construction, or operational processes are optimized – so that you
-              can fulfill all requirements and run cost-effective operations. •
-              A worldwide network of experts and inspectors. • An independent
+              can fulfill all requirements and run cost-effective operations. <p></p>•
+              A worldwide network of experts and inspectors. <p></p>• An independent
               partner providing support and ensuring regulatory compliance
               across all stages of the component life-cycle as well as access to
-              international markets. • An experienced partner ensuring asset
-              safety and reliability throughout the entire life-cycle. •
+              international markets. <p></p>• An experienced partner ensuring asset
+              safety and reliability throughout the entire life-cycle. <p></p>•
               Continuously improved technologies through dedicated innovation
               programs and the perpetual education and training of our
               personnel.

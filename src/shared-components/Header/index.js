@@ -101,7 +101,7 @@ state={
                   <a href="./#career">Career</a>
                 </li> */}
                  <li className="menu-item">
-                  <a href="./#about">Projects</a>
+                  <a href="./#about">Gallery</a>
                 </li>
                 <li className="menu-item">
                   <a href="./#contact">Contact</a>
