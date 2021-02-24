@@ -53,6 +53,25 @@
   display: inline-block;
   position: relative;
   float: left;
+  min-height: 200px;
+}
+
+.mainC .main-content .c1 .img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 0px 20px 70px 0px #262a4c26;
+          box-shadow: 0px 20px 70px 0px #262a4c26;
+}
+
+.mainC .main-content .c1 .img2 {
+  position: absolute;
+  margin-top: 16%;
+  left: 10%;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 0px 20px 70px 0px #262a4c26;
+          box-shadow: 0px 20px 70px 0px #262a4c26;
 }
 
 .mainC .main-content .c1 img {
@@ -79,7 +98,25 @@
 .mainC .main-content .aboutDetils {
   width: 100%;
   margin-top: 40px;
+  margin-bottom: 20px;
   float: left;
+  position: relative;
+  padding: 10px 20px;
+}
+
+.mainC .main-content .aboutDetils:after {
+  content: "";
+  position: absolute;
+  background-image: url(https://ninzio.com/byron/wp-content/uploads/2020/08/bg-image-41.png);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.4;
 }
 
 .mainC .main-content .aboutDetils h1 {

@@ -27,7 +27,8 @@ class Contact extends React.Component {
             the industry now and in the future.
           </p>
           <div className="c1">
-            <img alt="" src="https://i.imgur.com/rQu0EdY.jpeg"></img>
+            <img alt="" src="https://i.imgur.com/rQu0EdY.jpeg" className="img1"></img>
+            <img alt="" src="https://i.imgur.com/ncWeqT7.jpg" className="img2"></img>
           </div>
           <div className="c2">
             <h1>Company Quality Policy</h1>
