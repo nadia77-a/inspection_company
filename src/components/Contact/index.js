@@ -15,22 +15,15 @@ class Contact extends React.Component {
         </div>
         <div className="who centerContent">
           <p>
-            Oil and gas will remain the essential energy sources in the coming
-            decades. New and improved exploration technologies are providing
-            access to new reserves. Compass Engineering is one of the leading
+            Compass Engineering was created in 2019 as one of the leading
             single source providers offering testing, inspection, certification
-            and consulting services. Nevertheless, the challenges are
-            increasing. Not only are new reserves harder to reach, but projects
-            are also becoming increasingly complex and old assets are operating
-            beyond lifetime. Owners, insurers, investors and operators are
+            and consulting services. Owners, insurers, investors and operators are
             therefore confronted with large investments, high competition, new
             technologies and tight project schedules as well as increased legal,
             commercial and environmental requirements. As one of the leading
             single source providers for the oil, gas and petrochemical sector,
             we support you with solutions for all your certification, testing,
-            inspection, training and consulting needs for your up-, mid- and
-            downstream assets. Whether you are involved in planning,
-            construction or operations, we enable you to meet the challenges of
+            inspection, training and consulting needs. We enable you to meet the challenges of
             the industry now and in the future.
           </p>
           <div className="c1">
@@ -60,31 +53,32 @@ class Contact extends React.Component {
           </div>
           <div className="aboutDetils">
             <p>
-              <h1>VISION</h1>
-              VISION To be the best service, being best means providing
-              outstanding quality, service and value of Technical Inspection
-              Services to our valuable customer.
+              <h1>Our Vision</h1>
+              Being best means providing
+              outstanding quality, service and value of Technical
+              Services to our customer.
             </p>
             <p>
-              <div className="c1">
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/wrightstudio/wrightstudio1811/wrightstudio181100345/112022515-automation-business-and-industrial-process-workflow-optimisation-software-development-concept-on-vir.jpg?ver=6"
-                ></img>
-              </div>
-              <h1>Benefits at a Glance</h1> • The assurance that all of your
-              planning, construction, or operational processes are optimized –
-              so that you can fulfill all requirements and run cost-effective
-              operations. <p></p>• A worldwide network of experts and
-              inspectors. <p></p>• An independent partner providing support and
-              ensuring regulatory compliance across all stages of the component
-              life-cycle as well as access to international markets. <p></p>• An
-              experienced partner ensuring asset safety and reliability
-              throughout the entire life-cycle. <p></p>• Continuously improved
-              technologies through dedicated innovation programs and the
-              perpetual education and training of our personnel.
-            </p>
-            <p>
+
+              <h1>Benefits at a Glance</h1>
+              <ul>
+                <li>The assurance that all of your
+                planning, construction, or operational processes are optimized –
+                so that you can fulfill all requirements and run cost-effective
+              operations.</li>
+                <li>A worldwide network of experts and
+              inspectors.</li>
+                <li> An independent partner providing support and
+                ensuring regulatory compliance across all stages of the component
+              life-cycle as well as access to international markets.</li>
+                <li>An
+                experienced partner ensuring asset safety and reliability
+              throughout the entire life-cycle.</li>
+              <li>Continuously improved
+                technologies through dedicated innovation programs and the
+              perpetual education and training of our personnel.</li>
+              </ul>
+
               <h1>Trust</h1>
               We are aware that we cannot create a reliable and professional
               company without trusting each other. Therefore, the question “Can
