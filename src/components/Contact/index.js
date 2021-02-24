@@ -15,15 +15,13 @@ class Contact extends React.Component {
         </div>
         <div className="who centerContent">
           <p>
-            Compass Engineering was created in 2019 as one of the leading
-            single source providers offering testing, inspection, certification
-            and consulting services. Owners, insurers, investors and operators are
-            therefore confronted with large investments, high competition, new
-            technologies and tight project schedules as well as increased legal,
-            commercial and environmental requirements. As one of the leading
-            single source providers for the oil, gas and petrochemical sector,
-            we support you with solutions for all your certification, testing,
-            inspection, training and consulting needs. We enable you to meet the challenges of
+            Compass Engineering was created in 2019 as an independent technical service 
+            company that has expert knowledge and experience of Engineering Services - Expediting - Testing & Inspection - NDT - Welding 
+            and Welder Qualification - Painting and Coating - Design - Construction Supervision. Not limited to integrity evaluation, 
+            3rd party manufacturing inspections, supplier quality surveillance, by serving oil & gas companies. Capability of delivering 
+            highly qualified expertise with the intention of exceeding our client’s expectations for safety, quality, functionality and deliver 
+            services that stand the test of time.
+              We enable you to meet the challenges of
             the industry now and in the future.
           </p>
           <div className="c1">
