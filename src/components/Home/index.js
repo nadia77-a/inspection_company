@@ -333,7 +333,7 @@ class Home extends React.Component {
               </div>
               <div className="contact_col">
                 <div className="contactCol__us">
-                  <div className="title">Contact us</div>
+                  <div className="title">Contact</div>
                   <div className="go">More</div>
                 </div>
               </div>
