@@ -15,15 +15,13 @@ class Contact extends React.Component {
           </div>
         </div>
         <div className="who centerContent">
-          <div className="tit">Who we are</div>
+          <div className="tit"><font size="+2">Who we are</font></div>
           <p>
             Compass Engineering was created in 2019 as an Independent Technical Service 
             Company that has expert knowledge and experience of Engineering Services - Expediting - Testing & Inspection - NDT - Welding 
             and Welder Qualification - Painting and Coating - Design - Construction Supervision. Not limited to integrity evaluation, 
             3rd party manufacturing inspections, supplier quality surveillance, by serving oil & gas companies. Capability of delivering 
-            highly qualified expertise with the intention of exceeding our client’s expectations for safety, quality, functionality
-             and deliver 
-            services that stand the test of time.
+            highly qualified expertise with the intention of exceeding our client’s expectations for safety, quality and functionality.
               
           </p>
           <div className="c1">

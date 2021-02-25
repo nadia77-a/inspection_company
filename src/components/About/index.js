@@ -18,7 +18,7 @@ state ={
               <div className="main-content__top__title centerContent">
                 OUR PROJECTS
                 <div className="description">
-                  COMPASS ENGINEERING provides engineering design, on-site
+                  Compass Engineering provides engineering design, on-site
                   services to the oil & gas processing and petrochemical
                   sectors. Our team of professionals have direct industry
                   experience that adds significant value at each project stage.
