@@ -59,6 +59,7 @@
           -webkit-transition: all 250ms ease-in-out 0s;
         }
         .testimonial {
+overflow: initial;
           background-color: var(--mainActiveBacground);
           padding: 30px;
           position: relative;
