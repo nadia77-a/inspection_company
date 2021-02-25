@@ -30,7 +30,7 @@ class ManPower extends React.Component {
           <div className="description__row">
             <p>
               <p>
-                <b>Your delivery schedules are secured with our expediting services</b>
+                <b><li>Your delivery schedules are secured with our expediting services</li></b>
               </p>
               As manufacturing and supply chain processes become more complex
               and competitive, procurement, management and coordination of
