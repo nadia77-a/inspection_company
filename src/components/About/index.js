@@ -5,7 +5,7 @@ import images from "config/images";
 
 class Quality extends React.Component {
   state = {
-    isActive: "Steel Structures",
+    isActive: "Design",
   };
 
   render() {
@@ -31,52 +31,52 @@ class Quality extends React.Component {
         <div className="centerContent description">
           <ul class="tabs">
             <li
-              data-tab-target="#Steel Structures"
-              class={`tab ` + (isActive === "Steel Structures" ? "active" : "")}
-              onClick={() => this.setState({ isActive: "Steel Structures" })}
+              data-tab-target="#Design"
+              class={`tab ` + (isActive === "Design" ? "active" : "")}
+              onClick={() => this.setState({ isActive: "Design" })}
             >
-              Steel Structures
+              Design
             </li>
             <li
-              data-tab-target="#Pipelines"
-              class={`tab ` + (isActive === "Pipelines" ? "active" : "")}
-              onClick={() => this.setState({ isActive: "Pipelines" })}
+              data-tab-target="#Inspection and Expediting"
+              class={`tab ` + (isActive === "Inspection and Expediting" ? "active" : "")}
+              onClick={() => this.setState({ isActive: "Inspection and Expediting" })}
             >
-              Pipelines
+              Inspection and Expediting
             </li>
             <li
-              data-tab-target="#Oil Storage Tanks"
+              data-tab-target="#Welding"
               class={
-                `tab ` + (isActive === "Oil Storage Tanks" ? "active" : "")
+                `tab ` + (isActive === "Welding" ? "active" : "")
               }
-              onClick={() => this.setState({ isActive: "Oil Storage Tanks" })}
+              onClick={() => this.setState({ isActive: "Welding" })}
             >
-              Oil Storage Tanks
+              Welding
             </li>
             <li
-              data-tab-target="#Tank Farms"
-              class={`tab ` + (isActive === "Tank Farms" ? "active" : "")}
-              onClick={() => this.setState({ isActive: "Tank Farms" })}
+              data-tab-target="#Quality Support"
+              class={`tab ` + (isActive === "Quality Support" ? "active" : "")}
+              onClick={() => this.setState({ isActive: "Quality Support" })}
             >
-              Tank Farms
+              Quality Support
             </li>
             <li
-              data-tab-target="#Tank Farms"
-              class={`tab ` + (isActive === "Tank Farms" ? "active" : "")}
-              onClick={() => this.setState({ isActive: "Tank Farms" })}
+              data-tab-target="#Oil and Gas"
+              class={`tab ` + (isActive === "Oil and Gas" ? "active" : "")}
+              onClick={() => this.setState({ isActive: "Oil and Gas" })}
             >
-              Tank Farms
+              Oil and Gas
             </li>
           </ul>
 
           <div class="tab-content">
             <div
-              id="Steel Structures"
+              id="Design"
               data-tab-content
-              class={isActive === "Steel Structures" ? "active" : ""}
-              onClick={() => this.setState({ isActive: "Steel Structurese" })}
+              class={isActive === "Design" ? "active" : ""}
+              onClick={() => this.setState({ isActive: "Design" })}
             >
-              {/* <h1>Steel Structures</h1> */}
+              {/* <h1>Design</h1> */}
               <p>
                 <img
                   alt=""
@@ -121,12 +121,12 @@ class Quality extends React.Component {
               </p>
             </div>
             <div
-              id="Pipelines"
+              id="Inspection and Expediting"
               data-tab-content
-              class={isActive === "Pipelines" ? "active" : ""}
-              onClick={() => this.setState({ isActive: "Pipelines" })}
+              class={isActive === "Inspection and Expediting" ? "active" : ""}
+              onClick={() => this.setState({ isActive: "Inspection and Expediting" })}
             >
-              {/* <h1>Pipelines</h1> */}
+              {/* <h1>Inspection and Expediting</h1> */}
               <p>
                 <img
                   alt=""
@@ -179,12 +179,12 @@ class Quality extends React.Component {
               </p>
             </div>
             <div
-              id="Oil Storage Tanks"
+              id="Welding"
               data-tab-content
-              class={isActive === "Oil Storage Tanks" ? "active" : ""}
-              onClick={() => this.setState({ isActive: "Oil Storage Tanks" })}
+              class={isActive === "Welding" ? "active" : ""}
+              onClick={() => this.setState({ isActive: "Welding" })}
             >
-              {/* <h1>Oil Storage Tanks</h1> */}
+              {/* <h1>Welding</h1> */}
               <p>
                 <img
                   alt=""
@@ -220,13 +220,14 @@ class Quality extends React.Component {
                 ></img>
               </p>
             </div>
+            
             <div
-              id="Tank Farms"
+              id="Quality Support"
               data-tab-content
-              class={isActive === "Tank Farms" ? "active" : ""}
-              onClick={() => this.setState({ isActive: "Tank Farms" })}
+              class={isActive === "Quality Support" ? "active" : ""}
+              onClick={() => this.setState({ isActive: "Quality Support" })}
             >
-              {/* <h1>Tank Farms</h1> */}
+              {/* <h1>Quality Support</h1> */}
               <p>
                 <img
                   alt=""
@@ -262,6 +263,50 @@ class Quality extends React.Component {
                 ></img>
               </p>
             </div>
+            
+            <div
+              id="Oil and Gas"
+              data-tab-content
+              class={isActive === "Oil and Gas" ? "active" : ""}
+              onClick={() => this.setState({ isActive: "Oil and Gas" })}
+            >
+              {/* <h1>Quality Support</h1> */}
+              <p>
+                <img
+                  alt=""
+                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
+                ></img>
+                <img
+                  alt=""
+                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
+                ></img>
+                <img
+                  alt=""
+                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
+                ></img>
+                <img
+                  alt=""
+                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
+                ></img>
+                <img
+                  alt=""
+                  src="https://us.123rf.com/450wm/valex113/valex1131508/valex113150800008/43701758-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
+                ></img>
+                <img
+                  alt=""
+                  src="https://us.123rf.com/450wm/valex113/valex1131507/valex113150700050/43130817-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
+                ></img>
+                <img
+                  alt=""
+                  src="https://us.123rf.com/450wm/valex113/valex1131509/valex113150900045/45274329-abstract-3d-rendering-of-black-surface-background-with-futuristic-polygonal-shape-.jpg?ver=6"
+                ></img>
+                <img
+                  alt=""
+                  src="https://us.123rf.com/450wm/valex113/valex1131507/valex113150700050/43130817-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
+                ></img>
+              </p>
+            </div>
+          
           </div>
         </div>
       </div>

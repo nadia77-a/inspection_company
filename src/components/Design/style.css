@@ -68,6 +68,7 @@
 }
 
 .mainC .main-content .description__row .testimonial {
+  overflow: initial;
   background-color: var(--mainActiveBacground);
   padding: 30px;
   position: relative;
