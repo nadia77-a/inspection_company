@@ -10,6 +10,159 @@ class Quality extends React.Component {
 
   render() {
     const { isActive } = this.state;
+    const services = [
+      {
+        id: 1,
+        name: "Design",
+        images: [
+          {
+            id: 11,
+            title: "title1",
+            src:
+            images.q1,
+          },
+          {
+            id: 12,
+            title: "title1",
+            src:images.q2
+          },
+          {
+            id: 11,
+            title: "title1",
+            src:images.q3,
+          },
+          {
+            id: 11,
+            title: "title1",
+            src:images.q4,
+          },
+          {
+            id: 11,
+            title: "title1",
+            src:images.q5,
+          },
+          {
+            id: 11,
+            title: "title1",
+            src:images.q2,
+          },
+        ],
+      },
+      {
+        id: 2,
+        name: "Inspection and Expediting",
+        images: [
+          {
+            id: 11,
+            title: "title1",
+            src:images.o1,
+          },
+          {
+            id: 11,
+            src:images.o2,
+          },
+          {
+            id: 11,
+            src:images.o3,
+          },
+          {
+            id: 11,
+            src:images.o4,
+          },
+          {
+            id: 12,
+            src:images.o5
+          },
+        ],
+      },
+      {
+        id: 3,
+        name: "Welding",
+        title: "title1",
+        images: [
+          {
+            id: 11,
+            src:
+              "https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg",
+          },
+          {
+            id: 12,
+            src:
+              "https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg",
+          },
+          {
+            id: 11,
+            src:images.q1,
+          },
+          {
+            id: 11,
+            src:images.q1,
+          },
+        ],
+      },
+      {
+        id: 4,
+        name: "Quality Support",
+        title: "title1",
+        images: [
+          {
+            id: 11,
+            src:
+              "https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg",
+          },
+          {
+            id: 12,
+            src:
+              "https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg",
+          },
+          {
+            id: 11,
+            src:images.q1,
+          },
+          {
+            id: 11,
+            src:images.q1,
+          },
+          {
+            id: 11,
+            src:images.q1,
+          },
+          {
+            id: 11,
+            src:images.q1,
+          },
+        ],
+      },
+      {
+        id: 1,
+        name: "Oil and Gas",
+        title: "title1",
+        images: [
+          {
+            id: 11,
+            src:
+              "https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg",
+          },
+          {
+            id: 12,
+            src:
+              "https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg",
+          },
+          {
+            id: 11,
+            src:images.q1,
+          },
+          {
+            id: 11,
+            src:images.q1,
+          },
+          {
+            id: 11,
+            src:images.q1,
+          },
+        ],
+      },
+    ];
     return (
       <div className="main-content projects">
         <div className="main-content__top">
@@ -29,284 +182,38 @@ class Quality extends React.Component {
           </div>
         </div>
         <div className="centerContent description">
-          <ul class="tabs">
-            <li
-              data-tab-target="#Design"
-              class={`tab ` + (isActive === "Design" ? "active" : "")}
-              onClick={() => this.setState({ isActive: "Design" })}
-            >
-              Design
-            </li>
-            <li
-              data-tab-target="#Inspection and Expediting"
-              class={`tab ` + (isActive === "Inspection and Expediting" ? "active" : "")}
-              onClick={() => this.setState({ isActive: "Inspection and Expediting" })}
-            >
-              Inspection and Expediting
-            </li>
-            <li
-              data-tab-target="#Welding"
-              class={
-                `tab ` + (isActive === "Welding" ? "active" : "")
-              }
-              onClick={() => this.setState({ isActive: "Welding" })}
-            >
-              Welding
-            </li>
-            <li
-              data-tab-target="#Quality Support"
-              class={`tab ` + (isActive === "Quality Support" ? "active" : "")}
-              onClick={() => this.setState({ isActive: "Quality Support" })}
-            >
-              Quality Support
-            </li>
-            <li
-              data-tab-target="#Oil and Gas"
-              class={`tab ` + (isActive === "Oil and Gas" ? "active" : "")}
-              onClick={() => this.setState({ isActive: "Oil and Gas" })}
-            >
-              Oil and Gas
-            </li>
+          <ul className="tabs">
+            {services.map((item, index) => {
+              return (
+                <li
+                  key={index}
+                  data-tab-target={`#` + item.name}
+                  className={`tab ` + (isActive === item.name ? "active" : "")}
+                  onClick={() => this.setState({ isActive: item.name })}
+                >
+                  {item.name}
+                </li>
+              );
+            })}
           </ul>
 
-          <div class="tab-content">
-            <div
-              id="Design"
-              data-tab-content
-              class={isActive === "Design" ? "active" : ""}
-              onClick={() => this.setState({ isActive: "Design" })}
-            >
-              {/* <h1>Design</h1> */}
-              <p>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131508/valex113150800004/43701616-abstract-3d-rendering-of-low-poly-structure-sci-fi-background-with-wireframe-and-particles-in-empty-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131508/valex113150800008/43701758-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131507/valex113150700050/43130817-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131509/valex113150900045/45274329-abstract-3d-rendering-of-black-surface-background-with-futuristic-polygonal-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131507/valex113150700050/43130817-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131509/valex113150900045/45274329-abstract-3d-rendering-of-black-surface-background-with-futuristic-polygonal-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131508/valex113150800008/43701758-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131507/valex113150700050/43130817-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131509/valex113150900045/45274329-abstract-3d-rendering-of-black-surface-background-with-futuristic-polygonal-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131507/valex113150700050/43130817-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-              </p>
-            </div>
-            <div
-              id="Inspection and Expediting"
-              data-tab-content
-              class={isActive === "Inspection and Expediting" ? "active" : ""}
-              onClick={() => this.setState({ isActive: "Inspection and Expediting" })}
-            >
-              {/* <h1>Inspection and Expediting</h1> */}
-              <p>
-                <img
-                  alt=""
-                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
-                ></img>
-                <img
-                  alt=""
-                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
-                ></img>
-                <img
-                  alt=""
-                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
-                ></img>
-                <img
-                  alt=""
-                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131508/valex113150800008/43701758-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131507/valex113150700050/43130817-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131509/valex113150900045/45274329-abstract-3d-rendering-of-black-surface-background-with-futuristic-polygonal-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131507/valex113150700050/43130817-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131508/valex113150800008/43701758-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131507/valex113150700050/43130817-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131509/valex113150900045/45274329-abstract-3d-rendering-of-black-surface-background-with-futuristic-polygonal-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131507/valex113150700050/43130817-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-              </p>
-            </div>
-            <div
-              id="Welding"
-              data-tab-content
-              class={isActive === "Welding" ? "active" : ""}
-              onClick={() => this.setState({ isActive: "Welding" })}
-            >
-              {/* <h1>Welding</h1> */}
-              <p>
-                <img
-                  alt=""
-                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
-                ></img>
-                <img
-                  alt=""
-                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
-                ></img>
-                <img
-                  alt=""
-                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
-                ></img>
-                <img
-                  alt=""
-                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131508/valex113150800008/43701758-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131507/valex113150700050/43130817-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131509/valex113150900045/45274329-abstract-3d-rendering-of-black-surface-background-with-futuristic-polygonal-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131507/valex113150700050/43130817-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-              </p>
-            </div>
-            
-            <div
-              id="Quality Support"
-              data-tab-content
-              class={isActive === "Quality Support" ? "active" : ""}
-              onClick={() => this.setState({ isActive: "Quality Support" })}
-            >
-              {/* <h1>Quality Support</h1> */}
-              <p>
-                <img
-                  alt=""
-                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
-                ></img>
-                <img
-                  alt=""
-                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
-                ></img>
-                <img
-                  alt=""
-                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
-                ></img>
-                <img
-                  alt=""
-                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131508/valex113150800008/43701758-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131507/valex113150700050/43130817-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131509/valex113150900045/45274329-abstract-3d-rendering-of-black-surface-background-with-futuristic-polygonal-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131507/valex113150700050/43130817-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-              </p>
-            </div>
-            
-            <div
-              id="Oil and Gas"
-              data-tab-content
-              class={isActive === "Oil and Gas" ? "active" : ""}
-              onClick={() => this.setState({ isActive: "Oil and Gas" })}
-            >
-              {/* <h1>Quality Support</h1> */}
-              <p>
-                <img
-                  alt=""
-                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
-                ></img>
-                <img
-                  alt=""
-                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
-                ></img>
-                <img
-                  alt=""
-                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
-                ></img>
-                <img
-                  alt=""
-                  src="https://quintus.modeltheme.com/wp-content/uploads/2016/02/quintus_pic2.jpg"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131508/valex113150800008/43701758-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131507/valex113150700050/43130817-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131509/valex113150900045/45274329-abstract-3d-rendering-of-black-surface-background-with-futuristic-polygonal-shape-.jpg?ver=6"
-                ></img>
-                <img
-                  alt=""
-                  src="https://us.123rf.com/450wm/valex113/valex1131507/valex113150700050/43130817-abstract-3d-rendering-of-black-surface-background-with-futuristic-low-poly-shape-.jpg?ver=6"
-                ></img>
-              </p>
-            </div>
-          
+          <div className="tab-content">
+            {services
+              .filter((item) => item.name === isActive)
+              .map((item, index) => {
+                return (
+                  <div key={index}>
+                    {item.images.map((sub, i) => {
+                      return (
+                        <div key={i}>
+                          <img src={sub.src} alt=""></img>
+                          <h3>{sub?.title}</h3>
+                        </div>
+                      );
+                    })}
+                  </div>
+                );
+              })}
           </div>
         </div>
       </div>

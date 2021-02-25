@@ -125,7 +125,7 @@ class Quality extends React.Component {
             <div className="description__row__col2">
               <img  alt = "" src={images.w6}></img>
               <h3>
-                <strong>NDT (PT/RT/UT/VT/MT)</strong>
+                <strong>NDT</strong>
               </h3>
               <p>
                 With non-destructive weld testing from Compass, you assure the

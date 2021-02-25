@@ -90,7 +90,7 @@ componentDidMount() {
                 </li>
                
                 <li className="menu-item">
-                  <a href="./#">Services</a>
+                  <a>Services</a>
                   <ul className="sub-menu">
                     <li className="menu-item">
                       <a href="./#design/">Design</a>

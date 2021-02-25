@@ -71,30 +71,6 @@ class Contact extends React.Component {
               of Technical Services to our customer.
             </p>
             <p>
-              <h1>Benefits at a Glance</h1>
-              <ul>
-                <li>
-                  The assurance that all of your planning, construction, or
-                  operational processes are optimized – so that you can fulfill
-                  all requirements and run cost-effective operations.
-                </li>
-                <li>A worldwide network of experts and inspectors.</li>
-                <li>
-                  {" "}
-                  An independent partner providing support and ensuring
-                  regulatory compliance across all stages of the component
-                  life-cycle as well as access to international markets.
-                </li>
-                <li>
-                  An experienced partner ensuring asset safety and reliability
-                  throughout the entire life-cycle.
-                </li>
-                <li>
-                  Continuously improved technologies through dedicated
-                  innovation programs and the perpetual education and training
-                  of our personnel.
-                </li>
-              </ul>
               <h1>Trust</h1>
               We are aware that we cannot create a reliable and professional
               company without trusting each other. Therefore, the question “Can
