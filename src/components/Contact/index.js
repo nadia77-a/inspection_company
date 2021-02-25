@@ -5,86 +5,103 @@ import "./style.css";
 class Contact extends React.Component {
   render() {
     return (
-      <div className="main-content">
+      <div className="main-content about">
         <div className="main-content__top">
           <div className="addShadow">
             <div className="main-content__top__title centerContent">
-              We enable you to meet the challenges of
-            the industry now and in the future.
+              We enable you to meet the challenges of the industry now and in
+              the future.
             </div>
           </div>
         </div>
         <div className="who centerContent">
-          <div className="tit"><font size="+2">Who we are</font></div>
+          <div className="tit">Who we are</div>
           <p>
-            Compass Engineering was created in 2019 as an Independent Technical Service 
-            Company that has expert knowledge and experience of Engineering Services - Expediting - Testing & Inspection - NDT - Welding 
-            and Welder Qualification - Painting and Coating - Design - Construction Supervision. Not limited to integrity evaluation, 
-            3rd party manufacturing inspections, supplier quality surveillance, by serving oil & gas companies. Capability of delivering 
-            highly qualified expertise with the intention of exceeding our client’s expectations for safety, quality and functionality.
-              
+            Compass Engineering was created in 2019 as an Independent Technical
+            Service Company that has expert knowledge and experience of
+            Engineering Services - Expediting - Testing & Inspection - NDT -
+            Welding and Welder Qualification - Painting and Coating - Design -
+            Construction Supervision. Not limited to integrity evaluation, 3rd
+            party manufacturing inspections, supplier quality surveillance, by
+            serving oil & gas companies. Capability of delivering highly
+            qualified expertise with the intention of exceeding our client’s
+            expectations for safety, quality and functionality.
           </p>
           <div className="c1">
-            <img alt="" src="https://i.imgur.com/rQu0EdY.jpeg" className="img1"></img>
-            <img alt="" src="https://i.imgur.com/ncWeqT7.jpg" className="img2"></img>
+            <img
+              alt=""
+              src="https://i.imgur.com/rQu0EdY.jpeg"
+              className="img1"
+            ></img>
+            <img
+              alt=""
+              src="https://i.imgur.com/ncWeqT7.jpg"
+              className="img2"
+            ></img>
           </div>
           <div className="c2">
             <h1>Company Quality Policy</h1>
             <p>
-            <i className="fa fa-check-circle"></i> To adopt maintain and improve its quality system in compliance
-              with national and International standard.
+              <i className="fa fa-check-circle"></i> To adopt maintain and
+              improve its quality system in compliance with national and
+              International standard.
             </p>{" "}
             <p>
-            <i className="fa fa-check-circle"></i> To comply with the requirements agreed upon and contractually
-              committed with the Customer, in all its service activities. These
-              activities must always be conducted in compliance with all
-              applicable laws and regulations.
+              <i className="fa fa-check-circle"></i> To comply with the
+              requirements agreed upon and contractually committed with the
+              Customer, in all its service activities. These activities must
+              always be conducted in compliance with all applicable laws and
+              regulations.
             </p>{" "}
             <p>
-            <i className="fa fa-check-circle"></i> To pursue the continuous improving to the quality of its
-              services with a view to satisfying its Customers.
+              <i className="fa fa-check-circle"></i> To pursue the continuous
+              improving to the quality of its services with a view to satisfying
+              its Customers.
             </p>
             <p>
-            <i className="fa fa-check-circle"></i> Initiate our personnel to enhance knowledge, leadership and
-              professional competence and maintain consistent credibility. Our
-              people are our best assets.
+              <i className="fa fa-check-circle"></i> Initiate our personnel to
+              enhance knowledge, leadership and professional competence and
+              maintain consistent credibility. Our people are our best assets.
             </p>
           </div>
           <div className="aboutDetils">
             <p>
               <h1>Our Vision</h1>
-              Being best means providing
-              outstanding quality, service and value of Technical
-              Services to our customer.
+              Being best means providing outstanding quality, service and value
+              of Technical Services to our customer.
             </p>
             <p>
-
               <h1>Benefits at a Glance</h1>
               <ul>
-                <li>The assurance that all of your
-                planning, construction, or operational processes are optimized –
-                so that you can fulfill all requirements and run cost-effective
-              operations.</li>
-                <li>A worldwide network of experts and
-              inspectors.</li>
-                <li> An independent partner providing support and
-                ensuring regulatory compliance across all stages of the component
-              life-cycle as well as access to international markets.</li>
-                <li>An
-                experienced partner ensuring asset safety and reliability
-              throughout the entire life-cycle.</li>
-              <li>Continuously improved
-                technologies through dedicated innovation programs and the
-              perpetual education and training of our personnel.</li>
+                <li>
+                  The assurance that all of your planning, construction, or
+                  operational processes are optimized – so that you can fulfill
+                  all requirements and run cost-effective operations.
+                </li>
+                <li>A worldwide network of experts and inspectors.</li>
+                <li>
+                  {" "}
+                  An independent partner providing support and ensuring
+                  regulatory compliance across all stages of the component
+                  life-cycle as well as access to international markets.
+                </li>
+                <li>
+                  An experienced partner ensuring asset safety and reliability
+                  throughout the entire life-cycle.
+                </li>
+                <li>
+                  Continuously improved technologies through dedicated
+                  innovation programs and the perpetual education and training
+                  of our personnel.
+                </li>
               </ul>
-
               <h1>Trust</h1>
               We are aware that we cannot create a reliable and professional
               company without trusting each other. Therefore, the question “Can
               I trust you?” is essential for each newcomer to the team. Trust is
               underlying all other values and goals. Trust between partners and
               customers means that, in any event, together we will find the best
-              solution. 
+              solution.
             </p>
             <p>
               <h1>Goal Pursuit / Objectives.</h1> The goal pursuit culture and
@@ -95,12 +112,11 @@ class Contact extends React.Component {
               pursuit of the company objectives.
             </p>
             <p>
-              <h1>Professional expertise</h1>
-              A powerful tool in creating more value
-              for customers, offering the best solutions to improve business
-              processes, and saving time and money. Professional expertise
-              represents our approach to values, people, processes, and
-              everything we do.
+              <h1>Professional expertise</h1>A powerful tool in creating more
+              value for customers, offering the best solutions to improve
+              business processes, and saving time and money. Professional
+              expertise represents our approach to values, people, processes,
+              and everything we do.
             </p>
 
             <p>
@@ -112,6 +128,7 @@ class Contact extends React.Component {
             </p>
           </div>
         </div>
+        <div className="tit">Where could you find us</div>
         <div className="centerContent description contact">
           <div className="details">
             <div className="location-box">
