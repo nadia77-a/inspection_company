@@ -45,8 +45,8 @@ class ManPower extends React.Component {
               <p></p>
               <p></p>
               <p>
-                <b>What do you need to reach project milestones and asserting
-                reliability?</b>
+                <b><li>What do you need to reach project milestones and asserting
+                reliability?</li></b>
               </p>
               Our experts actively keep an eye on the deadlines and
               manufacturing schedule to help you reach defined project
