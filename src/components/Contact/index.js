@@ -17,13 +17,13 @@ class Contact extends React.Component {
         <div className="who centerContent">
           <div className="tit">Who we are</div>
           <p>
-            Compass Engineering was created in 2019 as an Independent Technical
-            Service Company that has expert knowledge and experience of
+            Compass Engineering is an Independent Technical
+            Service Company in Albania that has expert knowledge and experience of
             Engineering Services - Expediting - Testing & Inspection - NDT -
             Welding and Welder Qualification - Painting and Coating - Design -
             Construction Supervision. Not limited to integrity evaluation, 3rd
             party manufacturing inspections, supplier quality surveillance, by
-            serving oil & gas companies. Capability of delivering highly
+            serving oil & gas companies. <p></p>Capability of delivering highly
             qualified expertise with the intention of exceeding our client’s
             expectations for safety, quality and functionality.
           </p>
@@ -47,21 +47,18 @@ class Contact extends React.Component {
               International standard.
             </p>{" "}
             <p>
-              <i className="fa fa-check-circle"></i> To comply with the
-              requirements agreed upon and contractually committed with the
-              Customer, in all its service activities. These activities must
-              always be conducted in compliance with all applicable laws and
-              regulations.
+              <i className="fa fa-check-circle"></i> To comply with 
+              requirements agreed. These activities must
+              always be conducted with all applicable regulations.
             </p>{" "}
             <p>
               <i className="fa fa-check-circle"></i> To pursue the continuous
               improving to the quality of its services with a view to satisfying
-              its Customers.
+              its customers.
             </p>
             <p>
               <i className="fa fa-check-circle"></i> Initiate our personnel to
-              enhance knowledge, leadership and professional competence and
-              maintain consistent credibility. Our people are our best assets.
+              enhance knowledge and professional competence. Our people are our best assets.
             </p>
           </div>
           <div className="aboutDetils">
@@ -73,34 +70,23 @@ class Contact extends React.Component {
             <p>
               <h1>Trust</h1>
               We are aware that we cannot create a reliable and professional
-              company without trusting each other. Therefore, the question “Can
-              I trust you?” is essential for each newcomer to the team. Trust is
-              underlying all other values and goals. Trust between partners and
-              customers means that, in any event, together we will find the best
-              solution.
+              company without trusting each other. Trust is
+              underlying all other values and goals.
             </p>
             <p>
-              <h1>Goal Pursuit / Objectives.</h1> The goal pursuit culture and
-              perception of what each of us must do to achieve the goals both,
-              short-term and long-term, personal and collective, have dominated
-              our company. We realize that the best possible result can be
-              achieved only by becoming professionals and helping each other in
+              <h1>Objectives</h1>We realize that the best possible result can be
+              achieved by becoming professionals and helping each other in
               pursuit of the company objectives.
             </p>
             <p>
-              <h1>Professional expertise</h1>A powerful tool in creating more
-              value for customers, offering the best solutions to improve
-              business processes, and saving time and money. Professional
-              expertise represents our approach to values, people, processes,
+              <h1>Professional expertise</h1>A powerful tool of our approach to values, people, processes,
               and everything we do.
             </p>
 
             <p>
               <h1>Respect</h1>
               We have respect for the country where we live, including its
-              legislative framework and tax regime; we have respect for the
-              rules of business and freedom to express individual opinions; we
-              have respect for our employees, customers and partners.
+              legislative framework; rules of business; for our employees, customers and partners.
             </p>
           </div>
         </div>
