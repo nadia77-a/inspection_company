@@ -18,33 +18,32 @@ class Quality extends React.Component {
           {
             id: 11,
             title: "title1",
-            src:
-            images.q1,
+            src: images.q1,
           },
           {
             id: 12,
             title: "title1",
-            src:images.q2
+            src: images.q2,
           },
           {
             id: 11,
             title: "title1",
-            src:images.q3,
+            src: images.q3,
           },
           {
             id: 11,
             title: "title1",
-            src:images.q4,
+            src: images.q4,
           },
           {
             id: 11,
             title: "title1",
-            src:images.q5,
+            src: images.q5,
           },
           {
             id: 11,
             title: "title1",
-            src:images.q2,
+            src: images.q2,
           },
         ],
       },
@@ -55,23 +54,23 @@ class Quality extends React.Component {
           {
             id: 11,
             title: "title1",
-            src:images.o1,
+            src: images.o1,
           },
           {
             id: 11,
-            src:images.o2,
+            src: images.o2,
           },
           {
             id: 11,
-            src:images.o3,
+            src: images.o3,
           },
           {
             id: 11,
-            src:images.o4,
+            src: images.o4,
           },
           {
             id: 12,
-            src:images.o5
+            src: images.o5,
           },
         ],
       },
@@ -92,11 +91,11 @@ class Quality extends React.Component {
           },
           {
             id: 11,
-            src:images.q1,
+            src: images.q1,
           },
           {
             id: 11,
-            src:images.q1,
+            src: images.q1,
           },
         ],
       },
@@ -117,19 +116,19 @@ class Quality extends React.Component {
           },
           {
             id: 11,
-            src:images.q1,
+            src: images.q1,
           },
           {
             id: 11,
-            src:images.q1,
+            src: images.q1,
           },
           {
             id: 11,
-            src:images.q1,
+            src: images.q1,
           },
           {
             id: 11,
-            src:images.q1,
+            src: images.q1,
           },
         ],
       },
@@ -150,15 +149,15 @@ class Quality extends React.Component {
           },
           {
             id: 11,
-            src:images.q1,
+            src: images.q1,
           },
           {
             id: 11,
-            src:images.q1,
+            src: images.q1,
           },
           {
             id: 11,
-            src:images.q1,
+            src: images.q1,
           },
         ],
       },
@@ -202,10 +201,10 @@ class Quality extends React.Component {
               .filter((item) => item.name === isActive)
               .map((item, index) => {
                 return (
-                  <div key={index}>
+                  <div key={index} className="tabss">
                     {item.images.map((sub, i) => {
                       return (
-                        <div key={i}>
+                        <div key={i} className={`tabss__single _` + i}>
                           <img src={sub.src} alt=""></img>
                           <h3>{sub?.title}</h3>
                         </div>

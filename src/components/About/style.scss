@@ -73,20 +73,22 @@
   .tab-content {
     margin-left: 20px;
     margin-right: 20px;
-    div {
-      div {
+    div.tabss {
+      div.tabss__single {
         width: 25%;
         height: auto;
         display: inline-block;
-        animation-name: fadeInUp;
-        animation-duration: 1s;
-        animation-fill-mode: both;
+        // animation-name: fadeInUp;
+        // animation-duration: 1s;
+        // animation-fill-mode: both;
         position: relative;
         overflow: hidden;
         &:hover {
           h3 {
             height: auto;
             z-index: 2;
+            animation-name: fadeInTop;
+            animation-duration: 500ms;
           }
 
           :before {
@@ -113,13 +115,13 @@
           }
         }
         h3 {
-         
           float: left;
-          font-size: 18px;
+          font-size: 14px;
           text-align: center;
           background: var(--mainActiveBacground);
+          text-transform: uppercase;
           color: #fff;
-          line-height: 50px;
+          line-height: 30px;
           bottom: -60px;
           font-weight: 500;
           height: 0;
@@ -129,36 +131,65 @@
           width: calc(100% - 10px);
           width: 100%;
         }
-img {
-  padding: 0 5px;
-}
-        &:nth-child(1) {
-          animation-duration: 300ms;
+        img {
+          padding: 0 5px;
+          animation-name: fadeInUp;
+          animation-duration: 1s;
+          &:nth-child(1) {
+            animation-duration: 300ms;
+          }
+          &:nth-child(2) {
+            animation-duration: 350ms;
+          }
+          &:nth-child(3) {
+            animation-duration: 400ms;
+          }
+          &:nth-child(4) {
+            animation-duration: 450ms;
+          }
+          &:nth-child(5) {
+            animation-duration: 500ms;
+          }
+          &:nth-child(6) {
+            animation-duration: 550ms;
+          }
+          &:nth-child(7) {
+            animation-duration: 600ms;
+          }
+          &:nth-child(8) {
+            animation-duration: 650ms;
+          }
+          &:nth-child(9) {
+            animation-duration: 700ms;
+          }
         }
-        &:nth-child(2) {
-          animation-duration: 350ms;
-        }
-        &:nth-child(3) {
-          animation-duration: 400ms;
-        }
-        &:nth-child(4) {
-          animation-duration: 450ms;
-        }
-        &:nth-child(5) {
-          animation-duration: 500ms;
-        }
-        &:nth-child(6) {
-          animation-duration: 550ms;
-        }
-        &:nth-child(7) {
-          animation-duration: 600ms;
-        }
-        &:nth-child(8) {
-          animation-duration: 650ms;
-        }
-        &:nth-child(9) {
-          animation-duration: 700ms;
-        }
+        // &:nth-child(1) {
+        //   animation-duration: 300ms;
+        // }
+        // &:nth-child(2) {
+        //   animation-duration: 350ms;
+        // }
+        // &:nth-child(3) {
+        //   animation-duration: 400ms;
+        // }
+        // &:nth-child(4) {
+        //   animation-duration: 450ms;
+        // }
+        // &:nth-child(5) {
+        //   animation-duration: 500ms;
+        // }
+        // &:nth-child(6) {
+        //   animation-duration: 550ms;
+        // }
+        // &:nth-child(7) {
+        //   animation-duration: 600ms;
+        // }
+        // &:nth-child(8) {
+        //   animation-duration: 650ms;
+        // }
+        // &:nth-child(9) {
+        //   animation-duration: 700ms;
+        // }
         img {
           width: 100%;
         }
