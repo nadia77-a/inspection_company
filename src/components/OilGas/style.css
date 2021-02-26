@@ -1,5 +1,5 @@
 .mainC .oilGas .main-content__top {
-  background-image: url(https://i.imgur.com/TcGVOqJ.jpeg);
+  background-image: url(https://i.imgur.com/TcGVOqJ.jpg);
   background-position: center;
   background-size: 100%;
   background-size: cover;
@@ -50,7 +50,7 @@
 }
 
 .mainC .main-content .description__row .testimonial {
-overflow: initial;
+  overflow: initial;
   background-color: var(--mainActiveBacground);
   padding: 30px;
   position: relative;

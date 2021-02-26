@@ -300,3 +300,31 @@
     transform: none;
   }
 }
+
+@media (max-width: 1024px) {
+  .mainC .main-content {
+    .c1 {
+      width: 100%;
+    }
+    .c2 {
+      width: 100%;
+    }
+    .aboutDetils {
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 10px;
+      padding: 0px 5px;
+    }
+    .contact {
+      display: block;
+      .location-box {
+        margin-bottom: 10px !important;
+      }
+    }
+    .details,
+    .map {
+      width: 100% !important;
+      padding-left: 0 !important;
+    }
+  }
+}
