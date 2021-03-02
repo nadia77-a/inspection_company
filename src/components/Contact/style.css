@@ -3,7 +3,7 @@
 }
 
 .mainC .main-content__top {
-  background-image: url(https://t4.ftcdn.net/jpg/01/98/22/71/240_F_198227156_8dKsEWU8ZeVRSYW7QecJ7KUBr9DXcWLa.jpg);
+  background-image: url(../../assets/images/contactBanner.jpg);
   background-position: center;
   background-size: 100%;
   background-size: cover;
@@ -137,7 +137,7 @@
 .mainC .main-content .aboutDetils:after {
   content: "";
   position: absolute;
-  background-image: url(https://ninzio.com/byron/wp-content/uploads/2020/08/bg-image-41.png);
+  background-image: url(../../assets/images/backgroundI2.jpg);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
