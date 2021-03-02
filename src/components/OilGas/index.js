@@ -14,7 +14,7 @@ class Quality extends React.Component {
                 OIL AND GAS
                 <div className="description">
                                 Whether you are involved in exploring, extracting, refining, transporting or marketing oil and gas. 
-                COMPASS ENGINEERING offers a comprehensive range of services to support and optimize your business. With the recent volatility and 
+                Compass Engineering offers a comprehensive range of services to support and optimize your business. With the recent volatility and 
                 record-breaking 
                 prices for these resources, it is vital that you get the most from 
                 every part of the production and value adding chain – and optimize the efficiency of your own processes.

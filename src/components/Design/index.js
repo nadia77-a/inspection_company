@@ -119,7 +119,7 @@ class Quality extends React.Component {
           <div className="description__row">
             <p className="text-center">
               <i>
-                » From the conceptual design to executing, COMPASS ENGINEERING
+                » From the conceptual design to executing, Compass Engineering
                 provides unique solutions for various of steel structures,
                 pipelines and storage tanks installation. Keeping customers’
                 requirements in mind, we follow latest industry standards,
