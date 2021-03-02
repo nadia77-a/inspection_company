@@ -102,39 +102,33 @@ class Contact extends React.Component {
         <div className="centerContent description contact">
           <div className="details">
             <div className="location-box">
-              {" "}
               <a className="media-left pull-left">
-                {" "}
                 <i className="fa fa-map-marked"></i>
               </a>
               <div className="media-body">
-                {" "}
                 <strong>OUR OFFICE LOCATION</strong>
                 <p>Rr. Shyqyri Brari, Tirane - Albania</p>
               </div>
             </div>
             <div className="location-box">
-              {" "}
               <a className="media-left pull-left">
-                {" "}
                 <i className="fa fa-map-marked"></i>
               </a>
               <div className="media-body">
-                {" "}
                 <strong>OUR CONTACT E-MAIL</strong>
                 <p>info@compasseng.al</p>
               </div>
             </div>
             <div className="location-box">
-              {" "}
-              <a className="media-left pull-left">
-                {" "}
-                <i className="icon-map"></i>
-              </a>
               <div className="media-body">
-                {" "}
                 <strong>CALL US</strong>
                 <p>+355676757576</p>
+              </div>
+            </div>
+            <div className="location-box">
+              <div className="media-body">
+                <strong>FOLLOW US</strong>
+                <p> <a href="https://www.linkedin.com/in/compass-engineering-8b4644205?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BAwCt%2FhKTjqVzggifbIiKA%3D%3D">Linkedin: <i className="fa fa-linkedin"></i></a></p>
               </div>
             </div>
           </div>

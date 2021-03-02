@@ -27,10 +27,13 @@
         width: 40%;
 
         .location-box {
-          margin-bottom: 30px;
+          margin-bottom: 10px;
           text-align: left;
-          padding: 20px 20px 10px 20px;
+          padding: 13px 15px 1px 15px;
           background-color: var(--secondBacground);
+           a {
+            color: inherit;
+           }
         }
       }
       .map {
