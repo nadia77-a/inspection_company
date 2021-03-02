@@ -1,5 +1,5 @@
 .mainC .design .main-content__top {
-  background-image: url(https://i.imgur.com/Wtq0XF7.jpg);
+  background-image: url(../../assets/images/designBanner.jpg);
   background-position: center;
   -webkit-background-size: 100%;
   -webkit-background-size: cover;
@@ -143,16 +143,16 @@ overflow: initial;
   }
 }
 
-.main-content.quality.design {
+.main-content.design {
   position: relative;
   .addShadow {
     background-color: rgba(0, 0, 0, 0.6);
   }
 }
 
-.main-content.quality.design:after {
+.main-content.design:after {
   content: "";
-  background-image: url(https://image.freepik.com/free-vector/abstract-gear-wheel-mechanism-background_41981-300.jpg);
+  background-image: url(../../assets/images/backgroundI.jpg);
   background-position: center bottom;
   position: fixed;
   bottom: 0px;
@@ -161,7 +161,7 @@ overflow: initial;
   z-index: -1;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.15;
+  opacity: 0.10;
 }
 
 @media screen and (max-width: 1023px) {

@@ -2,7 +2,7 @@
   .main-content {
     margin-top: 97px;
     &__top {
-      background-image: url(https://t4.ftcdn.net/jpg/01/98/22/71/240_F_198227156_8dKsEWU8ZeVRSYW7QecJ7KUBr9DXcWLa.jpg);
+      background-image: url(../../assets/images/contactBanner.jpg);
       background-position: center;
       -webkit-background-size: 100%;
       -webkit-background-size: cover;
@@ -39,10 +39,6 @@
       }
     }
     .who {
-      // display: block;
-      // margin-top: 30px;
-      // background-repeat: no-repeat;
-      // background-image: url(https://st3.depositphotos.com/1038855/16314/v/450/depositphotos_163145218-stock-illustration-wire-frame-oil-tank.jpg);
       p {
         margin-bottom: 20px;
         margin-top: 30px;
@@ -50,6 +46,9 @@
       > p {
         margin-bottom: 40px;
       }
+    }
+    .det {
+      display: flex;
     }
     .c1 {
       width: 60%;
@@ -68,7 +67,7 @@
         animation-fill-mode: both;
       }
       .img2 {
-        position: absolute;
+        position: relative;
         margin-top: 16%;
         left: 10%;
         border-radius: 10px 10px 10px 10px;
@@ -116,10 +115,13 @@
       margin-bottom: 20px;
       position: relative;
       padding: 10px 20px;
+      &__detail {
+        margin: 15px 0px 15px 0px;
+      }
       &:after {
         content: "";
         position: absolute;
-        background-image: url(https://ninzio.com/byron/wp-content/uploads/2020/08/bg-image-41.png);
+        background-image: url(../../assets/images/backgroundI2.jpg);
         background-position: bottom center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -135,6 +137,7 @@
         font-size: 16px;
         color: var(--mainActiveBacground);
         font-weight: 600;
+        margin-block-end: 5px;
       }
     }
   }

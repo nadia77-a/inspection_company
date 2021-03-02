@@ -12,7 +12,6 @@ import Spinner from "shared-components/Spinner";
 const Home = lazy(() => import("../web/routes/Home"));
 const About = lazy(() => import("../web/routes/About"));
 const Contact = lazy(() => import("../web/routes/Contact"));
-const Career = lazy(() => import("../web/routes/Career"));
 // const Logout = lazy(() => import("web/routes/Logout"));
 // const Login = lazy(() => import("web/routes/Login"));
 
@@ -21,9 +20,6 @@ const ManpowerServices = lazy(() => import("../web/routes/ManpowerServices"));
 const Design = lazy(() => import("../web/routes/Design"));
 const Welding = lazy(() => import("../web/routes/Welding"));
 const OilGas = lazy(() => import("../web/routes/OilGas"));
-const ExpeditingServices = lazy(() =>
-  import("../web/routes/ExpeditingServices")
-);
 
 // Root routes
 const Routes = () => (
@@ -35,7 +31,6 @@ const Routes = () => (
         <Route exact path="/home" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/career" component={Career} />
         {/* <Route exact path="/test" component={Login} /> */}
         {/* <AuthRoute path="/login" component={Login} /> */}
 
@@ -45,11 +40,6 @@ const Routes = () => (
         <Route exact path="/welding" component={Welding} />
         <Route exact path="/quality-support" component={QualitySupport} />
         <Route exact path="/oil-gas" component={OilGas} />
-        <Route
-          exact
-          path="/expediting-services"
-          component={ExpeditingServices}
-        />
 
         {/* <PrivateRoute path="/logout" component={Logout} /> */}
       </Switch>

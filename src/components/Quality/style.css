@@ -1,5 +1,5 @@
 .quality .main-content__top {
-  background-image: url(https://t4.ftcdn.net/jpg/02/80/86/03/240_F_280860342_3PTQVC3VubEJN1xC4trD17gpnOcHZGWS.jpg);
+  background-image: url(../../assets/images/qualityBanner.jpg);
   background-position: center;
   background-size: 100%;
   background-size: cover;
@@ -149,7 +149,7 @@
 
 .main-content.quality.design:after {
   content: "";
-  background-image: url(https://image.freepik.com/free-vector/abstract-gear-wheel-mechanism-background_41981-300.jpg);
+  background-image: url(../../assets/images/backgroundI.jpg);
   background-position: center bottom;
   position: fixed;
   bottom: 0px;

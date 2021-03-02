@@ -1,4 +1,4 @@
-let endpoint = "https://staging.altechlab.com";
+let endpoint = "";
 
 const apiUrl = `${endpoint}`;
 
