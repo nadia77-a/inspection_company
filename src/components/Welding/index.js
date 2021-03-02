@@ -14,7 +14,7 @@ class Quality extends React.Component {
                 <div className="description">
                   COMPASS ENGINEERING offers you unrivaled experience and
                   expertise in weld testing methods.
-                  <p></p>Welding codes and standards address all aspects of
+                  <br></br><br></br>Welding codes and standards address all aspects of
                   design and fabrication of welded components, including welding
                   procedure specifications, quality control and quality
                   assurance during welding and necessary welding skills for a
@@ -35,7 +35,7 @@ class Quality extends React.Component {
               To ensure that you never miss a deadline due to testing delays,
               our team of experienced engineers provides fast turnarounds and
               unmatched quality control.
-              <p></p>
+              <br></br><br></br>
               Our welding inspectors are aware of what codes or standards are
               applicable in a certain area and understand the requirements of
               the relevant document. We can perform various qualification and

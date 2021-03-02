@@ -34,7 +34,8 @@ class Quality extends React.Component {
               variety of areas including process engineering, piping layout,
               pipe stress analysis, mechanical design and civil and structural
               design engineering services.
-              <p></p>Design office manages mechanical projects from the design
+              <br></br><br></br>
+              Design office manages mechanical projects from the design
               phase up to the preparation of layouts, including feasibility
               study, functional specifications, functional analysis,
               specifications, nomenclatures, calculation notes, chain

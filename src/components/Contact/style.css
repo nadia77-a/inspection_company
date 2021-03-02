@@ -52,6 +52,12 @@
   margin-bottom: 40px;
 }
 
+.mainC .main-content .det {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .mainC .main-content .c1 {
   width: 60%;
   display: inline-block;
@@ -76,7 +82,7 @@
 }
 
 .mainC .main-content .c1 .img2 {
-  position: absolute;
+  position: relative;
   margin-top: 16%;
   left: 10%;
   border-radius: 10px 10px 10px 10px;
@@ -124,6 +130,10 @@
   padding: 10px 20px;
 }
 
+.mainC .main-content .aboutDetils__detail {
+  margin: 15px 0px 15px 0px;
+}
+
 .mainC .main-content .aboutDetils:after {
   content: "";
   position: absolute;
@@ -143,6 +153,8 @@
   font-size: 16px;
   color: var(--mainActiveBacground);
   font-weight: 600;
+  -webkit-margin-after: 5px;
+          margin-block-end: 5px;
 }
 
 .fixedH .main-content {

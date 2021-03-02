@@ -1,6 +1,5 @@
 import React from "react";
 import allImages from "config/images";
-import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import "./style.css";
 
@@ -9,10 +8,10 @@ import images from "../../config/images";
 
 class Home extends React.Component {
   render() {
-    const zoomOutProperties = {
-      indicators: true,
-      transitionDuration: 500,
-    };
+    // const zoomOutProperties = {
+    //   indicators: true,
+    //   transitionDuration: 500,
+    // };
 
     const services = [
       {

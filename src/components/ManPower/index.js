@@ -17,7 +17,8 @@ class ManPower extends React.Component {
                   Realizing a successful project, you can easily reach our
                   experts by your side, achieve expediting goals and meet
                   deadlines.
-                  <p></p>COMPASS ENGINEERING ensures the project on time
+                  <br></br><br></br>
+                  COMPASS ENGINEERING ensures the project on time
                   schedule, the expediting services are even more strategic, by
                   inspecting/checking suppliers progress and reporting on real
                   time situations and decisions taken to meet the schedule.
@@ -29,25 +30,24 @@ class ManPower extends React.Component {
         <div className="centerContent description">
           <div className="description__row">
             <p>
-              <p>
                 <b><li>Your delivery schedules are secured with our expediting services</li></b>
-              </p>
+              
               As manufacturing and supply chain processes become more complex
               and competitive, procurement, management and coordination of
               international projects prove to be increasingly challenging. Our
               expediting service adds value to your projects through the
               inspection of manufacturers and assessment of manufacturing
               production plans and capacity.
-              <p></p>Our comprehensive expediting services help you to avoid
+              <br></br><br></br>
+              Our comprehensive expediting services help you to avoid
               delays and ensure compliance with contractual conditions and
               specifications as well as applicable international codes and
               standards.
-              <p></p>
-              <p></p>
-              <p>
+              <br></br><br></br>
+            
                 <b><li>What do you need to reach project milestones and asserting
                 reliability?</li></b>
-              </p>
+              
               Our experts actively keep an eye on the deadlines and
               manufacturing schedule to help you reach defined project
               milestones and ensure that equipment, materials and components

@@ -131,6 +131,11 @@
   line-height: 1.7em;
 }
 
+.manPower .description__row p li {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
 .manPower .description__row__col1:nth-child(3), .manPower .description__row__col1:nth-child(7) {
   margin-right: 0;
 }
