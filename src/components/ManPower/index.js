@@ -18,7 +18,7 @@ class ManPower extends React.Component {
                   experts by your side, achieve expediting goals and meet
                   deadlines.
                   <br></br><br></br>
-                  COMPASS ENGINEERING ensures the project on time
+                  Compass Engineering ensures the project on time
                   schedule, the expediting services are even more strategic, by
                   inspecting/checking suppliers progress and reporting on real
                   time situations and decisions taken to meet the schedule.
