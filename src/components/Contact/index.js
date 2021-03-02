@@ -1,4 +1,5 @@
 import React from "react";
+import images from "config/images";
 
 import "./style.css";
 
@@ -32,12 +33,12 @@ class Contact extends React.Component {
           <div className="c1">
             <img
               alt=""
-              src="https://i.imgur.com/rQu0EdY.jpeg"
+              src={images.contact1}
               className="img1"
             ></img>
             <img
               alt=""
-              src="https://i.imgur.com/ncWeqT7.jpg"
+              src={images.contact2}
               className="img2"
             ></img>
           </div>

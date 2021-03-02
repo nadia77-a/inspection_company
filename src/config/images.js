@@ -46,4 +46,7 @@ export default {
   o4: require(`../assets/images/o4.jpg`),
   o5: require(`../assets/images/o5.jpg`),
 
+  contact1: require(`../assets/images/contact1.jpeg`),
+  contact2: require(`../assets/images/contact2.jpg`),
+
 };
