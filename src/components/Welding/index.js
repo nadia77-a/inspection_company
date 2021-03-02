@@ -12,7 +12,7 @@ class Quality extends React.Component {
               <div className="main-content__top__title centerContent">
                 WELDING
                 <div className="description">
-                  COMPASS ENGINEERING offers you unrivaled experience and
+                  Compass Engineering offers you unrivaled experience and
                   expertise in weld testing methods.
                   <p></p>Welding codes and standards address all aspects of
                   design and fabrication of welded components, including welding
