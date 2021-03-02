@@ -19,11 +19,12 @@ class Contact extends React.Component {
           <p>
             Compass Engineering is an Independent Technical
             Service Company in Albania that has expert knowledge and experience of
-            Engineering Services - Expediting - Testing & Inspection - NDT -
-            Welding and Welder Qualification - Painting and Coating - Design -
-            Construction Supervision. Not limited to integrity evaluation, 3rd
-            party manufacturing inspections, supplier quality surveillance, by
-            serving oil & gas companies. <p></p>Capability of delivering highly
+            Engineering Services, Design, Construction Supervision 
+            Expediting, Testing & Inspection, NDT, 
+            Welding and Welder Qualification, Integrity Evaluation, Painting 
+            and Coating, Procurement.
+        Not limited to 3rd Party Manufacturing Inspections, Supplier Quality Surveillance (SQS),
+            serving oil & gas companies, installation contractors, manufacturers and suppliers. <p></p>Capability of delivering highly
             qualified expertise with the intention of exceeding our client’s
             expectations for safety, quality and functionality.
           </p>

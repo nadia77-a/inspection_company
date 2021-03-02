@@ -25,7 +25,11 @@ class Quality extends React.Component {
         <div className="centerContent description">
           <div className="description__row">
             <p>
-            Benefit from our long-standing experience in quality suport and service quality. We are a recognized service provider and our experts are always up-to-date on the latest regulatory updates and requirements relevant to your quality systems.
+            Benefit from our experience in quality support and service quality. 
+            We are are always up-to-date on the latest 
+            regulatory updates and requirements relevant to your quality systems.
+            Our inspection and supervision services will help you improve your company’s 
+            performance permanently with the aid of a quality support.
             </p>
           </div>
           <div className="description__row">

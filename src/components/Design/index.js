@@ -27,10 +27,9 @@ class Quality extends React.Component {
           <div className="description__row">
             <p>
               Every design and engineering decision is considered against a
-              number of variables: market & user insights, cost, aesthetics,
-              safety, quality, reliability, serviceability, manufacturing and
-              assembly. The knowledge of production (ISO functional dimensioning
-              and dimensional tolerancing) are perfectly integrated into
+              number of variables: market & user insights, cost, 
+              safety, quality, reliability, manufacturing and
+              assembly. The knowledge of production are perfectly integrated into
               definition drawings so as to answer to customer requirements in a
               variety of areas including process engineering, piping layout,
               pipe stress analysis, mechanical design and civil and structural
@@ -66,9 +65,8 @@ class Quality extends React.Component {
                 <strong>Design of Steel Structures</strong>
               </h3>
               <p>
-                Brings to client absolute trust about the quality of the design,
-                suitability for the harsh conditions of the weather and
-                environment.
+              Provide trust about the quality of the design within highly proficient in the application 
+              of the relevant standards.
               </p>
             </div>
             <div className="description__row__col2">
