@@ -143,14 +143,14 @@ overflow: initial;
   }
 }
 
-.main-content.quality.design {
+.main-content.design {
   position: relative;
   .addShadow {
     background-color: rgba(0, 0, 0, 0.6);
   }
 }
 
-.main-content.quality.design:after {
+.main-content.design:after {
   content: "";
   background-image: url(../../assets/images/backgroundI.jpg);
   background-position: center bottom;
@@ -161,7 +161,7 @@ overflow: initial;
   z-index: -1;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.15;
+  opacity: 0.10;
 }
 
 @media screen and (max-width: 1023px) {
