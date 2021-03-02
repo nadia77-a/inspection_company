@@ -331,6 +331,12 @@
 }
 
 @media (max-width: 1024px) {
+  .mainC .main-content .det {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .mainC .main-content .c1 {
     width: 100%;
   }

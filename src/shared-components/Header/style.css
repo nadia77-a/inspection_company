@@ -190,11 +190,7 @@
   .mobile_nav #top-menu > li a.hasCh {
     background-color: rgba(0, 0, 0, 0.03);
   }
-  body .mainC .main-content {
-    margin-top: 61px;
-  }
   body .mainC .main-content__top__title {
-    padding: 20px 0;
     font-size: 22px;
   }
   body .mainC .main-content__top__title .description {

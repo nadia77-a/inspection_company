@@ -2,7 +2,6 @@
   "name": "baseapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nadia77-a.github.io/inspection_company/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

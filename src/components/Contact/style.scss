@@ -306,6 +306,9 @@
 
 @media (max-width: 1024px) {
   .mainC .main-content {
+     .det {
+      flex-direction: column;
+  }
     .c1 {
       width: 100%;
     }
