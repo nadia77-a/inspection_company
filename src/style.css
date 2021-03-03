@@ -139,6 +139,9 @@
   body .mainC .main-content {
     font-size: 14px;
   }
+  body .mainC .main-content .centerContent {
+    width: 92%;
+  }
   body .mainC .main-content .description__row__col2 {
     margin-right: 0;
     min-width: 100%;

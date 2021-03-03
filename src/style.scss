@@ -116,6 +116,9 @@
   body .mainC {
     .main-content {
       font-size: 14px;
+      .centerContent {
+        width: 92%;
+      }
       .description__row {
         &__col2 {
           margin-right: 0;

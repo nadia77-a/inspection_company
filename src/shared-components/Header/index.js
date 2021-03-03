@@ -70,7 +70,7 @@ componentWillUnmount() {
                 </li> */}
               
                 <li className="menu-item">
-                  <a href="/home" className="hasCh">Servicesss</a>
+                  <a href="/home" className="hasCh">Services</a>
                   <ul className="sub-menu">
                     <li className="menu-item">
                       <a href="/design">Design</a>
