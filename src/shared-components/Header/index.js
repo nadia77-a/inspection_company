@@ -9,7 +9,10 @@ state={
   top: false,
 }
 
+
+
 componentDidMount() {
+  document.addEventListener('mousedown', this.handleClickOutside);
   window.addEventListener("scroll", () => {
     if (!this.state.top) {
       if (window.scrollY > 50) {
@@ -22,6 +25,21 @@ componentDidMount() {
     }
   });
 }
+componentWillUnmount() {
+  document.removeEventListener('mousedown', this.handleClickOutside);
+}
+
+
+  setWrapperRef=(node)=> {
+    this.wrapperRef = node;
+  }
+
+  handleClickOutside=(event) =>{
+    if (this.state.isOpen && this.wrapperRef && !this.wrapperRef.contains(event.target)) {
+     this.setState({isOpen:!this.state.isOpen})
+    }
+  }
+
   render() {
 
     const{isOpen,top}=this.state;
@@ -43,7 +61,7 @@ componentDidMount() {
                     <i className="fa fa-bars"></i>
                   </span>
 
-                  <ul id="top-menu" className="nav">
+                  <ul id="top-menu" className="nav" ref={this.setWrapperRef}>
                 <li className="menu-item">
                   <a href="/home">Home</a>
                 </li>
@@ -52,7 +70,7 @@ componentDidMount() {
                 </li> */}
               
                 <li className="menu-item">
-                  <a href="/home" className="hasCh">Services</a>
+                  <a href="/home" className="hasCh">Servicesss</a>
                   <ul className="sub-menu">
                     <li className="menu-item">
                       <a href="/design">Design</a>
