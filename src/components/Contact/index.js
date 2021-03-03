@@ -106,7 +106,7 @@ class Contact extends React.Component {
                 <i className="fa fa-map-marked"></i>
               </a>
               <div className="media-body">
-                <strong>OUR OFFICE LOCATION</strong>
+                <strong>LOCATION</strong>
                 <p>Rr. Shyqyri Brari, Tirane - Albania</p>
               </div>
             </div>
@@ -115,13 +115,13 @@ class Contact extends React.Component {
                 <i className="fa fa-map-marked"></i>
               </a>
               <div className="media-body">
-                <strong>OUR CONTACT E-MAIL</strong>
+                <strong>E-MAIL</strong>
                 <p>info@compasseng.al</p>
               </div>
             </div>
             <div className="location-box">
               <div className="media-body">
-                <strong>CALL US</strong>
+                <strong>Phone</strong>
                 <p>+355676757576</p>
               </div>
             </div>

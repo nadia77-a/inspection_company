@@ -50,9 +50,7 @@ componentDidMount() {
                 {/* <li className="menu-item">
                   <a href="./#about">Projects</a>
                 </li> */}
-                <li className="menu-item">
-                  <a href="./#contact">Contact</a>
-                </li>
+              
                 <li className="menu-item">
                   <a href="./#" className="hasCh">Services</a>
                   <ul className="sub-menu">
@@ -75,7 +73,9 @@ componentDidMount() {
                     </li>
                   </ul>
                 </li>
-          
+                <li className="menu-item">
+                  <a href="./#contact">Contact Us</a>
+                </li>
               </ul>
                 </div>
               </div>{" "}
@@ -113,7 +113,7 @@ componentDidMount() {
                   <a href="./#about">Gallery</a>
                 </li> */}
                 <li className="menu-item">
-                  <a href="./#contact">Contact</a>
+                  <a href="./#contact">Contact Us</a>
                 </li>
               </ul>
             </nav>
