@@ -14,14 +14,15 @@ class ManPower extends React.Component {
               <div className="main-content__top__title centerContent">
                 INSPECTION AND EXPEDITING SERVICES
                 <div className="description">
+                  <br></br>
                   Compass Engineering is a well known company in inspection and expediting services.
                 With our experts you can easily achieve expediting goals and meet
                   deadlines.
                   <br></br><br></br>
-                  Ensuring the project on time
-                  schedule, the expediting services are even more strategic, by
+                   The expediting services are even more strategic, by
                   inspecting/monitoring suppliers progress and reporting on real
-                  time situations and decisions taken to meet the schedule.
+                  time situations and decisions taken to ensure the project on time
+                  schedule.
                 </div>
               </div>
             </div>
@@ -34,7 +35,7 @@ class ManPower extends React.Component {
               Our expediting service adds value to your projects through the
               inspection of manufacturers and assessment of manufacturing
               production plans and capacity.
-              <br></br><br></br>
+              
               We help you to avoid
               delays and ensure compliance with contractual conditions and
               specifications on applicable international codes and
