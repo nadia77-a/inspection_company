@@ -37,7 +37,7 @@ class ManPower extends React.Component {
               <br></br><br></br>
               We help you to avoid
               delays and ensure compliance with contractual conditions and
-              specifications as well as applicable international codes and
+              specifications on applicable international codes and
               standards.
                        
                               
