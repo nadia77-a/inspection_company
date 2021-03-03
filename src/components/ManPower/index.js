@@ -14,13 +14,13 @@ class ManPower extends React.Component {
               <div className="main-content__top__title centerContent">
                 INSPECTION AND EXPEDITING SERVICES
                 <div className="description">
-                  Realizing a successful project, you can easily reach our
-                  experts by your side, achieve expediting goals and meet
+                  Compass Engineering is a well known company in inspection and expediting services.
+                With our experts you can easily achieve expediting goals and meet
                   deadlines.
                   <br></br><br></br>
-                  Compass Engineering ensures the project on time
+                  Ensuring the project on time
                   schedule, the expediting services are even more strategic, by
-                  inspecting/checking suppliers progress and reporting on real
+                  inspecting/monitoring suppliers progress and reporting on real
                   time situations and decisions taken to meet the schedule.
                 </div>
               </div>
@@ -30,50 +30,27 @@ class ManPower extends React.Component {
         <div className="centerContent description">
           <div className="description__row">
             <p>
-                <b><li>Your delivery schedules are secured with our expediting services</li></b>
-              
-              As manufacturing and supply chain processes become more complex
-              and competitive, procurement, management and coordination of
-              international projects prove to be increasingly challenging. Our
-              expediting service adds value to your projects through the
+                <b><li>Your delivery schedules are met with our expediting services</li></b>
+              Our expediting service adds value to your projects through the
               inspection of manufacturers and assessment of manufacturing
               production plans and capacity.
               <br></br><br></br>
-              Our comprehensive expediting services help you to avoid
+              We help you to avoid
               delays and ensure compliance with contractual conditions and
               specifications as well as applicable international codes and
               standards.
-              <br></br><br></br>
-            
-                <b><li>What do you need to reach project milestones and asserting
-                reliability?</li></b>
-              
+                       
+                              
               Our experts actively keep an eye on the deadlines and
-              manufacturing schedule to help you reach defined project
-              milestones and ensure that equipment, materials and components
-              arrive at the right place, at the right time. We also help you
-              prevent long capital stock and safeguard company reliability and
-              integrity.
+              manufacturing schedule to help you reaching project objectives
+              and ensure that equipment, materials and components
+              arrive at the right place, at the right time. 
             </p>
           </div>
-          <div className="description__row">
-            <div className="testimonial center">
-              <h3>
-                <strong>Scope of Services</strong>
-              </h3>
-
-              <p>
-                {" "}
-                Our full range of expediting services help you ensure that final
-                delivery is made on time not limeted to responsible development,
-                through safe and remote site monitoring for legal, economic,
-                safety and environmental (HSE) purposes.
-              </p>
-            </div>
-          </div>
+          
           <div className="flex description__row">
             <div className="description__row__col1">
-              <img  alt = "" src={images.i1}></img>
+              
               <h3>
                 <strong>Project Full-Time Monitoring</strong>
               </h3>
@@ -83,7 +60,7 @@ class ManPower extends React.Component {
               </p>
             </div>
             <div className="description__row__col1">
-              <img  alt = "" src={images.i4}></img>
+              
               <h3>
                 <strong>Supplier Capability Surveys</strong>
               </h3>
@@ -95,7 +72,7 @@ class ManPower extends React.Component {
               </p>
             </div>
             <div className="description__row__col1">
-              <img  alt = "" src={images.i5}></img>
+              
               <h3>
                 <strong>Verifications of Deadlines and Delays</strong>
               </h3>
@@ -105,7 +82,7 @@ class ManPower extends React.Component {
               </p>
             </div>
             <div className="description__row__col1">
-              <img  alt = "" src={images.i2}></img>
+              
               <h3>
                 <strong>Quality Audits</strong>
               </h3>
@@ -115,7 +92,7 @@ class ManPower extends React.Component {
               </p>
             </div>
             <div className="description__row__col1">
-              <img  alt = "" src={images.i3}></img>
+              
               <h3>
                 <strong>Vendor Specific Expediting</strong>
               </h3>
@@ -128,7 +105,7 @@ class ManPower extends React.Component {
             
       
             <div className="description__row__col1">
-              <img  alt = "" src={images.i6}></img>
+              
               <h3>
                 <strong>Progress Reporting</strong>
               </h3>
@@ -139,7 +116,7 @@ class ManPower extends React.Component {
             </div>
 
             <div className="description__row__col1">
-              <img  alt = "" src={images.i7}></img>
+             
               <h3>
                 <strong>Desk Expediting</strong>
               </h3>

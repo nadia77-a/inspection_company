@@ -18,6 +18,10 @@ class Quality extends React.Component {
                 record-breaking 
                 prices for these resources, it is vital that you get the most from 
                 every part of the production and value adding chain – and optimize the efficiency of your own processes.
+                <br></br>
+                We help you understand the condition of your components and assets, avoid incidents and ensure that you meet the
+                 latest regulatory and individual
+                 requirements from the design, construction and operation phases.
                 </div>
               </div>
             </div>
@@ -42,21 +46,9 @@ with independent inspection, testing and certification services.
              
             </p>
           </div>
-          <div className="description__row">
-            <div className="testimonial center">
-              <h3>
-                <strong>Scope of Services</strong>
-              </h3>
-              <p>
-              We help you understand the
-condition of your components and assets, avoid incidents and ensure that you meet the latest
-regulatory and individual requirements from the design, construction and operation phases.
-              </p>
-            </div>
-          </div>
-          <div className="description__row">
+                    <div className="description__row">
             <div className="description__row__col2">
-              <img  alt = "" src={images.o1}></img>
+              
               <h3>
                 <strong>Design according to API 650 standard</strong>
               </h3>
@@ -66,7 +58,7 @@ regulatory and individual requirements from the design, construction and operati
               </p>
             </div>
             <div className="description__row__col2">
-              <img  alt = "" src={images.o2}></img>
+              
               <h3>
                 <strong>API 653 Inspection</strong>
               </h3>
@@ -77,7 +69,7 @@ regulatory and individual requirements from the design, construction and operati
               </p>
             </div>
             <div className="description__row__col2">
-              <img  alt = "" src={images.o3}></img>
+              
               <h3>
                 <strong>API 510 Inspection</strong>
               </h3>
@@ -89,7 +81,7 @@ these vessels.
               </p>
             </div>
             <div className="description__row__col2">
-              <img  alt = "" src={images.o4}></img>
+              
               <h3>
                 <strong>API 570 Inspection</strong>
               </h3>
@@ -100,7 +92,7 @@ these vessels.
               </p>
             </div>
             <div className="description__row__col2">
-              <img  alt = "" src={images.o5}></img>
+              
               <h3>
                 <strong>
                   Supervision, Testing and Commissioning of Oil and Gas

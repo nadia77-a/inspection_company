@@ -44,24 +44,10 @@ class Quality extends React.Component {
               storage, transportation, and refinement segments.
             </p>
           </div>
-          <div className="description__row">
-            <div className="testimonial center">
-              <h3>
-                <strong>Scope of Services</strong>
-              </h3>
-              <p>
-                We help clients by providing engineering design services &
-                solutions across the oil and gas industry to innovate and adapt
-                to challenging environments. We’ve developed our own proven,
-                highly choreographed 360 degree approach to design & engineering
-                that goes well beyond considering how a product should look and
-                work.
-              </p>
-            </div>
-          </div>
+          
           <div className="description__row">
             <div className="description__row__col2">
-              <img alt="" src={images.d1}></img>
+              
               <h3>
                 <strong>Design of Steel Structures</strong>
               </h3>
@@ -71,7 +57,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img alt="" src={images.d2}></img>
+              
               <h3>
                 <strong>
                   Design of Pipe Network for Gas City Distribution
@@ -83,7 +69,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img alt="" src={images.d3}></img>
+              
               <h3>
                 <strong>
                   Design of Pipeline for Transmission of Oil and Gas
@@ -96,7 +82,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img alt="" src={images.d4}></img>
+              
               <h3>
                 <strong>Design of Oil Storage Tanks</strong>
               </h3>
@@ -107,7 +93,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img alt="" src={images.d5}></img>
+              
               <h3>
                 <strong>Design of Tank Farms</strong>
               </h3>

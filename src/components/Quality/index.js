@@ -32,19 +32,9 @@ class Quality extends React.Component {
             performance permanently with the aid of a quality support.
             </p>
           </div>
-          <div className="description__row">
-            <div className="testimonial center">
-              <h3>
-                <strong>Scope of Services</strong>
-              </h3>
-              <p>
-              When it comes to your industrial facilities, the quality of all equipment, materials, structures and components is subject to strict regulations and standards. Our quality assurance and quality control services help you ensure compliance with all contractual specifications, mandatory regulations and quality standards.
-              </p>
-            </div>
-          </div>
-          <div className="description__row">
+                    <div className="description__row">
             <div className="description__row__col2">
-              <img  alt = "" src={images.q1}></img>
+              
               <h3>
                 <strong>Site Supervision</strong>
               </h3>
@@ -53,7 +43,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img  alt = "" src={images.q2}></img>
+              
               <h3>
                 <strong>
                   Visual, Dimensional and Quantity Control of Goods/Commodities
@@ -65,7 +55,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img  alt = "" src={images.q3}></img>
+              
               <h3>
                 <strong>
                   Inspection of all stages of manufacturing activities (initial
@@ -78,7 +68,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img  alt = "" src={images.q4}></img>
+              
               <h3>
                 <strong>
                   Supervision of Mechanical Test, Hydrostatic Test, Pneumatic
@@ -92,7 +82,7 @@ potential hazards.
               </p>
             </div>
             <div className="description__row__col2">
-              <img  alt = "" src={images.q5}></img>
+              
               <h3>
                 <strong>Incoming Goods Inspection</strong>
               </h3>
@@ -101,7 +91,7 @@ potential hazards.
               </p>
             </div>
             <div className="description__row__col2">
-              <img  alt = "" src={images.q6}></img>
+              
               <h3>
                 <strong>Coating Application</strong>
               </h3>
@@ -110,7 +100,7 @@ potential hazards.
               </p>
             </div>
             <div className="description__row__col2">
-            <img  alt = "" src={images.q7}></img>
+            
               <h3>
                 <strong>
                   Ensure Compliance With Related Standards and Requirements

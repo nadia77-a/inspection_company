@@ -45,28 +45,10 @@ class Quality extends React.Component {
               specifications are accurate.
             </p>
           </div>
-          <div className="description__row">
-            <div className="testimonial center">
-              <h3>
-                <strong>Scope of Services</strong>
-              </h3>
-              <p>
-                • Be sure you employ welders whose skills are verified and can
-                follow the instructions in a given welding procedure
-                specification. • Be confident that your welding procedure
-                specification will produce a welded component with properties
-                that satisfy the design requirements. • Ensure the quality of
-                welded components. • Rely on our qualified experts with
-                extensive experience in welder testing and welding procedure
-                qualification. • Comply with applicable codes and standards. •
-                Benefit from our fast inspection and testing times. • Reduce the
-                risk of company liability with documented safety standards.
-              </p>
-            </div>
-          </div>
+          
           <div className="description__row">
             <div className="description__row__col2">
-              <img  alt = "" src={images.w1}></img>
+              
               <h3>
                 <strong>Welding Procedure (pWPS / WPS)</strong>
               </h3>
@@ -77,7 +59,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img  alt = "" src={images.w2}></img>
+              
               <h3>
                 <strong>Welding Qualification (WPQR)</strong>
               </h3>
@@ -88,7 +70,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img  alt = "" src={images.w3}></img>
+              
               <h3>
                 <strong>Welder Qualification</strong>
               </h3>
@@ -99,7 +81,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img  alt = "" src={images.w4}></img>
+              
               <h3>
                 <strong>Welding Inspection</strong>
               </h3>
@@ -111,7 +93,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img  alt = "" src={images.w5}></img>
+              
               <h3>
                 <strong>Welding Supervision</strong>
               </h3>
@@ -123,7 +105,7 @@ class Quality extends React.Component {
               </p>
             </div>
             <div className="description__row__col2">
-              <img  alt = "" src={images.w6}></img>
+              
               <h3>
                 <strong>NDT</strong>
               </h3>
