@@ -4,7 +4,9 @@ import images from "config/images";
 import "./style.css";
 
 class Quality extends React.Component {
+  
   render() {
+
     return (
       <div className="main-content design">
         <div className="main-content__top">

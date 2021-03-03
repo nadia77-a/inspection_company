@@ -215,8 +215,8 @@ body .mainC.fixedH #main-header .container #top-menu > li.menu-item > a {
 }
 
 .mainC .main-content .description__row > div {
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   overflow: hidden;
   position: relative;
 }
@@ -229,6 +229,15 @@ body .mainC.fixedH #main-header .container #top-menu > li.menu-item > a {
 .mainC .main-content .description__row > div:hover {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 0.25s;
+          animation-duration: 0.25s;
+  border-left: 8px solid var(--mainActiveBacground);
+  -webkit-box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
+          box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
 }
 
 .mainC .main-content .description__row > div:hover img {
@@ -250,7 +259,6 @@ body .mainC.fixedH #main-header .container #top-menu > li.menu-item > a {
           transform: scaleY(0);
   -webkit-transform-origin: center center;
           transform-origin: center center;
-  background: #00000066;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;

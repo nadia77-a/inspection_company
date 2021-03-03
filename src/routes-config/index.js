@@ -4,7 +4,7 @@ import React, { Suspense, lazy } from "react";
 // import history from "config/history";
 //import PrivateRoute from "helpers/privateRoutes"; // Private Routes, Will only accessible after Login
 
-import { Route, HashRouter, BrowserRouter } from "react-router-dom"; //  Route, Will accessible before and after login (always accessible).
+import { Route, HashRouter } from "react-router-dom"; //  Route, Will accessible before and after login (always accessible).
 
 import Spinner from "shared-components/Spinner";
 
@@ -12,6 +12,7 @@ import Spinner from "shared-components/Spinner";
 const Home = lazy(() => import("../web/routes/Home"));
 const About = lazy(() => import("../web/routes/About"));
 const Contact = lazy(() => import("../web/routes/Contact"));
+
 // const Logout = lazy(() => import("web/routes/Logout"));
 // const Login = lazy(() => import("web/routes/Login"));
 
@@ -21,9 +22,10 @@ const Design = lazy(() => import("../web/routes/Design"));
 const Welding = lazy(() => import("../web/routes/Welding"));
 const OilGas = lazy(() => import("../web/routes/OilGas"));
 
+
 // Root routes
 const Routes = () => (
-  <BrowserRouter basename="/">
+  <HashRouter basename="/">
     <Suspense fallback={<Spinner></Spinner>}>
       <Switch>
         <Route exact path="/" component={Home} />
@@ -31,6 +33,7 @@ const Routes = () => (
         <Route exact path="/home" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
+      
         {/* <Route exact path="/test" component={Login} /> */}
         {/* <AuthRoute path="/login" component={Login} /> */}
 
@@ -40,11 +43,12 @@ const Routes = () => (
         <Route exact path="/welding" component={Welding} />
         <Route exact path="/quality-support" component={QualitySupport} />
         <Route exact path="/oil-gas" component={OilGas} />
+        
 
         {/* <PrivateRoute path="/logout" component={Logout} /> */}
       </Switch>
     </Suspense>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default Routes;

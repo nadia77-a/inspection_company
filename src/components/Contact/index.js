@@ -121,7 +121,7 @@ class Contact extends React.Component {
             </div>
             <div className="location-box">
               <div className="media-body">
-                <strong>Phone</strong>
+                <strong>PHONE</strong>
                 <p>+355676757576</p>
               </div>
             </div>
