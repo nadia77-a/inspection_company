@@ -4,7 +4,7 @@ import React, { Suspense, lazy } from "react";
 // import history from "config/history";
 //import PrivateRoute from "helpers/privateRoutes"; // Private Routes, Will only accessible after Login
 
-import { Route, HashRouter } from "react-router-dom"; //  Route, Will accessible before and after login (always accessible).
+import { Route, HashRouter, BrowserRouter } from "react-router-dom"; //  Route, Will accessible before and after login (always accessible).
 
 import Spinner from "shared-components/Spinner";
 
@@ -23,7 +23,7 @@ const OilGas = lazy(() => import("../web/routes/OilGas"));
 
 // Root routes
 const Routes = () => (
-  <HashRouter basename="/">
+  <BrowserRouter basename="/">
     <Suspense fallback={<Spinner></Spinner>}>
       <Switch>
         <Route exact path="/" component={Home} />
@@ -44,7 +44,7 @@ const Routes = () => (
         {/* <PrivateRoute path="/logout" component={Logout} /> */}
       </Switch>
     </Suspense>
-  </HashRouter>
+  </BrowserRouter>
 );
 
 export default Routes;

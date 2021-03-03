@@ -12,27 +12,27 @@ class Home extends React.Component {
       {
         id: 1,
         name: "Design",
-        link: "./#design/",
+        link: "/design",
       },
       {
         id: 2,
         name: "Expediting Services",
-        link: "./#inspection-expediting",
+        link: "/inspection-expediting",
       },
       {
         id: 3,
         name: "Welding",
-        link: "./#welding/",
+        link: "/welding/",
       },
       {
         id: 4,
         name: "QA&QC",
-        link: "./#quality-support/",
+        link: "/quality-support",
       },
       {
         id: 5,
         name: "Oil and Gas",
-        link: "./#oil-gas/",
+        link: "/oil-gas",
       },
     ];
 
