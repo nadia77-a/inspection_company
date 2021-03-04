@@ -49,24 +49,45 @@
     margin: 0;
   }
   .centerContent.description {
-    padding-top: 30px;
+    padding-top: 50px;
   }
   .tabs {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .tab {
     cursor: pointer;
     padding: 3px;
     text-transform: uppercase;
+    border: 2px solid #505050;
+    border-radius: 5em;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 10px;
+    padding: 10px 27px;
+    text-transform: capitalize;
+    transition: background 0.3s ease-in-out;
+    margin: 0px 5px;
     &.active,
     &:hover {
-      border-bottom: 3px solid var(--mainActiveBacground);
+      // border: none;
+      color: #fff;
+      // border-width: 0;
+      border: 2px solid
+        linear-gradient(to right, var(--mainActiveBacground) 0%, #6c6c76 100%);
+      // border-bottom: 3px solid var(--mainActiveBacground);
+      background-image: linear-gradient(
+        to right,
+        var(--mainActiveBacground) 0%,
+        #6c6c76 100%
+      );
     }
   }
 
