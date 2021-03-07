@@ -48,7 +48,7 @@ componentWillUnmount() {
       <header id="main-header" className="">
         <div className="container et_menu_container">
           <div className="logo_container">
-            <a href="/#home">
+            <a href="./#home">
               <img src={top ? allimages.logo:allimages.logo1} alt="Compass" id="logo" />
             </a>
           </div>
@@ -63,25 +63,25 @@ componentWillUnmount() {
 
                   <ul id="top-menu" className="nav" ref={this.setWrapperRef}>
                 <li className="menu-item">
-                  <a href="/#home">Home</a>
+                  <a href="./#home">Home</a>
                 </li>
                 {/* <li className="menu-item">
                   <a href="./#about">Projects</a>
                 </li> */}
               
-                <li className="menu-item">
-                  <a href="/#home" className="hasCh">Services</a>
+                <div className="menu-item divM">
+                  <a className="hasCh">Services</a>
                   <ul className="sub-menu">
                     <li className="menu-item">
-                      <a href="/#design">Design</a>
+                      <a href="./#design">Design</a>
                     </li>
                     <li className="menu-item">
-                      <a href="/#inspection-expediting">
+                      <a href="./#inspection-expediting">
                         Inspection and Expediting
                       </a>
                     </li>
                     <li className="menu-item">
-                      <a href="/#welding">Welding</a>
+                      <a href="./#welding">Welding</a>
                     </li>
                     <li className="menu-item">
                       <a href="./#quality-support">Quality Support</a>
@@ -90,7 +90,7 @@ componentWillUnmount() {
                       <a href="./#oil-gas">Oil and Gas</a>
                     </li>
                   </ul>
-                </li>
+                </div>
                 <li className="menu-item">
                   <a href="./#contact">Contact Us</a>
                 </li>

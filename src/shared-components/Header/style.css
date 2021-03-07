@@ -209,4 +209,35 @@
     display: none;
   }
 }
+
+.divM {
+  display: inline-block;
+  padding-right: 22px;
+  font-size: 16px;
+}
+
+.divM > a {
+  display: block;
+  position: relative;
+  padding: 10px 5%;
+  background-color: #00000008;
+  border-bottom: 1px solid #00000008;
+  color: #000;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.divM .menu-item {
+  width: 100%;
+}
+
+.divM .menu-item a {
+  width: 200px;
+  padding: 8px 20px;
+  padding-left: 0;
+  border-bottom: 1px solid #00000008;
+}
 /*# sourceMappingURL=style.css.map */
