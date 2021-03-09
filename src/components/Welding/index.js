@@ -1,5 +1,5 @@
 import React from "react";
-import images from "config/images";
+// import images from "config/images";
 import "./style.css";
 
 class Quality extends React.Component {

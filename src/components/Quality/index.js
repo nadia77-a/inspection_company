@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./style.css";
-import images from "config/images";
+// import images from "config/images";
 
 class Quality extends React.Component {
   render() {
