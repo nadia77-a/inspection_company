@@ -22,28 +22,29 @@ const Design = lazy(() => import("../web/routes/Design"));
 const Welding = lazy(() => import("../web/routes/Welding"));
 const OilGas = lazy(() => import("../web/routes/OilGas"));
 
-
 // Root routes
 const Routes = () => (
   <HashRouter basename="/">
     <Suspense fallback={<Spinner></Spinner>}>
       <Switch>
         <Route exact path="/" component={Home} />
-
         <Route exact path="/home" component={Home} />
-        <Route exact path="/about" component={About} />
+        <Route exact path="/about/:cat?" component={About} />
         <Route exact path="/contact" component={Contact} />
-      
+
         {/* <Route exact path="/test" component={Login} /> */}
         {/* <AuthRoute path="/login" component={Login} /> */}
 
         <Route exact path="/design" component={Design} />
-        <Route exact path="/inspection-expediting" component={ManpowerServices} />
+        <Route
+          exact
+          path="/inspection-expediting"
+          component={ManpowerServices}
+        />
 
         <Route exact path="/welding" component={Welding} />
         <Route exact path="/quality-support" component={QualitySupport} />
         <Route exact path="/oil-gas" component={OilGas} />
-        
 
         {/* <PrivateRoute path="/logout" component={Logout} /> */}
       </Switch>
