@@ -302,4 +302,8 @@ body .mainC.fixedH #main-header .container #top-menu > li.menu-item > a {
 }
 
 /* Internet Explorer */
+
+.mainC .main-content .description__row .text-center {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */

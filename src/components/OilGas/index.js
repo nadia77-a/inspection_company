@@ -105,7 +105,7 @@ these vessels.
               </p>
             </div>
           </div>
-          <div className="description__row">
+          {/* <div className="description__row">
             <p className="text-center">
               <i>
                 » Due
@@ -117,7 +117,7 @@ the regulatory compliance of your pressure equipment,
 wherever you are.«
               </i>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     );

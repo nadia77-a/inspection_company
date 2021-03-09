@@ -114,7 +114,7 @@ in place, is an essential first step towards keeping your business compliant.
               </p>
             </div>
           </div>
-          <div className="description__row">
+          {/* <div className="description__row">
             <p className="text-center">
               <i>
                 » Having issues with your vendor? Need to audit a supplier prior
@@ -124,7 +124,7 @@ in place, is an essential first step towards keeping your business compliant.
                 requirements. «
               </i>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     );

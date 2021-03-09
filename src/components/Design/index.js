@@ -105,7 +105,7 @@ class Quality extends React.Component {
               </p>
             </div>
           </div>
-          <div className="description__row">
+          {/* <div className="description__row">
             <p className="text-center">
               <i>
                 » From the conceptual design to executing, Compass Engineering
@@ -115,7 +115,7 @@ class Quality extends React.Component {
                 regulations and cost effective solutions. «
               </i>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     );

@@ -117,7 +117,7 @@ class Quality extends React.Component {
               </p>
             </div>
           </div>
-          <div className="description__row">
+          {/* <div className="description__row">
             <p className="text-center">
               <i>
                 » The condition of an asset or component is crucial for a
@@ -127,7 +127,7 @@ evaluate the required data needed to assess the integrity of
 your component and asset.  «
               </i>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     );

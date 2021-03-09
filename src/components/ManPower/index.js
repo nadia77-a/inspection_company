@@ -127,7 +127,7 @@ class ManPower extends React.Component {
               </p>
             </div>
           </div>
-          <div className="description__row">
+          {/* <div className="description__row">
             <p className="text-center">
               <i>
                 » With numerous suppliers involved in your supply chain, keeping
@@ -136,7 +136,7 @@ class ManPower extends React.Component {
                 your suppliers deliver. «
               </i>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     );
