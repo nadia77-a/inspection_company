@@ -40,7 +40,7 @@ class Home extends React.Component {
       <React.Fragment>
         <div className="allElem">
           <div className="centered">
-            <img  alt = "" className="logo" src={images.logo1} alt="Compass" />
+            <img alt = "Compass" className="logo" src={images.logo1} />
           </div>
           <div className="services">
             {services.map((item, index) => {
