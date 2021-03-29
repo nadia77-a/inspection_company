@@ -135,7 +135,8 @@
 #main-header {
   background-color: #00000096;
   border-bottom: 1px solid #858585;
-  .container #top-menu > li.menu-item > a {
+  .container #top-menu > li.menu-item > a,
+  .container #top-menu > li.menu-item > .serv {
     color: #fff !important;
   }
   .container #top-menu .sub-menu li.menu-item a {

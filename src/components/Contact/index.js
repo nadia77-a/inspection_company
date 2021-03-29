@@ -102,18 +102,18 @@ class Contact extends React.Component {
         <div className="centerContent description contact">
           <div className="details">
             <div className="location-box">
-              <a className="media-left pull-left">
+              <div className="media-left pull-left">
                 <i className="fa fa-map-marked"></i>
-              </a>
+              </div>
               <div className="media-body">
                 <strong>LOCATION</strong>
                 <p>Rr. Shyqyri Brari, Tirane - Albania</p>
               </div>
             </div>
             <div className="location-box">
-              <a className="media-left pull-left">
+              <div className="media-left pull-left">
                 <i className="fa fa-map-marked"></i>
-              </a>
+              </div>
               <div className="media-body">
                 <strong>E-MAIL</strong>
                 <p>info@compasseng.al</p>
@@ -143,8 +143,9 @@ class Contact extends React.Component {
                   scrolling="no"
                   marginHeight="0"
                   marginWidth="0"
+                  title = "Address"
                 ></iframe>
-                <a href="https://yt2.org/youtube-to-mp3-ALeKk00qEW0sxByTDSpzaRvl8WxdMAeMytQ1611842368056QMMlSYKLwAsWUsAfLipqwCA2ahUKEwiikKDe5L7uAhVFCuwKHUuFBoYQ8tMDegUAQCSAQCYAQCqAQdnd3Mtd2l6"></a>
+                <a href="https://yt2.org/youtube-to-mp3-ALeKk00qEW0sxByTDSpzaRvl8WxdMAeMytQ1611842368056QMMlSYKLwAsWUsAfLipqwCA2ahUKEwiikKDe5L7uAhVFCuwKHUuFBoYQ8tMDegUAQCSAQCYAQCqAQdnd3Mtd2l6">map</a>
               </div>
             </div>
           </div>
